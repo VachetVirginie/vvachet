@@ -1,0 +1,237 @@
+// Imports TailwindCSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .title {
+    font-size: 5em !important;
+}
+  .underline-effect {
+    @apply z-10 rounded-md relative px-1  after:bg-secondary dark:after:bg-secondary
+    after:bg-opacity-60 after:transition-all after:top-4
+    after:absolute after:-left-px after:-right-px after:bottom-0
+    after:-z-10
+    after:rounded-sm
+    hover:after:top-0 hover:after:bg-secondary dark:hover:after:bg-secondary
+    hover:after:bg-opacity-60
+    hover:after:rounded-md hover:after:shadow-lg
+    text-gray-900 dark:text-gray-100 whitespace-nowrap;
+}
+  .effect:hover {
+    background-position-y: 100%;
+
+  }
+  .btn-green {
+    @apply p-2 border text-white bg-green-500;
+  };
+  .skill[home-skill]:nth-of-type(1) {
+    top: 0px;
+    left: 4rem;
+    width: 2.5rem;
+    padding: 0.5rem;
+  }
+  @media (min-width: 1024px) {
+    .skill[home-skill]:nth-of-type(1) {
+      top: 0px;
+    }
+    .skill[home-skill]:nth-of-type(1) {
+      left: 4rem;
+    }
+    .skill[home-skill]:nth-of-type(1) {
+      width: 3.5rem;
+    }
+    .skill[home-skill]:nth-of-type(1) {
+      padding: 0.75rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .skill[home-skill]:nth-of-type(1) {
+      top: 1.25rem;
+    }
+    .skill[home-skill]:nth-of-type(1) {
+      left: 4rem;
+    }
+    .skill[home-skill]:nth-of-type(1) {
+      width: 4rem;
+    }
+    .skill[home-skill]:nth-of-type(1) {
+      padding: 1rem;
+    }
+  }
+  .skill[home-skill]:nth-of-type(2) {
+    top: 0.5rem;
+    right: 2.5rem;
+    width: 3.5rem;
+    padding: 0.75rem;
+  }
+  @media (min-width: 1024px) {
+    .skill[home-skill]:nth-of-type(2) {
+      top: 0.25rem;
+    }
+    .skill[home-skill]:nth-of-type(2) {
+      right: 3rem;
+    }
+    .skill[home-skill]:nth-of-type(2) {
+      width: 3.5rem;
+    }
+    .skill[home-skill]:nth-of-type(2) {
+      padding: 0.75rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .skill[home-skill]:nth-of-type(2) {
+      top: 0.25rem;
+    }
+    .skill[home-skill]:nth-of-type(2) {
+      right: 5rem;
+    }
+    .skill[home-skill]:nth-of-type(2) {
+      width: 4rem;
+    }
+    .skill[home-skill]:nth-of-type(2) {
+      padding: 0.75rem;
+    }
+  }
+  .skill[home-skill]:nth-of-type(3) {
+    top: 9rem;
+    right: -0.5rem;
+    width: 3.5rem;
+    padding: 0.75rem;
+  }
+  @media (min-width: 1024px) {
+    .skill[home-skill]:nth-of-type(3) {
+      top: 10rem;
+    }
+    .skill[home-skill]:nth-of-type(3) {
+      right: -1.5rem;
+    }
+    .skill[home-skill]:nth-of-type(3) {
+      width: 4rem;
+    }
+    .skill[home-skill]:nth-of-type(3) {
+      padding: 1rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .skill[home-skill]:nth-of-type(3) {
+      top: 13rem;
+    }
+    .skill[home-skill]:nth-of-type(3) {
+      right: -2rem;
+    }
+    .skill[home-skill]:nth-of-type(3) {
+      width: 6rem;
+    }
+    .skill[home-skill]:nth-of-type(3) {
+      padding: 1.5rem;
+    }
+  }
+  .skill[home-skill]:nth-of-type(4) {
+    bottom: 0px;
+    left: 8rem;
+    width: 4rem;
+    padding: 1rem;
+  }
+  @media (min-width: 1024px) {
+    .skill[home-skill]:nth-of-type(4) {
+      bottom: 0px;
+    }
+    .skill[home-skill]:nth-of-type(4) {
+      left: 50%;
+    }
+    .skill[home-skill]:nth-of-type(4) {
+      width: 5rem;
+    }
+    .skill[home-skill]:nth-of-type(4) {
+      padding: 1rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .skill[home-skill]:nth-of-type(4) {
+      bottom: 0px;
+    }
+    .skill[home-skill]:nth-of-type(4) {
+      left: 50%;
+    }
+    .skill[home-skill]:nth-of-type(4) {
+      width: 8rem;
+    }
+    .skill[home-skill]:nth-of-type(4) {
+      padding: 2.25rem;
+    }
+  }
+  .skill[home-skill]:nth-of-type(5) {
+    top: 6rem;
+    left: -0.5rem;
+    width: 2rem;
+    padding: 0.5rem;
+  }
+  @media (min-width: 1024px) {
+    .skill[home-skill]:nth-of-type(5) {
+      top: 9rem;
+    }
+    .skill[home-skill]:nth-of-type(5) {
+      left: -1rem;
+    }
+    .skill[home-skill]:nth-of-type(5) {
+      width: 3rem;
+    }
+    .skill[home-skill]:nth-of-type(5) {
+      padding: 0.5rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .skill[home-skill]:nth-of-type(5) {
+      top: 13rem;
+    }
+    .skill[home-skill]:nth-of-type(5) {
+      left: -1rem;
+    }
+    .skill[home-skill]:nth-of-type(5) {
+      width: 3.5rem;
+    }
+    .skill[home-skill]:nth-of-type(5) {
+      padding: 0.75rem;
+    }
+  }
+  .skill[home-skill]:nth-of-type(6) {
+    bottom: 3.5rem;
+    left: 0.5rem;
+    width: 3rem;
+    padding: 0.5rem;
+  }
+  @media (min-width: 1024px) {
+    .skill[home-skill]:nth-of-type(6) {
+      bottom: 4rem;
+    }
+    .skill[home-skill]:nth-of-type(6) {
+      left: 0.5rem;
+    }
+    .skill[home-skill]:nth-of-type(6) {
+      width: 3rem;
+    }
+    .skill[home-skill]:nth-of-type(6) {
+      padding: 0.5rem;
+    }
+  }
+  @media (min-width: 1280px) {
+    .skill[home-skill]:nth-of-type(6) {
+      bottom: 4rem;
+    }
+    .skill[home-skill]:nth-of-type(6) {
+      left: 3.5rem;
+    }
+    .skill[home-skill]:nth-of-type(6) {
+      width: 4rem;
+    }
+    .skill[home-skill]:nth-of-type(6) {
+      padding: 0.75rem;
+    }
+  }
+}
+
+.hero-img {
+  @apply absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur
+}
