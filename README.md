@@ -10,7 +10,7 @@ This repository can serve as a starting point to create Vue.js v3 applications w
 
 You can create component classes using Tailwind's @apply directive in the [app.scss](./src/assets/css/app.scss) file.
 
-> This project was used as an example for the article posted in my blog: [How to add Tailwind v2 to a Vue.js 3 project](https://antonioufano.com/articles/how-to-add-tailwind-v2-to-a-vuejs-3-project)
+> This project was used as an example for the article: [How to add Tailwind v2 to a Vue.js 3 project](https://antonioufano.com/articles/how-to-add-tailwind-v2-to-a-vuejs-3-project)
 
 ## Project setup
 
