@@ -1,0 +1,62 @@
+{
+  "skill1": {
+    "message": "JavaScript",
+    "img": "javascript.svg"
+  },
+  "skill12":{
+    "message": "TypeScript",
+    "img": "typescript.svg"
+  },
+    "skill3": {
+        "message": "Vue.js Options API",
+        "img": "vuejs.svg"
+    },
+    "skill4": {
+        "message": "Vue.js Composition API",
+        "img": "vuejs.svg"
+    },
+    "skill5": {
+        "message": "Nuxt",
+        "img": "nuxt.svg"
+    },
+    "skill6": {
+        "message": "TailwindCss",
+        "img": "tailwindcss.svg"
+    },
+    "skill7": {
+        "message": "Vuetify",
+        "img": "vuetify.svg"
+    },
+    "skill8": {
+        "message": "PrimeVUE",
+        "img": "primevue.svg"
+    },
+    "skill9": {
+        "message": "GrapgQl",
+        "img": "graphql.svg"
+    },
+    "skill10": {
+        "message": "Symfony",
+        "img": "symfony.svg"
+    },
+    "skill11": {
+        "message": "Api Platform",
+        "img": "apiPlatform.svg"
+    },
+    "skill12": {
+        "message": "Php",
+        "img": "php.svg"
+    },
+    "skill13": {
+        "message": "Docker",
+        "img": "docker.svg"
+    },
+  "skill14": {
+    "message": "Postman",
+    "img": "postman.svg"
+  },
+    "skill15": {
+        "message": "Github",
+        "img": "github.svg"
+    }
+}

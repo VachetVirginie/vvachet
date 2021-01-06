@@ -1,0 +1,71 @@
+{
+  "name": "vvachet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "rimraf": "./node_modules/rimraf/bin.js"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/test-utils": "^2.3.2",
+    "@vue/vue3-jest": "^29.2.4",
+    "aos": "^2.3.4",
+    "autoprefixer": "^9",
+    "core-js": "^3.6.5",
+    "github-calendar-graph": "^0.2.8",
+    "gsap": "^3.9.1",
+    "hooper": "^0.3.4",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "postcss": "^7",
+    "smoothscroll-polyfill": "^0.4.4",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "tw-elements": "^1.0.0-alpha9",
+    "vue": "^3.0.0",
+    "vue-calendar-heatmap": "^0.8.4",
+    "vue-carbonbadge": "^1.2.1",
+    "vue-good-links": "^0.0.3",
+    "vue-meta": "^2.4.0",
+    "vue-zondicons": "^0.1.10",
+    "vuejs-twitter-feed": "^1.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "identity-obj-proxy": "^3.0.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "vue-cli-plugin-tailwind": "~2.2.18"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

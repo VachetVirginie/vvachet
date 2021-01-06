@@ -1,0 +1,39 @@
+{
+  "_about": {
+    "step_1": {
+      "label": "Step 1",
+      "title": "Les Bases",
+      "subtitle_1": "Step 1",
+      "subtitle_2": " - Formation",
+      "work_place": "Simplon",
+      "work_description": "Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de",
+      "colored_text_description": "developpeur web et mobile fullStack"
+    },
+    "step_2": {
+      "label": "Step 2",
+      "title": "Alternance",
+      "subtitle_1": "Step 2",
+      "subtitle_2": "- Alternance",
+      "work_place": "Developpeur Back End (Php)",
+      "work_description": "Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un",
+      "colored_text_description":"titre Pro de Developpeur fullStack"
+    },
+    "step_3": {
+      "label": "Step 3",
+      "title": "CDI",
+      "subtitle_1": "Step 3",
+      "subtitle_2": "- CDI",
+      "work_place": "Cegedim",
+      "work_description": "J'ai intégré l'équipe de développeur dédiée au logiciel SRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production."
+    },
+    "step_4": {
+      "label": "Step 4",
+      "title": "CDI",
+      "subtitle_1": "Step 4",
+      "subtitle_2": " - CDI",
+      "work_place": "Ngtv Experience",
+      "work_description": "Je travaille chez Ngtv experience depuis Octobre 2019 en tant que",
+      "colored_text_description":"developpeur web front et back "
+    }
+  }
+}

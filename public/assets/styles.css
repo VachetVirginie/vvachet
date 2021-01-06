@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+    font-family: 'FontsFree-Net-SFProDisplay-Bold.ttf';
+    src: url(../fonts/FontsFree-Net-SFProDisplay-Bold.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PerfectMoment-Script';
+    src: url(../fonts/PerfectMoment-Script.otf);
+    font-display: swap;
+}
+body {
+    font-family: 'FontsFree-Net-SFProDisplay-Bold.ttf', serif;
+}
+
+.title {
+    font-family: 'PerfectMoment-Script', serif;
+    font-size: 4.5em !important;
+}
+.title-min {
+    font-family: 'PerfectMoment-Script', serif;
+    font-size: 3em !important;
+}
