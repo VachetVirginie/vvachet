@@ -1,7 +1,7 @@
 # vue3-tailwind2
 ## Todo
-[ ] add animation
-[ ] add titles
+ [ ] add animation
+ [ ] add titles
 
 This repository can serve as a starting point to create Vue.js v3 applications with TailwindCSS v2.
 
