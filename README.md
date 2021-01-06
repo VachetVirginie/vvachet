@@ -12,10 +12,6 @@ You can create component classes using Tailwind's @apply directive in the [app.s
 
 > This project was used as an example for the article posted in my blog: [How to add Tailwind v2 to a Vue.js 3 project](https://antonioufano.com/articles/how-to-add-tailwind-v2-to-a-vuejs-3-project)
 
-## Author
-
-Antonio Ufano - [Web](https://antonioufano.com) - [Blog](https://antonioufano.com/blog) - [Twitter](https://twitter.com/uf4no)
-
 ## Project setup
 
 ```
