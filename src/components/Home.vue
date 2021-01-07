@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 <template>
   <div class="gradient text-red min-h-screen flex items-center Home">
     <div class="container mx-auto p-4 flex flex-wrap items-center">
@@ -6,7 +7,10 @@
         data-aos="fade-right">
         <img
           src="../assets/me.jpeg"
-          alt="me">
+          alt="me"
+          :class="classes"
+          @mouseover="hoverOver"
+          @mouseout="hoverOut">
       </div>
       <div
         class="w-full md:w-6/12 text-left md:text-left p-4"
@@ -42,6 +46,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 export default {
     name: "Home",
+    data () {
+        return {
+            classes: []
+        };
+    },
     created () {
         this.aos = AOS;
         this.aos.init({
@@ -49,6 +58,20 @@ export default {
             duration: 2000,
         });
     },
+    methods: {
+        hoverOver ()  {
+            this.classes = ["animated", "bounceIn"];
+        },
+        hoverOut ()  {
+            this.classes = [];
+        },
+        hoverOverTimeOUt ()  {
+            setTimeout(() => {
+                this.classes = [];
+            }, 1000);
+
+        },
+    }
 };
 </script>
 

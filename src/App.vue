@@ -16,13 +16,15 @@ import MainFooter from "./components/MainFooter.vue";
 
 
 
+
+
 export default {
     name: "App",
     components: {
         Home,
         Test,
         About,
-        MainFooter
+        MainFooter,
     },
 };
 </script>

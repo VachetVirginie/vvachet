@@ -16,28 +16,22 @@
           <header class="flex items-center justify-between leading-tight p-2 md:p-4">
             <h1 class="text-lg">
               <a
-                class="no-underline hover:underline text-black"
+                class="no-underline hover:underline text-pink-800 font-bold"
                 href="#">
-                Article Title
+                Lyon Street Graff
               </a>
+              <p>
+                Ce site est mon projet de fin de cursus et a été présenté devant un jury de professionnel afin d'obtenir le titre pro de developpeur fullstack/mobile <br>
+              </p>
+              <p> Ce site a pour but de partager des oeuvres de street art (images et localisation) et ainsi permettre à la communauté de profiter des oeuvres même lorsqu'elles ont disparues.</p>
             </h1>
-            <p class="text-grey-darker text-sm">
-              14/4/19
-            </p>
           </header>
 
-          <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-            <a
-              class="flex items-center no-underline hover:underline text-black"
-              href="#">
-              <img
-                alt="Placeholder"
-                class="block rounded-full"
-                src="https://picsum.photos/32/32/?random">
-              <p class="ml-2 text-sm">
-                Author Name
-              </p>
-            </a>
+          <footer class="flex items-center justify-around leading-none p-2 md:p-4">
+            <MainChips msg="Laravel" />
+            <MainChips msg="Pwa" />
+            <MainChips msg="Ovh" />
+            <MainChips msg="Github" />
             <a
               class="no-underline text-grey-darker hover:text-red-dark"
               href="#">
@@ -294,8 +288,13 @@
 </template>
 
 <script>
+import MainChips from "./MainChips.vue";
+
 export default {
     name: "Test",
+    components: {
+        MainChips
+    },
 };
 </script>
 
