@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HelloWorld />
+    <Home />
     <About />
     <Test />
     <MainFooter />
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Home from "./components/Home.vue";
 import Test from "./components/Test.vue";
 import About from "./components/About.vue";
 import MainFooter from "./components/MainFooter.vue";
@@ -19,7 +19,7 @@ import MainFooter from "./components/MainFooter.vue";
 export default {
     name: "App",
     components: {
-        HelloWorld,
+        Home,
         Test,
         About,
         MainFooter
