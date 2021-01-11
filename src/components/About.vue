@@ -101,7 +101,7 @@
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 3</span> - Planification</div>
                 <div class="p-3 text-3xl text-gray-800 font">Cegedim</div>
                 <div class="px-3 pb-6">
-                  J'ai intégré l'équipe de développeur dédiée au logiciel SIRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production.
+                  J'ai intégré l'équipe de développeur dédiée au logiciel SIRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production
                 </div>
               </div>
               <div class="md:w-96 w-full p-5">

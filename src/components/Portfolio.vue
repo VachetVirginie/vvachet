@@ -10,16 +10,20 @@
                 <img
                   alt="Ngtv Project"
                   class="rounded-lg lazyloaded"
+                  data-aos="fade-right"
                   src="https://raw.githubusercontent.com/VachetVirginie/portfolio/master/portfolio/img/13.jpg">
               </div>
-            </div> <div class="w-full sm:w-1/2">
+            </div>
+            <div
+              class="w-full sm:w-1/2"
+              data-aos="fade-left">
               <div class="px-4 py-24 sm:flex-col justify-between">
                 <h4 class="uppercase text-pink-800 font-medium sm:font-semibold py-4">
                   Ngtv Experience
                 </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold text-gray-700 py-4">
                   La vidéo intelligente au service du sport
                 </h2>
-                <div class="flex items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
+                <div class="flex flex-wrap items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
                   <MainChips msg="Symfony" />
                   <MainChips msg="Docker" />
                   <MainChips msg="ApiPlatform" />
