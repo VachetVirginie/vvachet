@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="text-6xl mt-24 mb-20 text-center font-medium bold"><span class="text-pink-800">Projets </span>sur lesquels j'ai travaillé:</div>
     <section id="features">
       <div>
         <div class="container mx-auto">
@@ -14,26 +15,27 @@
             </div> <div class="w-full sm:w-1/2">
               <div class="px-4 py-24 sm:flex-col justify-between">
                 <h4 class="uppercase text-pink-800 font-medium sm:font-semibold py-4">
-                  Key Features
+                  Ngtv Experience
                 </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold text-gray-700 py-4">
-                  Let our <strong>web designers</strong> create memorable digital experience
+                  La vidéo intelligente au service du sport
                 </h2>
                 <div class="flex items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
-                  <MainChips msg="Laravel" />
-                  <MainChips msg="Pwa" />
-                  <MainChips msg="Ovh" />
+                  <MainChips msg="Symfony" />
+                  <MainChips msg="Docker" />
+                  <MainChips msg="ApiPlatform" />
+                  <MainChips msg="Vue" />
+                  <MainChips msg="Nuxt" />
+                  <MainChips msg="Vuetify" />
                   <MainChips msg="Github" />
                 </div>
                 <p class="text-lg lg:text-xl text-gray-700 py-4 mb-4">
-                  Perfect idea deserves an amazing website design. We make magic happen with our award-winning custom designed websites using Vue Js as frontend framework and Laravel as backend framework with mobile-first responsive code for your existing website just for your business.
+                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-pink-800 font-bold">developpeur web front et back </span>.
                 </p> <p class="text-lg mb-12 lg:text-xl text-gray-700 py-4">
-                  Our <a
-                    href="/"
-                    class="font-bold text-blue-950">Website Design Agency</a> offers customized integrated solutions that our creative and talented team can help you build a responsive website design. We develop creative web designs that are custom, highly functional, and meet the requirements of our customers most cost-effectively.
+                  NGTV est une société de services numériques. L'objectif ? Permettre au sportif amateur de profiter de technologies de pointe pour améliorer sa pratique ou simplement profiter de l'expérience communautaire la plus innovante en Europe!
                 </p>
                 <a
-                  href="/case-study"
-                  class="sm:w-2/3 lg:w-1/2 px-4 py-3 bg-pink-800 rounded-lg text-white">Discover More</a>
+                  href="https://www.ngtvexperience.com/"
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-pink-800 rounded-lg text-white">Site</a>
               </div>
             </div>
           </div>
