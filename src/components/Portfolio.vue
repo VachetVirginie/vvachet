@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-6xl mt-24 mb-20 text-center font-medium bold"><span class="text-pink-800">Projets </span>sur lesquels j'ai travaillé:</div>
+    <div class="text-6xl mt-24 mb-20 text-center font-medium bold title"><span class="text-pink-800">Projets </span>sur lesquels j'ai travaillé:</div>
     <section id="features">
       <div>
         <div class="container mx-auto">

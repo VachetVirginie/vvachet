@@ -22,12 +22,12 @@
           @mouseout="hoverOut">
       </div>
       <div
-        class="w-full md:w-6/12 text-left md:text-left p-4"
+        class="w-full md:w-6/12 text-center md:text-left"
         data-aos="fade-left">
-        <div class="text-6xl font-medium bold">Virginie <span class="text-pink-800">Vachet</span>,</div>
-        <div class="text-5xl font-medium bold">Developpeur Web</div>
+        <div class="text-6xl font-medium bold title">Virginie <span class="text-pink-800">Vachet</span>,</div>
+        <div class="text-5xl font-medium bold title">Developpeur Web</div>
         <div class="mt-12">
-          <div class="flex">
+          <div class="ml-24 flex content-around">
             <a
               href="https://github.com/VachetVirginie">
               <img

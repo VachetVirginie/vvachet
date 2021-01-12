@@ -10,6 +10,25 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
+    <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+    font-family: 'PerfectMoment-Script';
+    src: url(fonts/PerfectMoment-Script.otf);
+}
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url(fonts/BebasNeue-Regular.otf);
+}
+body {
+    font-family: 'BebasNeue-Regular';
+}
+.title {
+    font-family: 'PerfectMoment-Script';
+    font-size: 5em !important;
+}
+    </style>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>

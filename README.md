@@ -1,4 +1,4 @@
-# vue3-tailwind2
+# vvachet
 ## Todo
 - [ ] refacto components
 - [ ] add animation

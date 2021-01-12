@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div class="text-6xl text-center font-medium bold">Mon <span class="text-pink-800">Parcours</span>:</div>
-    <section class="max-w-5xl mx-auto py-10">
+  <div class="mt-4">
+    <div class="text-4xl text-center font-medium bold title">Mon <span class="text-pink-800">Parcours</span>:</div>
+    <section class="max-w-5xl mx-2 md:mx-auto py-10">
       <div>
         <div class="flex flex-row">
           <div class="hidden md:flex flex-col items-center">
