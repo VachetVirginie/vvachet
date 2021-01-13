@@ -153,14 +153,10 @@
     </section>
     <div class="container mx-auto mt-16">
       <div class="text-center mt-16 left-20">
-        <p
-          class="text-pink-800 font-bold text-sm"
+        <h2
+          class="text-4xl text-center font-medium bold title mb-16"
           data-aos="fade-up">
-          TECHNOLOGIES
-        </p><h2
-          class="text-3xl font-semibold"
-          data-aos="fade-up">
-          Technologies utilisées lors de mon parcours professionnel:
+          Skills <span class="text-pink-800">professionnels</span>
         </h2><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
           <div
             class="flex-1 flex flex-col sal-animate"
