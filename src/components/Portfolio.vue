@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-6xl mt-24 mb-20 text-center font-medium bold title"><span class="text-pink-800">Projets </span>sur lesquels j'ai travaillé:</div>
+    <h2 class="text-6xl mt-24 mb-20 text-center font-medium bold title"><span class="text-pink-800">Projets </span>sur lesquels j'ai travaillé:</h2>
     <section id="features">
       <div>
         <div class="container mx-auto">
@@ -35,7 +35,7 @@
                 <p class="text-lg lg:text-xl text-gray-700 py-4 mb-4">
                   Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-pink-800 font-bold">developpeur web front et back </span>.
                 </p> <p class="text-lg mb-12 lg:text-xl text-gray-700 py-4">
-                  NGTV est une société de services numériques. L'objectif ? Permettre au sportif amateur de profiter de technologies de pointe pour améliorer sa pratique ou simplement profiter de l'expérience communautaire la plus innovante en Europe!
+                  NGTV est une société de services numériques. L'objectif ? Permettre aux sportifs amateurs de profiter de technologies de pointe pour améliorer leur pratique ou simplement profiter de l'expérience communautaire la plus innovante en Europe!
                 </p>
                 <a
                   href="https://www.ngtvexperience.com/"

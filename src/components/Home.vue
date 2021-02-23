@@ -17,9 +17,7 @@
         <img
           src="../assets/me.jpeg"
           alt="me"
-          :class="classes"
-          @mouseover="hoverOver"
-          @mouseout="hoverOut">
+          :class="classes">
       </div>
       <div
         class="w-full md:w-6/12 text-center md:text-left"
@@ -29,20 +27,26 @@
         <div class="mt-12">
           <div class="ml-24 flex content-around">
             <a
-              href="https://github.com/VachetVirginie">
+              href="https://twitter.com/VirginieVachet">
               <img
                 src="./../assets/twitter.svg"
                 alt="twitter icon"
                 class="h-10 mr-6 color-bg-gray-700">
             </a>
-            <img
-              src="./../assets/instagram.svg"
-              alt="instagram icon"
-              class="h-10 mr-6 color-bg-gray-700">
-            <img
-              src="./../assets/linkedin.svg"
-              alt="linkedin icon"
-              class="h-10 color-bg-gray-700">
+            <a
+              href="https://www.instagram.com/waspyi/">
+              <img
+                src="./../assets/instagram.svg"
+                alt="instagram icon"
+                class="h-10 mr-6 color-bg-gray-700">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/vachetvirginie/">
+              <img
+                src="./../assets/linkedin.svg"
+                alt="linkedin icon"
+                class="h-10 color-bg-gray-700">
+            </a>
           </div>
         </div>
       </div>
@@ -66,20 +70,6 @@ export default {
             miror:true,
             duration: 2000,
         });
-    },
-    methods: {
-        hoverOver ()  {
-            this.classes = ["animated", "bounceIn"];
-        },
-        hoverOut ()  {
-            this.classes = [];
-        },
-        hoverOverTimeOUt ()  {
-            setTimeout(() => {
-                this.classes = [];
-            }, 1000);
-
-        },
     }
 };
 </script>

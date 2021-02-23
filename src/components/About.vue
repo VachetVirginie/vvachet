@@ -101,7 +101,7 @@
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 3</span> - Planification</div>
                 <div class="p-3 text-3xl text-gray-800 font">Cegedim</div>
                 <div class="px-3 pb-6">
-                  J'ai intégré l'équipe de développeur dédiée au logiciel SIRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production
+                  J'ai intégré l'équipe de développeur dédiée au logiciel SRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production
                 </div>
               </div>
               <div class="md:w-96 w-full p-5">
@@ -154,7 +154,7 @@
     <div class="container mx-auto mt-16">
       <div class="text-center mt-16 left-20">
         <h2
-          class="text-4xl text-center font-medium bold title mb-16"
+          class="text-6xl mt-24 mb-20 text-center font-medium bold title"
           data-aos="fade-up">
           Skills <span class="text-pink-800">professionnels</span>
         </h2><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
@@ -166,8 +166,8 @@
                 <img
                   src="./../assets/symfony.svg"
                   alt="symfony"
-                  class="h-10 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold mt-2 text-xl">Symfony</h5><p class="text-gray-900">Modern PHP framework for web artisans (that's us). We use it to develop complex applications and APIs using the best practices. Perfect for creating both MVPs and large, scalable applications.</p></div>
+                  class="h-20 color-bg-gray-700 inline-block">
+              </div><div><h5 class="font-bold text-xl">Symfony</h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -177,8 +177,8 @@
                 <img
                   src="./../assets/vuejs.svg"
                   alt="vuejs"
-                  class="h-10 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold mt-2 text-xl">Vue</h5><p class="text-gray-900">Vue is JavaScript frameworks used to build interactive UIs in no time! It has a big fanbase and an even greater community around. Its main feature is the ease of writing apps with it.</p></div>
+                  class="h-20 color-bg-gray-700 inline-block">
+              </div><div><h5 class="font-bold text-xl">Vue</h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -188,8 +188,8 @@
                 <img
                   src="./../assets/zend.svg"
                   alt="zend"
-                  class="h-10 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold mt-2 text-xl">Zend Framework </h5><p class="text-gray-900">React is (another) JavaScript framework used to build interactive UIs, made by Facebook. It offers high flexibility and scalability, used in both small and corporate apps.</p></div>
+                  class="h-20 color-bg-gray-700 inline-block">
+              </div><div><h5 class="font-bold text-xl">Zend Framework </h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -199,9 +199,9 @@
                 <img
                   src="./../assets/php.svg"
                   alt="php"
-                  class="h-10 color-bg-gray-700 inline-block">
+                  class="h-20 color-bg-gray-700 inline-block">
               </div>
-              <div><h5 class="font-bold mt-2 text-xl">PHP</h5><p class="text-gray-900">PHP is one of the most used web languages out there. Each Wordpress site is run on PHP, it's estimated that 60-70% of the entire web is being run on it. In the newest releases, it's also very fast!</p></div>
+              <div><h5 class="font-bold text-xl">PHP</h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -211,9 +211,9 @@
                 <img
                   src="./../assets/nuxt.svg"
                   alt="nuxt"
-                  class="h-10 color-bg-gray-700 inline-block">
+                  class="h-20 color-bg-gray-700 inline-block">
               </div>
-              <div><h5 class="font-bold text-xl">Nuxt.js</h5><p class="text-gray-900">Nuxt.js is for Vue, what Gatsby is for React (well, almost). It offers SSG and a lot of plugins decreasing development time. It's also highly performant and used for rapid app development.</p></div>
+              <div><h5 class="font-bold text-xl">Nuxt.js</h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -223,8 +223,44 @@
                 <img
                   src="./../assets/docker.svg"
                   alt="docker"
-                  class="h-10 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold mt-2 text-xl">Docker</h5><p class="text-gray-900">Gatsby is a React framework used for creating blazing-fast websites (like the one you are looking at). Forget about Wordpress and show your users that your site is as fast as your business.</p></div>
+                  class="h-20 color-bg-gray-700 inline-block">
+              </div><div><h5 class="font-bold text-xl">Docker</h5></div>
+            </div>
+          </div>
+          <div
+            class="flex-1 flex flex-col sal-animate"
+            data-aos="fade-up">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+              <div>
+                <img
+                  src="./../assets/javascript.svg"
+                  alt="docker"
+                  class="h-20 color-bg-gray-700 inline-block">
+              </div><div><h5 class="font-bold text-xl">Javascript</h5></div>
+            </div>
+          </div>
+          <div
+            class="flex-1 flex flex-col sal-animate"
+            data-aos="fade-up">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+              <div>
+                <img
+                  src="./../assets/graphql.svg"
+                  alt="docker"
+                  class="h-20 color-bg-gray-700 inline-block">
+              </div><div><h5 class="font-bold text-xl">GraphQl</h5></div>
+            </div>
+          </div>
+          <div
+            class="flex-1 flex flex-col sal-animate"
+            data-aos="fade-up">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+              <div>
+                <img
+                  src="./../assets/github.svg"
+                  alt="docker"
+                  class="h-20 color-bg-gray-700 inline-block">
+              </div><div><h5 class="font-bold text-xl">Github</h5></div>
             </div>
           </div>
         </div>
