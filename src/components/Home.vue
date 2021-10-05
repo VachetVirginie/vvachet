@@ -60,7 +60,6 @@ export default {
         this.aos = AOS;
         this.aos.init({
             miror:true,
-            duration: 1000,
         });
     }
 };
