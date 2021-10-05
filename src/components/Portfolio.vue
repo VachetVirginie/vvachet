@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="work">
     <h2 class="text-6xl mt-24 mb-20 text-center font-medium bold title"><span class="text-pink-800">Projets </span>sur lesquels j'ai travaillé:</h2>
     <section id="features">
-      <div>
+      <div class="divide-y divide-pink-800">
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2">
@@ -11,7 +11,7 @@
                   alt="Ngtv Project"
                   class="rounded-lg lazyloaded"
                   data-aos="fade-right"
-                  src="https://raw.githubusercontent.com/VachetVirginie/portfolio/master/portfolio/img/13.jpg">
+                  src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
               </div>
             </div>
             <div
@@ -20,13 +20,14 @@
               <div class="px-4 py-24 sm:flex-col justify-between">
                 <h4 class="uppercase text-pink-800 font-medium sm:font-semibold py-4">
                   Ngtv Experience
-                </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold text-gray-700 py-4">
+                </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold text-gray-700 py-4 slogan">
                   La vidéo intelligente au service du sport
                 </h2>
                 <div class="flex flex-wrap items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
-                  <MainChips msg="Symfony" />
+                  <MainChips msg="Symfony 4/5" />
                   <MainChips msg="Docker" />
                   <MainChips msg="ApiPlatform" />
+                  <MainChips msg="Mysql" />
                   <MainChips msg="Vue" />
                   <MainChips msg="Nuxt" />
                   <MainChips msg="Vuetify" />
@@ -34,11 +35,107 @@
                 </div>
                 <p class="text-lg lg:text-xl text-gray-700 py-4 mb-4">
                   Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-pink-800 font-bold">developpeur web front et back </span>.
-                </p> <p class="text-lg mb-12 lg:text-xl text-gray-700 py-4">
+                </p> <p class="text-lg mb-4 lg:text-xl text-gray-700 py-4">
                   NGTV est une société de services numériques. L'objectif ? Permettre aux sportifs amateurs de profiter de technologies de pointe pour améliorer leur pratique ou simplement profiter de l'expérience communautaire la plus innovante en Europe!
+                </p>
+                <p class="text-lg mb-12 lg:text-xl text-gray-700 py-4">
+                  Mes missions principales sont: <br>
+                  - participer au développement d'interfaces tactiles développés en nuxt/vueJs,<br>
+                  - participer au développement Api en symfony 4/5 utilisant Api platform,<br>
+                  - participer à l'élaboration des tests unitaires (PHPUnit),<br>
+                  - participer à l'élaboration des tests  tests fonctionnels de bout en bout (Panther),<br>
+                  - participer au suivi post mise en production.
                 </p>
                 <a
                   href="https://www.ngtvexperience.com/"
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-pink-800 rounded-lg text-white">Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mx-auto">
+          <div class="sm:flex justify-between items-center">
+            <div class="w-full sm:w-1/2">
+              <div class="px-4 mt-4 flex items-center">
+                <img
+                  alt="Ngtv Project"
+                  class="rounded-lg lazyloaded"
+                  data-aos="fade-right"
+                  src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
+              </div>
+            </div>
+            <div
+              class="w-full sm:w-1/2"
+              data-aos="fade-left">
+              <div class="px-4 py-24 sm:flex-col justify-between">
+                <h4 class="uppercase text-pink-800 font-medium sm:font-semibold py-4">
+                  Cegedim SRH
+                </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold text-gray-700 py-4 slogan">
+                  Un spécialiste des solutions et services RH
+                </h2>
+                <div class="flex flex-wrap items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
+                  <MainChips msg="Javascript" />
+                  <MainChips msg="TEAMSRH" />
+                  <MainChips msg="Jira" />
+                </div>
+                <p class="text-lg lg:text-xl text-gray-700 py-4 mb-4">
+                  J'ai travaillé chez Cegedim de Decembre 2018 à Octobre 2019 en tant que <span class="text-pink-800 font-bold">developpeur javascript</span>.
+                </p> <p class="text-lg mb-4 lg:text-xl text-gray-700 py-4">
+                  Cegedim SRH s'appuie sur sa propre solution TEAMSRH pour offrir à ses clients des prestations d'externalisation adaptées et évolutives de leurs systèmes d'information paie et RH.
+                </p>
+                <p class="text-lg mb-12 lg:text-xl text-gray-700 py-4">
+                  Mes missions principales étaient: <br>
+                  - Participer à l’élaboration de l’analyse fonctionnelle et technique chez le client, <br>
+                  - Valider une solution technique à partir de l’analyse fonctionnelle,<br>
+                  - Rédiger le cahier des charges, <br>
+                  - Assurer le paramétrage (ou le développement spécifique si nécessaire), <br>
+                  - Réaliser les tests unitaires, <br>
+                  - Participer à l’intégration de la solution (scenarii de tests…), <br>
+                  - Présenter un point d’avancement (demandes d’arbitrage, difficultés rencontrées, etc) lors des revues avec le Chef de Projet. <br>
+                </p>
+                <a
+                  href="https://www.cegedim-srh.com/Pages/Accueil.aspx"
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-pink-800 rounded-lg text-white">Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mx-auto">
+          <div class="sm:flex justify-between items-center">
+            <div class="w-full sm:w-1/2">
+              <div class="px-4 flex items-center">
+                <img
+                  alt="Ngtv Project"
+                  class="rounded-lg lazyloaded"
+                  data-aos="fade-right"
+                  src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
+              </div>
+            </div>
+            <div
+              class="w-full sm:w-1/2"
+              data-aos="fade-left">
+              <div class="px-4 py-24 sm:flex-col justify-between">
+                <h4 class="uppercase text-pink-800 font-medium sm:font-semibold py-4">
+                  Orange
+                </h4>
+                <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold text-gray-700 py-4 slogan">
+                  La vie change avec Orange
+                </h2>
+                <div class="flex flex-wrap items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
+                  <MainChips msg="Php" />
+                  <MainChips msg="Jquery" />
+                  <MainChips msg="Zend 1" />
+                  <MainChips msg="Tortoise SVN" />
+                </div>
+                <p class="text-lg lg:text-xl text-gray-700 py-4 mb-4">
+                  J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="text-pink-800 font-bold">stagiaire backend</span>.
+                </p> <p class="text-lg mb-12 lg:text-xl text-gray-700 py-4">
+                  Mes missions principales étaient: <br>
+                  – Comprendre les besoins métiers et les reformuler par des solutions techniques, <br>
+                  – Concevoir et développer les fonctionnalités.
+                </p>
+                <a
+                  href="https://www.orange.com/fr"
                   class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-pink-800 rounded-lg text-white">Site</a>
               </div>
             </div>
@@ -65,3 +162,15 @@ export default {
     },
 };
 </script>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.work {
+    font-family: 'Roboto', sans-serif;
+}
+.slogan {
+  font-family: 'Poppins', sans-serif;
+}
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+}
+</style>

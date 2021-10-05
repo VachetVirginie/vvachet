@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4">
+  <div class="mt-4 about">
     <div class="text-4xl text-center font-medium bold title">Mon <span class="text-pink-800">Parcours</span>:</div>
     <section class="max-w-5xl mx-2 md:mx-auto py-10">
       <div>
@@ -20,9 +20,9 @@
             data-aos="fade-left">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 1</span> - Idea</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 1</span> - Formation</div>
                 <div class="p-3 text-3xl text-gray-800 font">Simplon</div>
-                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="text-pink-800 font-bold">developpeur web et mobile fullStack</span></div>
+                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <a class="text-black">developpeur web et mobile fullStack</a></div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
@@ -59,14 +59,14 @@
             data-aos="fade-right">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 2</span> - Collaboration</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 2</span> - Alternance</div>
                 <div class="p-3 text-3xl text-gray-800 font">Developpeur Back End</div>
-                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="text-pink-800 font-bold">titre Pro de Developpeur fullStack</span>.  </div>
+                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <a class="text-black">titre Pro de Developpeur fullStack</a>.  </div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/766px-Orange_logo.svg.png"
-                  alt="step 2"
+                  src="https://lescognees.com/wp-content/uploads/Orange-logo.png"
+                  alt="Orange logo"
                   class="object-scale-down">
               </div>
             </div>
@@ -87,7 +87,7 @@
               class="w-32 py-5 border border-pink-800 rounded mr-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
               <div class="text-3xl font-black text-gray-800">Step 3</div>
-              <div class="text-gray-800 text-sm text-center">Javascript</div>
+              <div class="text-gray-800 text-sm text-center"> CDI <br> Javascript</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
               <div class="border-l-4 mr-4 h-full border-pink-800 border-dashed" />
@@ -98,16 +98,16 @@
             data-aos="fade-left">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 3</span> - Planification</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 3</span> - CDI</div>
                 <div class="p-3 text-3xl text-gray-800 font">Cegedim</div>
                 <div class="px-3 pb-6">
-                  J'ai intégré l'équipe de développeur dédiée au logiciel SRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production
+                  J'ai intégré l'équipe de développeur dédiée au logiciel SRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production.
                 </div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
                   src="https://www.myrhline.com/wp-content/uploads/2017/01/6176_default_big.jpg"
-                  alt="step 3"
+                  alt="logo cegedim srh"
                   class="object-scale-down">
               </div>
             </div>
@@ -128,7 +128,7 @@
               class="w-32 py-5 border border-pink-800 rounded ml-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
               <div class="text-3xl font-black text-gray-800">Step 4</div>
-              <div class="text-gray-800 text-sm text-center">Php <br>Javascript</div>
+              <div class="text-gray-800 text-sm text-center"> CDI <br> Php <br>Javascript</div>
             </div>
           </div>
           <div
@@ -136,14 +136,16 @@
             data-aos="fade-right">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 4</span> - Implementation</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 4</span> - CDI</div>
                 <div class="p-3 text-3xl text-gray-800 font">Ngtv Experience</div>
-                <div class="px-3 pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim consequatur nihil ipsum.</div>
+                <div class="px-3 pb-6">
+                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <a class="text-black">developpeur web front et back </a>.
+                </div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
-                  src="https://www.ngtvexperience.com/assets/images/logo-white.png"
-                  alt="step 4"
+                  src="https://ngtvexperience.com/_nuxt/img/logo-black.c2acef7.svg"
+                  alt="ngtv logo"
                   class="object-scale-down">
               </div>
             </div>
@@ -151,7 +153,7 @@
         </div>
       </div>
     </section>
-    <div class="container mx-auto mt-16">
+    <div class="container mx-auto mt-16 skills">
       <div class="text-center mt-16 left-20">
         <h2
           class="text-6xl mt-24 mb-20 text-center font-medium bold title"
@@ -167,7 +169,7 @@
                   src="./../assets/symfony.svg"
                   alt="symfony"
                   class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold text-xl">Symfony</h5></div>
+              </div><div><h5 class="text-xl">Symfony</h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -178,7 +180,7 @@
                   src="./../assets/vuejs.svg"
                   alt="vuejs"
                   class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold text-xl">Vue</h5></div>
+              </div><div><h5 class="text-xl">Vue</h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -189,7 +191,7 @@
                   src="./../assets/zend.svg"
                   alt="zend"
                   class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold text-xl">Zend Framework </h5></div>
+              </div><div><h5 class="text-xl">Zend Framework </h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -201,9 +203,10 @@
                   alt="php"
                   class="h-20 color-bg-gray-700 inline-block">
               </div>
-              <div><h5 class="font-bold text-xl">PHP</h5></div>
+              <div><h5 class="text-xl">PHP</h5></div>
             </div>
-          </div><div
+          </div>
+          <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
             <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
@@ -213,7 +216,7 @@
                   alt="nuxt"
                   class="h-20 color-bg-gray-700 inline-block">
               </div>
-              <div><h5 class="font-bold text-xl">Nuxt.js</h5></div>
+              <div><h5 class="text-xl">Nuxt.js</h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
@@ -224,7 +227,7 @@
                   src="./../assets/docker.svg"
                   alt="docker"
                   class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold text-xl">Docker</h5></div>
+              </div><div><h5 class="text-xl">Docker</h5></div>
             </div>
           </div>
           <div
@@ -236,7 +239,7 @@
                   src="./../assets/javascript.svg"
                   alt="docker"
                   class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold text-xl">Javascript</h5></div>
+              </div><div><h5 class="text-xl">Javascript</h5></div>
             </div>
           </div>
           <div
@@ -248,7 +251,7 @@
                   src="./../assets/graphql.svg"
                   alt="docker"
                   class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold text-xl">GraphQl</h5></div>
+              </div><div><h5 class="text-xl">GraphQl</h5></div>
             </div>
           </div>
           <div
@@ -260,7 +263,7 @@
                   src="./../assets/github.svg"
                   alt="docker"
                   class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="font-bold text-xl">Github</h5></div>
+              </div><div><h5 class="text-xl">Github</h5></div>
             </div>
           </div>
         </div>
@@ -283,5 +286,27 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.about {
+    font-family: 'Roboto', sans-serif;
+}
+a, a:link {
+  color: black;
+  text-decoration: none;
+  background-position-y: -0%;
+  background-image: linear-gradient( white 50%, #9D174D 50%);
+  transition: background 500ms ease;
+  background-size: 2px;
+  background-size: auto 175%;
+}
+
+a:hover {
+  background-position-y: 100%;
+}
+/* .skills{
+background-color: #18161a;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239d174d' fill-opacity='0.39' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+} */
+
 </style>
