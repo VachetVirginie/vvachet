@@ -128,7 +128,7 @@
                   <MainChips msg="Tortoise SVN" />
                 </div>
                 <p class="text-lg lg:text-xl light-text-gray-700 py-4 mb-4">
-                  J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="text-pink font-bold">stagiaire backend</span>.
+                  J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="text-pink font-bold">alternante en backend</span> au sein de la DSI.
                 </p> <p class="text-lg mb-12 lg:text-xl light-text-gray-700 py-4">
                   Mes missions principales étaient: <br>
                   – Comprendre les besoins métiers et les reformuler par des solutions techniques, <br>
