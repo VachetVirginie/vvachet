@@ -1,11 +1,13 @@
 module.exports = {
     purge: ["./src/**/*.html", "./src/**/*.vue"],
-    darkMode: false, // or 'media' or 'class'
+    darkMode: "class", // or 'media' or 'class'
     theme: {
         fontFamily: {
             "sans": "Helvetica Neue"
         },
-        extend: {},
+        extend: {
+            primary: "#6DDFC7"
+        },
     },
     variants: {
         extend: {},

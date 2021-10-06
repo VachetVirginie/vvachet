@@ -1,28 +1,28 @@
 <template>
   <div class="mt-4 about">
-    <div class="text-4xl text-center font-medium bold title">Mon <span class="text-pink-800">Parcours</span>:</div>
+    <div class="text-4xl text-center font-medium bold title">Mon <span class="text-green-300">Parcours</span>:</div>
     <section class="max-w-5xl mx-2 md:mx-auto py-10">
       <div>
         <div class="flex flex-row">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-pink-800 rounded mr-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border border-green-300 rounded mr-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl font-black text-gray-800">Step 1</div>
-              <div class="text-gray-800 text-sm">Les Bases</div>
+              <div class="text-3xl font-black light-text-gray-700">Step 1</div>
+              <div class="light-text-gray-700 text-sm">Les Bases</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
-              <div class="border-l-4 mr-4 h-full border-pink-800 border-dashed" />
+              <div class="border-l-4 mr-4 h-full border-green-300 border-dashed" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-pink-800"
+            class="flex-auto border rounded  border-green-300"
             data-aos="fade-left">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 1</span> - Formation</div>
-                <div class="p-3 text-3xl text-gray-800 font">Simplon</div>
-                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <a class="text-black">developpeur web et mobile fullStack</a></div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 1</span> - Formation</div>
+                <div class="p-3 text-3xl light-text-gray-700 font">Simplon</div>
+                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="text-green-300 font-bold">developpeur web et mobile fullStack</span></div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
@@ -35,33 +35,33 @@
         </div>
         <div class="flex items-start flex-row">
           <div class="border-t-4 border-r-4 border-transparent">
-            <div class="w-16 ml-16 h-16 border-l-4 border-pink-800 border-dashed border-b-4 rounded-bl-full" />
+            <div class="w-16 ml-16 h-16 border-l-4 border-green-300 border-dashed border-b-4 rounded-bl-full" />
           </div>
           <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-pink-800 border-dashed" />
+            <div class="h-16 border-b-4 border-green-300 border-dashed" />
           </div>
-          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-pink-800 border-dashed border-t-4 rounded-tr-full" />
+          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-green-300 border-dashed border-t-4 rounded-tr-full" />
         </div>
         <div class="flex flex-row-reverse">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-pink-800 rounded ml-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border border-green-300 rounded ml-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl font-black text-gray-800">Step 2</div>
-              <div class="text-gray-800 text-sm text-center">Alternance <br> Php</div>
+              <div class="text-3xl font-black light-text-gray-700">Step 2</div>
+              <div class="light-text-gray-700 text-sm text-center">Alternance <br> Php</div>
             </div>
             <div class="h-full border-r-4 border-transparent">
-              <div class="border-l-4 ml-4 h-full border-pink-800 border-dashed" />
+              <div class="border-l-4 ml-4 h-full border-green-300 border-dashed" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-pink-800"
+            class="flex-auto border rounded  border-green-300"
             data-aos="fade-right">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 2</span> - Alternance</div>
-                <div class="p-3 text-3xl text-gray-800 font">Developpeur Back End</div>
-                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <a class="text-black">titre Pro de Developpeur fullStack</a>.  </div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 2</span> - Alternance</div>
+                <div class="p-3 text-3xl light-text-gray-700 font">Developpeur Back End</div>
+                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="text-green-300 font-bold">titre Pro de Developpeur fullStack</span>.  </div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
@@ -74,32 +74,32 @@
         </div>
         <div class="flex items-start flex-row-reverse">
           <div class="border-t-4 border-l-4 border-transparent">
-            <div class="w-16 mr-16 h-16 border-r-4 border-pink-800 border-dashed border-b-4 rounded-br-full" />
+            <div class="w-16 mr-16 h-16 border-r-4 border-green-300 border-dashed border-b-4 rounded-br-full" />
           </div>
           <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-pink-800 border-dashed" />
+            <div class="h-16 border-b-4 border-green-300 border-dashed" />
           </div>
-          <div class="w-16 mt-16 ml-16 h-16 border-l-4 border-pink-800 border-dashed border-t-4 rounded-tl-full" />
+          <div class="w-16 mt-16 ml-16 h-16 border-l-4 border-green-300 border-dashed border-t-4 rounded-tl-full" />
         </div>
         <div class="flex flex-row">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-pink-800 rounded mr-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border border-green-300 rounded mr-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl font-black text-gray-800">Step 3</div>
-              <div class="text-gray-800 text-sm text-center"> CDI <br> Javascript</div>
+              <div class="text-3xl font-black light-text-gray-700">Step 3</div>
+              <div class="light-text-gray-700 text-sm text-center"> CDI <br> Javascript</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
-              <div class="border-l-4 mr-4 h-full border-pink-800 border-dashed" />
+              <div class="border-l-4 mr-4 h-full border-green-300 border-dashed" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-pink-800"
+            class="flex-auto border rounded  border-green-300"
             data-aos="fade-left">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 3</span> - CDI</div>
-                <div class="p-3 text-3xl text-gray-800 font">Cegedim</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 3</span> - CDI</div>
+                <div class="p-3 text-3xl light-text-gray-700 font">Cegedim</div>
                 <div class="px-3 pb-6">
                   J'ai intégré l'équipe de développeur dédiée au logiciel SRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production.
                 </div>
@@ -115,31 +115,31 @@
         </div>
         <div class="flex items-start flex-row">
           <div class="border-t-4 border-r-4 border-transparent">
-            <div class="w-16 ml-16 h-16 border-l-4 border-pink-800 border-dashed border-b-4 rounded-bl-full" />
+            <div class="w-16 ml-16 h-16 border-l-4 border-green-300 border-dashed border-b-4 rounded-bl-full" />
           </div>
           <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-pink-800 border-dashed" />
+            <div class="h-16 border-b-4 border-green-300 border-dashed" />
           </div>
-          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-pink-800 border-dashed border-t-4 rounded-tr-full" />
+          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-green-300 border-dashed border-t-4 rounded-tr-full" />
         </div>
         <div class="flex flex-row-reverse">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-pink-800 rounded ml-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border border-green-300 rounded ml-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl font-black text-gray-800">Step 4</div>
-              <div class="text-gray-800 text-sm text-center"> CDI <br> Php <br>Javascript</div>
+              <div class="text-3xl font-black light-text-gray-700">Step 4</div>
+              <div class="light-text-gray-700 text-sm text-center"> CDI <br> Php <br>Javascript</div>
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-pink-800"
+            class="flex-auto border rounded  border-green-300"
             data-aos="fade-right">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-800"><span class="font-black">Step 4</span> - CDI</div>
-                <div class="p-3 text-3xl text-gray-800 font">Ngtv Experience</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 4</span> - CDI</div>
+                <div class="p-3 text-3xl light-text-gray-700 font">Ngtv Experience</div>
                 <div class="px-3 pb-6">
-                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <a class="text-black">developpeur web front et back </a>.
+                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-green-300 font-bold">developpeur web front et back </span>.
                 </div>
               </div>
               <div class="md:w-96 w-full p-5">
@@ -158,12 +158,12 @@
         <h2
           class="text-6xl mt-24 mb-20 text-center font-medium bold title"
           data-aos="fade-up">
-          Skills <span class="text-pink-800">professionnels</span>
+          Skills <span class="text-green-300">professionnels</span>
         </h2><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8 m-2">
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/symfony.svg"
@@ -174,7 +174,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/vuejs.svg"
@@ -185,7 +185,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/zend.svg"
@@ -196,7 +196,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/php.svg"
@@ -209,7 +209,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/nuxt.svg"
@@ -221,7 +221,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/docker.svg"
@@ -233,7 +233,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/javascript.svg"
@@ -245,7 +245,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/graphql.svg"
@@ -257,7 +257,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-pink-800 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
               <div>
                 <img
                   src="./../assets/github.svg"
@@ -295,7 +295,7 @@ a, a:link {
   color: black;
   text-decoration: none;
   background-position-y: -0%;
-  background-image: linear-gradient( white 50%, #9D174D 50%);
+  background-image: linear-gradient( white 50%, 6EE7B7 50%);
   transition: background 500ms ease;
   background-size: 2px;
   background-size: auto 175%;
@@ -306,7 +306,7 @@ a:hover {
 }
 /* .skills{
 background-color: #18161a;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239d174d' fill-opacity='0.39' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%236EE7B7' fill-opacity='0.39' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 } */
 
 </style>

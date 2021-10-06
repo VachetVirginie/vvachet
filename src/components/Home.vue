@@ -1,20 +1,20 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 <template>
-  <div class="gradient text-red min-h-screen flex items-center Home">
+  <div class="gradient min-h-screen flex items-center Home">
     <div class="top-rect" />
     <div class="container mx-auto p-4 flex flex-wrap items-center">
       <div
-        class="w-full md:w-6/12 text-center p-4"
+        class="w-full md:w-5/12 text-center p-4"
         data-aos="fade-right">
         <img
-          src="../assets/me.png"
+          src="../assets/gifa.gif"
           alt="me"
           :class="classes">
       </div>
       <div
-        class="w-full md:w-6/12 text-center md:text-left"
+        class="w-full md:w-6/12 text-center md:text-left dark:bg-gray-800"
         data-aos="fade-left">
-        <div class="text-6xl font-medium bold title">Virginie <span class="text-pink-800">Vachet</span>,</div>
+        <div class="text-6xl font-medium bold title">Virginie <span class="text-green-300">Vachet</span>,</div>
         <div class="text-5xl font-medium bold title">Developpeur Web</div>
         <div class="mt-12">
           <div class="ml-24 flex content-around">
@@ -68,7 +68,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .top-rect {
-  background-color: #9D174D;
+  background-color: #6EE7B7;
   padding-top: 550px;
   width: 100%;
   position: absolute;

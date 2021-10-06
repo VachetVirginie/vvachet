@@ -27,12 +27,12 @@
       Virginie Vachet 2021 © <span class="text-true-gray-600 dark:text-true-gray-500"> | built with <a
         href="https://tailwindcss.com/"
         target="_blank"
-        class="font-bold text-pink-800">Tailwindcss 2</a>,
+        class="font-bold text-green-300">Tailwindcss 2</a>,
         <a
           href="https://vuejs.org/"
           target="_blank"
-          class="font-bold text-pink-800">Vuejs 3</a> &amp;
-        <a class="font-bold text-pink-800">Passion</a></span>
+          class="font-bold text-green-300">Vuejs 3</a> &amp;
+        <a class="font-bold text-green-300">Passion</a></span>
     </div>
   </div>
 </template>

@@ -16,7 +16,7 @@
           <header class="flex items-center justify-between leading-tight p-2 md:p-4">
             <h1 class="text-lg">
               <a
-                class="no-underline hover:underline text-pink-800 font-bold"
+                class="no-underline hover:underline text-green-300 font-bold"
                 href="#">
                 Lyon Street Graff
               </a>
