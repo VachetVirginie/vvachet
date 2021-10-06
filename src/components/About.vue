@@ -22,7 +22,7 @@
               <div class="flex-auto">
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 1</span> - Formation</div>
                 <div class="p-3 text-3xl light-text-gray-700 font">Simplon</div>
-                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="text-green-300 font-bold">developpeur web et mobile fullStack</span></div>
+                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="text-pink font-bold">developpeur web et mobile fullStack</span></div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
@@ -61,7 +61,7 @@
               <div class="flex-auto">
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 2</span> - Alternance</div>
                 <div class="p-3 text-3xl light-text-gray-700 font">Developpeur Back End</div>
-                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="text-green-300 font-bold">titre Pro de Developpeur fullStack</span>.  </div>
+                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="text-pink font-bold">titre Pro de Developpeur fullStack</span>.  </div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
@@ -139,7 +139,7 @@
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 4</span> - CDI</div>
                 <div class="p-3 text-3xl light-text-gray-700 font">Ngtv Experience</div>
                 <div class="px-3 pb-6">
-                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-green-300 font-bold">developpeur web front et back </span>.
+                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-pink font-bold">developpeur web front et back </span>.
                 </div>
               </div>
               <div class="md:w-96 w-full p-5">

@@ -34,7 +34,7 @@
                   <MainChips msg="Github" />
                 </div>
                 <p class="text-lg lg:text-xl light-text-gray-700 py-4 mb-4">
-                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-green-300 font-bold">developpeur web front et back </span>.
+                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-pink font-bold">developpeur web front et back </span>.
                 </p> <p class="text-lg mb-4 lg:text-xl light-text-gray-700 py-4">
                   NGTV est une société de services numériques. L'objectif ? Permettre aux sportifs amateurs de profiter de technologies de pointe pour améliorer leur pratique ou simplement profiter de l'expérience communautaire la plus innovante en Europe!
                 </p>
@@ -79,7 +79,7 @@
                   <MainChips msg="Jira" />
                 </div>
                 <p class="text-lg lg:text-xl light-text-gray-700 py-4 mb-4">
-                  J'ai travaillé chez Cegedim de Decembre 2018 à Octobre 2019 en tant que <span class="text-green-300 font-bold">developpeur javascript</span>.
+                  J'ai travaillé chez Cegedim de Decembre 2018 à Octobre 2019 en tant que <span class="text-pink font-bold">developpeur javascript</span>.
                 </p> <p class="text-lg mb-4 lg:text-xl light-text-gray-700 py-4">
                   Cegedim SRH s'appuie sur sa propre solution TEAMSRH pour offrir à ses clients des prestations d'externalisation adaptées et évolutives de leurs systèmes d'information paie et RH.
                 </p>
@@ -128,7 +128,7 @@
                   <MainChips msg="Tortoise SVN" />
                 </div>
                 <p class="text-lg lg:text-xl light-text-gray-700 py-4 mb-4">
-                  J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="text-green-300 font-bold">stagiaire backend</span>.
+                  J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="text-pink font-bold">stagiaire backend</span>.
                 </p> <p class="text-lg mb-12 lg:text-xl light-text-gray-700 py-4">
                   Mes missions principales étaient: <br>
                   – Comprendre les besoins métiers et les reformuler par des solutions techniques, <br>

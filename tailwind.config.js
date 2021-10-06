@@ -6,7 +6,11 @@ module.exports = {
             "sans": "Helvetica Neue"
         },
         extend: {
-            primary: "#6DDFC7"
+            colors: {
+                primary: "#6DDFC7",
+                pink: "#f20553",
+                yellow:"#ffec47"
+            },
         },
     },
     variants: {
