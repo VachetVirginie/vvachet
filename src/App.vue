@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative overflow-x-hidden">
     <Home />
     <About />
     <Portfolio />

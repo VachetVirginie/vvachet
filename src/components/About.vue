@@ -159,7 +159,7 @@
           class="text-6xl mt-24 mb-20 text-center font-medium bold title"
           data-aos="fade-up">
           Skills <span class="text-pink-800">professionnels</span>
-        </h2><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
+        </h2><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8 m-2">
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
