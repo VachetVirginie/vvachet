@@ -16,22 +16,22 @@
         data-aos="fade-left">
         <div class="text-6xl font-medium bold title">Virginie <span class="text-green-300">Vachet</span>,</div>
         <div class="text-5xl font-medium bold title">Developpeur Web</div>
-        <div class="mt-12">
+        <div class="mt-12 ml-6">
           <div class="ml-24 flex content-around">
             <a
               href="https://twitter.com/VirginieVachet">
               <img
                 src="./../assets/twitter.svg"
                 alt="twitter icon"
-                class="h-10 mr-6 color-bg-gray-700">
+                class="h-10 mr-12">
             </a>
-            <a
+            <!-- <a
               href="https://www.instagram.com/waspyi/">
               <img
                 src="./../assets/instagram.svg"
                 alt="instagram icon"
-                class="h-10 mr-6 color-bg-gray-700">
-            </a>
+                class="h-10 mr-6">
+            </a> -->
             <a
               href="https://www.linkedin.com/in/vachetvirginie/">
               <img
