@@ -1,28 +1,28 @@
 <template>
   <div class="mt-4 about">
-    <div class="text-4xl text-center font-medium bold title">Mon <span class="text-green-300">Parcours</span>:</div>
+    <div class="text-4xl text-center font-medium bold title">Mon <span class="text-primary">Parcours</span>:</div>
     <section class="max-w-5xl mx-2 md:mx-auto py-10">
       <div>
         <div class="flex flex-row">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-green-300 rounded mr-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
               <div class="text-3xl font-black light-text-gray-700">Step 1</div>
               <div class="light-text-gray-700 text-sm">Les Bases</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
-              <div class="border-l-4 mr-4 h-full border-green-300 border-dashed" />
+              <div class="border-l-4 mr-4 h-full border-primary border-dashed" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-green-300"
+            class="flex-auto border rounded  border-primary"
             data-aos="fade-left">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 1</span> - Formation</div>
                 <div class="p-3 text-3xl light-text-gray-700 font">Simplon</div>
-                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="text-pink font-bold">developpeur web et mobile fullStack</span></div>
+                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="text-pink font-bold">developpeur web et mobile fullStack</span>.</div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
@@ -35,27 +35,27 @@
         </div>
         <div class="flex items-start flex-row">
           <div class="border-t-4 border-r-4 border-transparent">
-            <div class="w-16 ml-16 h-16 border-l-4 border-green-300 border-dashed border-b-4 rounded-bl-full" />
+            <div class="w-16 ml-16 h-16 border-l-4 border-primary border-dashed border-b-4 rounded-bl-full" />
           </div>
           <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-green-300 border-dashed" />
+            <div class="h-16 border-b-4 border-primary border-dashed" />
           </div>
-          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-green-300 border-dashed border-t-4 rounded-tr-full" />
+          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-primary border-dashed border-t-4 rounded-tr-full" />
         </div>
         <div class="flex flex-row-reverse">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-green-300 rounded ml-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
               <div class="text-3xl font-black light-text-gray-700">Step 2</div>
               <div class="light-text-gray-700 text-sm text-center">Alternance <br> Php</div>
             </div>
             <div class="h-full border-r-4 border-transparent">
-              <div class="border-l-4 ml-4 h-full border-green-300 border-dashed" />
+              <div class="border-l-4 ml-4 h-full border-primary border-dashed" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-green-300"
+            class="flex-auto border rounded  border-primary"
             data-aos="fade-right">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
@@ -74,27 +74,27 @@
         </div>
         <div class="flex items-start flex-row-reverse">
           <div class="border-t-4 border-l-4 border-transparent">
-            <div class="w-16 mr-16 h-16 border-r-4 border-green-300 border-dashed border-b-4 rounded-br-full" />
+            <div class="w-16 mr-16 h-16 border-r-4 border-primary border-dashed border-b-4 rounded-br-full" />
           </div>
           <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-green-300 border-dashed" />
+            <div class="h-16 border-b-4 border-primary border-dashed" />
           </div>
-          <div class="w-16 mt-16 ml-16 h-16 border-l-4 border-green-300 border-dashed border-t-4 rounded-tl-full" />
+          <div class="w-16 mt-16 ml-16 h-16 border-l-4 border-primary border-dashed border-t-4 rounded-tl-full" />
         </div>
         <div class="flex flex-row">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-green-300 rounded mr-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
               <div class="text-3xl font-black light-text-gray-700">Step 3</div>
               <div class="light-text-gray-700 text-sm text-center"> CDI <br> Javascript</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
-              <div class="border-l-4 mr-4 h-full border-green-300 border-dashed" />
+              <div class="border-l-4 mr-4 h-full border-primary border-dashed" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-green-300"
+            class="flex-auto border rounded  border-primary"
             data-aos="fade-left">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
@@ -115,24 +115,24 @@
         </div>
         <div class="flex items-start flex-row">
           <div class="border-t-4 border-r-4 border-transparent">
-            <div class="w-16 ml-16 h-16 border-l-4 border-green-300 border-dashed border-b-4 rounded-bl-full" />
+            <div class="w-16 ml-16 h-16 border-l-4 border-primary border-dashed border-b-4 rounded-bl-full" />
           </div>
           <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-green-300 border-dashed" />
+            <div class="h-16 border-b-4 border-primary border-dashed" />
           </div>
-          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-green-300 border-dashed border-t-4 rounded-tr-full" />
+          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-primary border-dashed border-t-4 rounded-tr-full" />
         </div>
         <div class="flex flex-row-reverse">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-green-300 rounded ml-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
               <div class="text-3xl font-black light-text-gray-700">Step 4</div>
               <div class="light-text-gray-700 text-sm text-center"> CDI <br> Php <br>Javascript</div>
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-green-300"
+            class="flex-auto border rounded  border-primary"
             data-aos="fade-right">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
@@ -158,12 +158,12 @@
         <h2
           class="text-6xl mt-24 mb-20 text-center font-medium bold title"
           data-aos="fade-up">
-          Skills <span class="text-green-300">professionnels</span>
+          Skills <span class="text-primary">professionnels</span>
         </h2><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8 m-2">
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/symfony.svg"
@@ -174,7 +174,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/vuejs.svg"
@@ -185,7 +185,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/zend.svg"
@@ -196,7 +196,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/php.svg"
@@ -209,7 +209,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/nuxt.svg"
@@ -221,7 +221,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/docker.svg"
@@ -233,7 +233,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/javascript.svg"
@@ -245,7 +245,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/graphql.svg"
@@ -257,7 +257,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-green-300 rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
               <div>
                 <img
                   src="./../assets/github.svg"

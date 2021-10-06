@@ -14,7 +14,7 @@
       <div
         class="w-full md:w-6/12 text-center md:text-left dark:bg-gray-800"
         data-aos="fade-left">
-        <div class="text-6xl font-medium bold title">Virginie <span class="text-green-300">Vachet</span>,</div>
+        <div class="text-6xl font-medium bold title">Virginie <span class="text-primary">Vachet</span>,</div>
         <div class="text-5xl font-medium bold title">Developpeur Web</div>
         <div class="mt-12 ml-6">
           <div class="ml-24 flex content-around">

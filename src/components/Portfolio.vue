@@ -1,8 +1,8 @@
 <template>
   <div class="work dark:text-white light:text-black">
-    <h2 class="text-6xl mt-24 mb-20 text-center font-medium bold title"><span class="text-green-300">Projets </span>sur lesquels j'ai travaillé:</h2>
+    <h2 class="text-6xl mt-24 mb-20 text-center font-medium bold title"><span class="text-primary">Projets </span>sur lesquels j'ai travaillé:</h2>
     <section id="features">
-      <div class="divide-y divide-green-300">
+      <div class="divide-y divide-primary">
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2">
@@ -18,7 +18,7 @@
               class="w-full sm:w-1/2"
               data-aos="fade-left">
               <div class="px-4 py-24 sm:flex-col justify-between">
-                <h4 class="uppercase text-green-300 font-medium sm:font-semibold py-4">
+                <h4 class="uppercase text-primary font-medium sm:font-semibold py-4">
                   Ngtv Experience
                 </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold light-text-gray-700 py-4 slogan">
                   La vidéo intelligente au service du sport
@@ -48,7 +48,7 @@
                 </p>
                 <a
                   href="https://www.ngtvexperience.com/"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-green-300 rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@
               class="w-full sm:w-1/2"
               data-aos="fade-left">
               <div class="px-4 py-24 sm:flex-col justify-between">
-                <h4 class="uppercase text-green-300 font-medium sm:font-semibold py-4">
+                <h4 class="uppercase text-primary font-medium sm:font-semibold py-4">
                   Cegedim SRH
                 </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold light-text-gray-700 py-4 slogan">
                   Un spécialiste des solutions et services RH
@@ -95,7 +95,7 @@
                 </p>
                 <a
                   href="https://www.cegedim-srh.com/Pages/Accueil.aspx"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-green-300 rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@
               class="w-full sm:w-1/2"
               data-aos="fade-left">
               <div class="px-4 py-24 sm:flex-col justify-between">
-                <h4 class="uppercase text-green-300 font-medium sm:font-semibold py-4">
+                <h4 class="uppercase text-primary font-medium sm:font-semibold py-4">
                   Orange
                 </h4>
                 <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold light-text-gray-700 py-4 slogan">
@@ -136,7 +136,7 @@
                 </p>
                 <a
                   href="https://www.orange.com/fr"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-green-300 rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
               </div>
             </div>
           </div>
