@@ -1,13 +1,13 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 <template>
   <div class="gradient min-h-screen flex items-center Home">
-    <div class="top-rect" />
+
     <div class="container mx-auto p-4 flex flex-wrap items-center">
       <div
-        class="w-full md:w-5/12 text-center p-4"
+        class="w-full md:w-5/12 text-center p-4 mr-12"
         data-aos="fade-right">
         <img
-          src="../assets/gifa.gif"
+          src="../assets/toto.svg"
           alt="me"
           :class="classes">
       </div>

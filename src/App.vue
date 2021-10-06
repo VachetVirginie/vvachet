@@ -1,7 +1,7 @@
 <template>
   <div class="relative overflow-x-hidden dark:bg-gray-800 dark:text-white">
     <div class="ligth:bg-primary dark:bg-gray-800 dark:text-white shadow p-4 rounded-lg mb-6 flex justify-between items-center">
-      <div class="text-lg text-white">Dark Mode Switch</div>
+      <div class="text-lg dark:text-white">Dark Mode Switch</div>
       <div>
         <button
           class="focus:outline-none w-5 h-5 bg-gray-200 rounded-full mr-2"

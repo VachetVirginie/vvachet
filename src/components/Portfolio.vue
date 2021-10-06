@@ -43,7 +43,7 @@
                   - participer au développement d'interfaces tactiles développés en nuxt/vueJs,<br>
                   - participer au développement Api en symfony 4/5 utilisant Api platform,<br>
                   - participer à l'élaboration des tests unitaires (PHPUnit),<br>
-                  - participer à l'élaboration des tests  tests fonctionnels de bout en bout (Panther),<br>
+                  - participer à l'élaboration des tests fonctionnels de bout en bout (Panther),<br>
                   - participer au suivi post mise en production.
                 </p>
                 <a
@@ -58,7 +58,7 @@
             <div class="w-full sm:w-1/2">
               <div class="px-4 mt-4 flex items-center">
                 <img
-                  alt="Ngtv Project"
+                  alt="Cegedim srh"
                   class="rounded-lg lazyloaded"
                   data-aos="fade-right"
                   src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
@@ -105,7 +105,7 @@
             <div class="w-full sm:w-1/2">
               <div class="px-4 flex items-center">
                 <img
-                  alt="Ngtv Project"
+                  alt="Orange logo"
                   class="rounded-lg lazyloaded"
                   data-aos="fade-right"
                   src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
