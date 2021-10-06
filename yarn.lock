@@ -4093,7 +4093,7 @@
   "version" "1.1.2"
   dependencies:
     "path-exists" "^2.0.0"
-    "greenie-promise" "^2.0.0"
+    "pinkie-promise" "^2.0.0"
 
 "find-up@^3.0.0":
   "integrity" "sha512-1yD6RmLI1XBfxugvORwlck6f75tYL+iR0jqwsOrOxMZyGYqUuDhJ0l4AXdO1iX/FTs9cBAMEk1gWSEx1kSbylg=="
@@ -4363,7 +4363,7 @@
     "glob" "^7.0.3"
     "object-assign" "^4.0.1"
     "pify" "^2.0.0"
-    "greenie-promise" "^2.0.0"
+    "pinkie-promise" "^2.0.0"
 
 "globby@^7.1.1":
   "integrity" "sha1-+yzP+UAfhgCUXfral0QMypcrhoA="
@@ -6353,7 +6353,7 @@
   "resolved" "https://registry.npmjs.org/path-exists/-/path-exists-2.1.0.tgz"
   "version" "2.1.0"
   dependencies:
-    "greenie-promise" "^2.0.0"
+    "pinkie-promise" "^2.0.0"
 
 "path-exists@^3.0.0":
   "integrity" "sha1-zg6+ql94yxiSXqfYENe1mwEP1RU="
@@ -6438,16 +6438,16 @@
   "resolved" "https://registry.npmjs.org/pify/-/pify-4.0.1.tgz"
   "version" "4.0.1"
 
-"greenie-promise@^2.0.0":
+"pinkie-promise@^2.0.0":
   "integrity" "sha1-ITXW36ejWMBprJsXh3YogihFD/o="
-  "resolved" "https://registry.npmjs.org/greenie-promise/-/greenie-promise-2.0.1.tgz"
+  "resolved" "https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz"
   "version" "2.0.1"
   dependencies:
-    "greenie" "^2.0.0"
+    "pinkie" "^2.0.0"
 
-"greenie@^2.0.0":
+"pinkie@^2.0.0":
   "integrity" "sha1-clVrgM+g1IqXToDnckjoDtT3+HA="
-  "resolved" "https://registry.npmjs.org/greenie/-/greenie-2.0.4.tgz"
+  "resolved" "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz"
   "version" "2.0.4"
 
 "pkg-dir@^1.0.0":
