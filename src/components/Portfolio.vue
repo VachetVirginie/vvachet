@@ -6,7 +6,7 @@
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2">
-              <div class="px-4 flex items-center">
+              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
                 <img
                   alt="Ngtv Project"
                   class="rounded-lg lazyloaded"
@@ -15,7 +15,7 @@
               </div>
             </div>
             <div
-              class="w-full sm:w-1/2"
+              class="w-full sm:w-1/2 mt-2"
               data-aos="fade-left">
               <div class="px-4 py-24 sm:flex-col justify-between">
                 <h4 class="uppercase text-primary font-medium sm:font-semibold py-4">
@@ -55,8 +55,8 @@
         </div>
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/2">
-              <div class="px-4 mt-4 flex items-center">
+            <div class="w-full sm:w-1/2 mt-2">
+              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
                 <img
                   alt="Cegedim srh"
                   class="rounded-lg lazyloaded"
@@ -102,8 +102,8 @@
         </div>
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/2">
-              <div class="px-4 flex items-center">
+            <div class="w-full sm:w-1/2 mt-2">
+              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
                 <img
                   alt="Orange logo"
                   class="rounded-lg lazyloaded"

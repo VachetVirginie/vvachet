@@ -163,7 +163,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/symfony.svg"
@@ -174,7 +174,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/vuejs.svg"
@@ -185,7 +185,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/zend.svg"
@@ -196,7 +196,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/php.svg"
@@ -209,7 +209,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/nuxt.svg"
@@ -221,7 +221,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/docker.svg"
@@ -233,7 +233,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/javascript.svg"
@@ -245,7 +245,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/graphql.svg"
@@ -257,7 +257,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border-double border-4 border-primary rounded">
               <div>
                 <img
                   src="./../assets/github.svg"

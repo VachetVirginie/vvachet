@@ -3,7 +3,7 @@
   <div class="gradient min-h-screen flex items-center Home">
     <div class="container mx-auto p-4 flex flex-wrap items-center">
       <div
-        class="w-full md:w-5/12 text-center p-4 mr-12"
+        class="w-full md:w-5/12 text-center p-4 mr-12 w-56 cursor-pointer shadow-xl rounded-full bg-gradient-to-r from-pink to-primary"
         data-aos="fade-right">
         <img
           src="../assets/toto.svg"
