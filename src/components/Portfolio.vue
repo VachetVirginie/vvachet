@@ -6,7 +6,7 @@
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2">
-              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
+              <div class="items-center flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
                 <img
                   alt="Ngtv Project"
                   class="rounded-lg lazyloaded"
@@ -15,15 +15,15 @@
               </div>
             </div>
             <div
-              class="w-full sm:w-1/2 mt-2"
+              class="w-full sm:w-1/2 mt-2 ml-2"
               data-aos="fade-left">
               <div class="px-4 py-24 sm:flex-col justify-between">
                 <h4 class="uppercase text-primary font-medium sm:font-semibold py-4">
                   Ngtv Experience
-                </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold light-text-gray-700 py-4 slogan">
+                </h4> <h2 class="text-2xl sm:text-xl lg:text-3xl font-semibold light-text-gray-700 py-4 slogan">
                   La vidéo intelligente au service du sport
                 </h2>
-                <div class="flex flex-wrap items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
+                <div class="flex flex-wrap items-center justify-around leading-none mt-5 mb-5 p-2 md:p-2">
                   <MainChips msg="Symfony 4/5" />
                   <MainChips msg="Docker" />
                   <MainChips msg="ApiPlatform" />
@@ -33,12 +33,13 @@
                   <MainChips msg="Vuetify" />
                   <MainChips msg="Github" />
                 </div>
-                <p class="text-lg lg:text-xl light-text-gray-700 py-4 mb-4">
+                <p class="text-base lg:text-base light-text-gray-700 py-4 mb-2">
                   Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-pink font-bold">developpeur web front et back </span>.
-                </p> <p class="text-lg mb-4 lg:text-xl light-text-gray-700 py-4">
+                </p>
+                <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   NGTV est une société de services numériques. L'objectif ? Permettre aux sportifs amateurs de profiter de technologies de pointe pour améliorer leur pratique ou simplement profiter de l'expérience communautaire la plus innovante en Europe!
                 </p>
-                <p class="text-lg mb-12 lg:text-xl light-text-gray-700 py-4">
+                <p class="text-base mb-4 lg:text-base light-text-gray-700 py-4">
                   Mes missions principales sont: <br>
                   - participer au développement d'interfaces tactiles développés en nuxt/vueJs,<br>
                   - participer au développement Api en symfony 4/5 utilisant Api platform,<br>
@@ -48,7 +49,7 @@
                 </p>
                 <a
                   href="https://www.ngtvexperience.com/"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-gray-700">Site</a>
               </div>
             </div>
           </div>
@@ -65,7 +66,7 @@
               </div>
             </div>
             <div
-              class="w-full sm:w-1/2"
+              class="w-full sm:w-1/2 ml-2"
               data-aos="fade-left">
               <div class="px-4 py-24 sm:flex-col justify-between">
                 <h4 class="uppercase text-primary font-medium sm:font-semibold py-4">
@@ -73,17 +74,18 @@
                 </h4> <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold light-text-gray-700 py-4 slogan">
                   Un spécialiste des solutions et services RH
                 </h2>
-                <div class="flex flex-wrap items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
+                <div class="flex flex-wrap items-center justify-around leading-none mt-5 mb-5 p-2 md:p-4">
                   <MainChips msg="Javascript" />
                   <MainChips msg="TEAMSRH" />
                   <MainChips msg="Jira" />
                 </div>
-                <p class="text-lg lg:text-xl light-text-gray-700 py-4 mb-4">
+                <p class="text-base lg:text-base light-text-gray-700 py-4 mb-2">
                   J'ai travaillé chez Cegedim de Decembre 2018 à Octobre 2019 en tant que <span class="text-pink font-bold">developpeur javascript</span>.
-                </p> <p class="text-lg mb-4 lg:text-xl light-text-gray-700 py-4">
+                </p>
+                <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   Cegedim SRH s'appuie sur sa propre solution TEAMSRH pour offrir à ses clients des prestations d'externalisation adaptées et évolutives de leurs systèmes d'information paie et RH.
                 </p>
-                <p class="text-lg mb-12 lg:text-xl light-text-gray-700 py-4">
+                <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   Mes missions principales étaient: <br>
                   - Participer à l’élaboration de l’analyse fonctionnelle et technique chez le client, <br>
                   - Valider une solution technique à partir de l’analyse fonctionnelle,<br>
@@ -95,14 +97,14 @@
                 </p>
                 <a
                   href="https://www.cegedim-srh.com/Pages/Accueil.aspx"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-gray-700">Site</a>
               </div>
             </div>
           </div>
         </div>
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/2 mt-2">
+            <div class="w-full sm:w-1/2 mt-2 mb-2">
               <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
                 <img
                   alt="Orange logo"
@@ -112,7 +114,7 @@
               </div>
             </div>
             <div
-              class="w-full sm:w-1/2"
+              class="w-full sm:w-1/2 ml-2"
               data-aos="fade-left">
               <div class="px-4 py-24 sm:flex-col justify-between">
                 <h4 class="uppercase text-primary font-medium sm:font-semibold py-4">
@@ -121,22 +123,23 @@
                 <h2 class="text-2xl sm:text-xl lg:text-5xl font-semibold light-text-gray-700 py-4 slogan">
                   La vie change avec Orange
                 </h2>
-                <div class="flex flex-wrap items-center justify-around leading-none mt-10 mb-10 p-2 md:p-4">
+                <div class="flex flex-wrap items-center justify-around leading-none mt-5 mb-5 p-2 md:p-4">
                   <MainChips msg="Php" />
                   <MainChips msg="Jquery" />
                   <MainChips msg="Zend 1" />
                   <MainChips msg="Tortoise SVN" />
                 </div>
-                <p class="text-lg lg:text-xl light-text-gray-700 py-4 mb-4">
+                <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="text-pink font-bold">alternante en backend</span> au sein de la DSI.
-                </p> <p class="text-lg mb-12 lg:text-xl light-text-gray-700 py-4">
+                </p>
+                <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   Mes missions principales étaient: <br>
                   – Comprendre les besoins métiers et les reformuler par des solutions techniques, <br>
                   – Concevoir et développer les fonctionnalités.
                 </p>
                 <a
                   href="https://www.orange.com/fr"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-gray-700">Site</a>
               </div>
             </div>
           </div>
