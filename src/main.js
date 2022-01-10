@@ -8,6 +8,6 @@ import App from "./App.vue";
 // Import our own SCSS file which includes importing Tailwind
 import "./assets/css/app.scss";
 
-import "./assets/tailwind.css";
+// import "./assets/tailwind.css";
 
 createApp(App).mount("#app");
