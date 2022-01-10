@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex items-center no-underline hover:underline text-black">
+    <div class="flex items-center no-underline hover:underline text-white">
       <div class="flex justify-center items-center m-1 px-3 py-2 border border-primary rounded-full bg-primary text-base text-gray font-medium">
         <div class="flex-initial max-w-full leading-none text-xs font-normal">{{ msg }}</div>
       </div>
