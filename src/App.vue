@@ -4,14 +4,18 @@
       <div class="text-lg dark:text-white">Dark Mode Switch</div>
       <div>
         <button
-          class="focus:outline-none w-5 h-5 bg-gray-200 rounded-full mr-2"
-          @click.prevent="selectTheme('light')" />
+          class="focus:outline-none w-6 h-6 bg-yellow-200 rounded-full mr-2"
+          @click.prevent="selectTheme('light')">
+          ☀️
+        </button>
         <button
-          class="focus:outline-none w-5 h-5 bg-black rounded-full"
-          @click.prevent="selectTheme('dark')" />
+          class="focus:outline-none w-6 h-6 bg-tellow rounded-full"
+          @click.prevent="selectTheme('dark')">
+          🌑
+        </button>
       </div>
     </div>
-    <Home/>
+    <Home />
     <About />
     <Portfolio />
     <MainFooter />
