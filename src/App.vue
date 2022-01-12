@@ -11,7 +11,7 @@
           @click.prevent="selectTheme('dark')" />
       </div>
     </div>
-    <Home />
+    <Home/>
     <About />
     <Portfolio />
     <MainFooter />

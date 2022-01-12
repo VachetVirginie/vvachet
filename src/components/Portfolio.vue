@@ -60,7 +60,7 @@
               <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
                 <img
                   alt="Cegedim srh"
-                  class="rounded-lg lazyloaded"
+                  class="rounded-lg lazyloaded skew-y-6"
                   data-aos="fade-right"
                   src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
               </div>
@@ -108,7 +108,7 @@
               <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
                 <img
                   alt="Orange logo"
-                  class="rounded-lg lazyloaded"
+                  class="rounded-lg lazyloaded skew-y-6"
                   data-aos="fade-right"
                   src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
               </div>

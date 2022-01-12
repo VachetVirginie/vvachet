@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 about">
+  <div class="mt-16 about">
     <div class="text-4xl text-center font-medium bold title">Mon <span class="text-primary">Parcours</span>:</div>
     <section class="max-w-5xl mx-2 md:mx-auto py-10">
       <div>
