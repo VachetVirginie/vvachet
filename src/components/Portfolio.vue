@@ -6,13 +6,11 @@
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2">
-              <div class="items-center flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-secondary to-primary shadow-lg">
-                <img
-                  alt="Ngtv Project"
-                  class="rounded-lg lazyloaded skew-y-6"
-                  data-aos="fade-right"
-                  src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
-              </div>
+              <img
+                alt="Ngtv Project"
+                class="rounded-lg lazyloaded skew-y-6"
+                data-aos="fade-right"
+                src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
             </div>
             <div
               class="w-full sm:w-1/2 mt-2 ml-2"
@@ -57,13 +55,11 @@
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2 mt-2">
-              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-secondary to-primary shadow-lg">
-                <img
-                  alt="Cegedim srh"
-                  class="rounded-lg lazyloaded skew-y-6"
-                  data-aos="fade-right"
-                  src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
-              </div>
+              <img
+                alt="Cegedim srh"
+                class="rounded-lg lazyloaded skew-y-6"
+                data-aos="fade-right"
+                src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
             </div>
             <div
               class="w-full sm:w-1/2 ml-2"
@@ -105,13 +101,11 @@
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2 mt-2 mb-2">
-              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-secondary to-primary shadow-lg">
-                <img
-                  alt="Orange logo"
-                  class="rounded-lg lazyloaded skew-y-6"
-                  data-aos="fade-right"
-                  src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
-              </div>
+              <img
+                alt="Orange logo"
+                class="rounded-lg lazyloaded skew-y-6"
+                data-aos="fade-right"
+                src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
             </div>
             <div
               class="w-full sm:w-1/2 ml-2"
@@ -155,7 +149,7 @@ import MainChips from "./MainChips.vue";
 export default {
     name: "Portfolio",
     components: {
-        MainChips
+        MainChips,
     },
     props: {
         msg:{
