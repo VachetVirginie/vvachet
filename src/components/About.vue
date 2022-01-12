@@ -6,10 +6,10 @@
         <div class="flex flex-row">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 bg-primary border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl font-black light-text-gray-700">Step 1</div>
-              <div class="light-text-gray-700 text-sm">Les Bases</div>
+              <div class="text-3xl font-black text-white">Step 1</div>
+              <div class="text-white text-sm">Les Bases</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
               <div class="border-l-4 mr-4 h-full border-primary border-dashed" />
@@ -45,10 +45,10 @@
         <div class="flex flex-row-reverse">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 border bg-primary border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl font-black light-text-gray-700">Step 2</div>
-              <div class="light-text-gray-700 text-sm text-center">Alternance <br> Php</div>
+              <div class="text-3xl text-white light-text-gray-700">Step 2</div>
+              <div class="text-white text-sm text-center">Alternance <br> Php</div>
             </div>
             <div class="h-full border-r-4 border-transparent">
               <div class="border-l-4 ml-4 h-full border-primary border-dashed" />
@@ -84,10 +84,10 @@
         <div class="flex flex-row">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 bg-primary border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl font-black light-text-gray-700">Step 3</div>
-              <div class="light-text-gray-700 text-sm text-center"> CDI <br> Javascript</div>
+              <div class="text-3xl text-white light-text-gray-700">Step 3</div>
+              <div class="text-white text-sm text-center"> CDI <br> Javascript</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
               <div class="border-l-4 mr-4 h-full border-primary border-dashed" />
@@ -125,10 +125,10 @@
         <div class="flex flex-row-reverse">
           <div class="hidden md:flex flex-col items-center">
             <div
-              class="w-32 py-5 border border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
+              class="w-32 py-5 bg-primary border border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl font-black light-text-gray-700">Step 4</div>
-              <div class="light-text-gray-700 text-sm text-center"> CDI <br> Php <br>Javascript</div>
+              <div class="text-3xl text-white">Step 4</div>
+              <div class="text-white text-sm text-center"> CDI <br> Php <br>Javascript</div>
             </div>
           </div>
           <div
