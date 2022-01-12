@@ -28,7 +28,7 @@
           <img
             class="w-full rounded-full"
             alt="Me"
-            src="../assets/toto.svg"
+            src="./../assets/toto.svg"
             loading="lazy"
             data-v-5e096964="">
         </div>
@@ -40,7 +40,7 @@
             title="ApiPlatform"
             data-v-5e096964="">
             <img
-              src="../assets/technologies/webby.svg"
+              src="./../assets/technologies/webby.svg"
               alt="vue logo"
               loading="lazy"
               data-v-5e096964="">
@@ -50,7 +50,7 @@
             title="NuxtJs"
             data-v-5e096964="">
             <img
-              src="../assets/technologies/nuxt.svg"
+              src="./../assets/technologies/nuxt.svg"
               alt="figma logo"
               loading="lazy"
               data-v-5e096964="">
@@ -60,7 +60,7 @@
             title="Symfony"
             data-v-5e096964="">
             <img
-              src="../assets/technologies/symfony.svg"
+              src="./../assets/technologies/symfony.svg"
               alt="react logo"
               loading="lazy"
               data-v-5e096964="">
@@ -70,7 +70,7 @@
             title="Vuejs"
             data-v-5e096964="">
             <img
-              src="../assets/technologies/vue.svg"
+              src="./../assets/technologies/vue.svg"
               alt="sketch logo"
               loading="lazy"
               data-v-5e096964="">
@@ -80,7 +80,7 @@
             title="Sass"
             data-v-5e096964="">
             <img
-              src="../assets/technologies/sass.svg"
+              src="./../assets/technologies/sass.svg"
               alt="sass logo"
               loading="lazy"
               data-v-5e096964="">
@@ -90,7 +90,7 @@
             title="Tailwind"
             data-v-5e096964="">
             <img
-              src="../assets/technologies/tailwind.svg"
+              src="./../assets/technologies/tailwind.svg"
               alt="tailwind logo"
               loading="lazy"
               data-v-5e096964="">
