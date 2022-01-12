@@ -22,7 +22,7 @@
               <div class="flex-auto">
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 1</span> - Formation</div>
                 <div class="p-3 text-3xl light-text-gray-700 font">Simplon</div>
-                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="text-pink font-bold">developpeur web et mobile fullStack</span>.</div>
+                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="underline-effect font-bold">developpeur web et mobile fullStack</span>.</div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
@@ -61,7 +61,7 @@
               <div class="flex-auto">
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 2</span> - Alternance</div>
                 <div class="p-3 text-3xl light-text-gray-700 font">Developpeur Back End</div>
-                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="text-pink font-bold">titre Pro de Developpeur fullStack</span>.  </div>
+                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="leading-relaxed mt-5 underline-effect font-bold">titre Pro de Developpeur fullStack</span>.  </div>
               </div>
               <div class="md:w-96 w-full p-5">
                 <img
@@ -139,7 +139,7 @@
                 <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 4</span> - CDI</div>
                 <div class="p-3 text-3xl light-text-gray-700 font">Ngtv Experience</div>
                 <div class="px-3 pb-6">
-                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-pink font-bold">developpeur web front et back </span>.
+                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="underline-effect font-bold">developpeur web front et back </span>.
                 </div>
               </div>
               <div class="md:w-96 w-full p-5">
@@ -163,7 +163,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
                   src="./../assets/symfony.svg"
@@ -174,7 +174,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
                   src="./../assets/vuejs.svg"
@@ -185,18 +185,18 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
-                  src="./../assets/zend.svg"
-                  alt="zend"
+                  src="./../assets/technologies/apiPlatform.svg"
+                  alt="API Platform"
                   class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="text-xl">Zend Framework </h5></div>
+              </div><div><h5 class="text-xl">API Platform </h5></div>
             </div>
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
                   src="./../assets/php.svg"
@@ -209,7 +209,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
                   src="./../assets/nuxt.svg"
@@ -221,7 +221,7 @@
           </div><div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
                   src="./../assets/docker.svg"
@@ -233,7 +233,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
                   src="./../assets/javascript.svg"
@@ -245,7 +245,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
                   src="./../assets/graphql.svg"
@@ -257,7 +257,7 @@
           <div
             class="flex-1 flex flex-col sal-animate"
             data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4 border border-4 border-primary rounded">
+            <div class="flex-1 flex flex-col justify-between p-4 border border-2 border-secondary rounded">
               <div>
                 <img
                   src="./../assets/github.svg"

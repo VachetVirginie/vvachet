@@ -7,7 +7,7 @@
           <h1
             data-aos="fade-right"
             class="text-primary text-2xl lg:text-3xl xl:text-4xl font-bold title-min">
-            Hola 👋,
+            Hola <span class="animate-wiggle inline-block pr-4">👋</span>
           </h1>
           <h1
             data-aos="fade-right"
@@ -17,7 +17,7 @@
           <p
             data-aos="fade-right"
             class="xl:w-3/4 2xl:text-xl leading-relaxed mt-5">
-            Developpeuse web <span class="text-primary">Front</span> et <span class="text-primary">Back</span> end, vivant à Lyon
+            Developpeuse web <span class="underline-effect">Front</span> et <span class="underline-effect">Back</span> end, vivant à Lyon
           </p>
         </div>
       </div>

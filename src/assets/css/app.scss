@@ -7,6 +7,21 @@
 // or use this file to create Tailwind components using the
 // @apply directive */
 @layer components {
+  .underline-effect {
+    @apply z-10 rounded-md relative px-1  after:bg-purple-800 dark:after:bg-purple-800 
+    after:bg-opacity-20 after:transition-all after:top-4 
+    after:absolute after:-left-px after:-right-px after:bottom-0 
+    after:-z-10
+    after:rounded-sm 
+    hover:after:top-0 hover:after:bg-purple-800 dark:hover:after:bg-purple-800
+    hover:after:bg-opacity-60 
+    hover:after:rounded-md hover:after:shadow-lg 
+    text-gray-900 dark:text-gray-100 whitespace-nowrap;
+}
+  .effect:hover {
+    background-position-y: 100%;
+  
+  }
   .btn-green {
     @apply p-2 border text-white bg-green-500;
   };

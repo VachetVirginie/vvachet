@@ -6,7 +6,7 @@
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2">
-              <div class="items-center flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
+              <div class="items-center flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-secondary to-primary shadow-lg">
                 <img
                   alt="Ngtv Project"
                   class="rounded-lg lazyloaded skew-y-6"
@@ -34,7 +34,7 @@
                   <MainChips msg="Github" />
                 </div>
                 <p class="text-base lg:text-base light-text-gray-700 py-4 mb-2">
-                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="text-pink font-bold">developpeur web front et back </span>.
+                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="underline-effect font-bold">developpeur web front et back </span>.
                 </p>
                 <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   NGTV est une société de services numériques. L'objectif ? Permettre aux sportifs amateurs de profiter de technologies de pointe pour améliorer leur pratique ou simplement profiter de l'expérience communautaire la plus innovante en Europe!
@@ -57,7 +57,7 @@
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2 mt-2">
-              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
+              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-secondary to-primary shadow-lg">
                 <img
                   alt="Cegedim srh"
                   class="rounded-lg lazyloaded skew-y-6"
@@ -80,7 +80,7 @@
                   <MainChips msg="Jira" />
                 </div>
                 <p class="text-base lg:text-base light-text-gray-700 py-4 mb-2">
-                  J'ai travaillé chez Cegedim de Decembre 2018 à Octobre 2019 en tant que <span class="text-pink font-bold">developpeur javascript</span>.
+                  J'ai travaillé chez Cegedim de Decembre 2018 à Octobre 2019 en tant que <span class="underline-effect font-bold">developpeur javascript</span>.
                 </p>
                 <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   Cegedim SRH s'appuie sur sa propre solution TEAMSRH pour offrir à ses clients des prestations d'externalisation adaptées et évolutives de leurs systèmes d'information paie et RH.
@@ -105,7 +105,7 @@
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
             <div class="w-full sm:w-1/2 mt-2 mb-2">
-              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-pink to-primary shadow-lg">
+              <div class="px- items-center4 flex relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12 bg-gradient-to-r from-secondary to-primary shadow-lg">
                 <img
                   alt="Orange logo"
                   class="rounded-lg lazyloaded skew-y-6"
@@ -130,7 +130,7 @@
                   <MainChips msg="Tortoise SVN" />
                 </div>
                 <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
-                  J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="text-pink font-bold">alternante en backend</span> au sein de la DSI.
+                  J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="underline-effect font-bold">alternante en backend</span> au sein de la DSI.
                 </p>
                 <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   Mes missions principales étaient: <br>
