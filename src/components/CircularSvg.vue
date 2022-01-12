@@ -41,7 +41,7 @@ export default {
 
 <style>
 .circle-text {
-	font-size: 24px;
+	font-size: 35px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 5px;
