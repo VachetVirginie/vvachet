@@ -46,6 +46,6 @@ export default {
 
 <style>
 .bg-hero {
-        background-image: url("~@/assets/rc.svg");
+        background-image: url("./../assets/rc.svg");
     }
 </style>

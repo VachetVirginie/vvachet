@@ -41,7 +41,7 @@
             data-v-5e096964="">
             <img
               src="./../assets/technologies/webby.svg"
-              alt="vue logo"
+              alt="api platform logo"
               loading="lazy"
               data-v-5e096964="">
           </li>
@@ -51,7 +51,7 @@
             data-v-5e096964="">
             <img
               src="./../assets/technologies/nuxt.svg"
-              alt="figma logo"
+              alt="nuxt logo"
               loading="lazy"
               data-v-5e096964="">
           </li>
@@ -61,7 +61,7 @@
             data-v-5e096964="">
             <img
               src="./../assets/technologies/symfony.svg"
-              alt="react logo"
+              alt="symfony logo"
               loading="lazy"
               data-v-5e096964="">
           </li>
@@ -71,17 +71,17 @@
             data-v-5e096964="">
             <img
               src="./../assets/technologies/vue.svg"
-              alt="sketch logo"
+              alt="vue logo"
               loading="lazy"
               data-v-5e096964="">
           </li>
           <li
             class="skill flex items-center justify-center absolute bg-white bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur rounded-full shadow-2xl"
-            title="Sass"
+            title="Docker"
             data-v-5e096964="">
             <img
-              src="./../assets/technologies/sass.svg"
-              alt="sass logo"
+              src="./../assets/docker.svg"
+              alt="docker logo"
               loading="lazy"
               data-v-5e096964="">
           </li>
