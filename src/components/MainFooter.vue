@@ -1,5 +1,6 @@
 <template>
-  <div class="w-full border border-true-gray-300 dark:border-true-gray-900">
+  <div
+    class="w-full bg-hero">
     <div class="flex justify-center py-2 align-center">
       <a
         href="https://www.linkedin.com/in/vachetvirginie/"
@@ -43,6 +44,8 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
+.bg-hero {
+        background-image: url("~@/assets/rc.svg");
+    }
 </style>

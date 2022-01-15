@@ -28,7 +28,7 @@ module.exports = {
             animation: {
                 "wiggle": "wiggle 1s ease-in-out infinite",
                 "spin-vinyl": "spin 2s linear infinite",
-            }
+            },
         },
     },
     variants: {
