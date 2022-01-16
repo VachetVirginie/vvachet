@@ -149,7 +149,6 @@
 <script>
 import CircularSvg from "./CircularSvg.vue";
 import MainChips from "./MainChips.vue";
-
 export default {
     name: "Portfolio",
     components: {
