@@ -1,6 +1,6 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 <template>
-  <main class="container mx-auto px-10">
+  <main class="container mx-auto px-10 bg-fond">
     <section class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 lg:gap-20 items-center pt-24 xl:pt-44 2xl:pt-56 pb-24">
       <div class="order-1 md:order-1 md:mt-0">
         <div class="relative">

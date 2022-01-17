@@ -1,5 +1,5 @@
 <template>
-  <section class="grid grid-cols-3 pb-12">
+  <section class="grid grid-cols-3 p-12 bg-fond">
     <div
       v-for="item in items"
       :key="item.message">
@@ -58,3 +58,15 @@ export default {
     }
 };
 </script>
+
+<style>
+.bg-fond {
+        background: center  no-repeat url("./../assets/backgrounds/background-dots.svg");
+    }
+@media (max-width: 390px) {
+.bg-fond {
+        background: center url("./../assets/backgrounds/background-dots.svg");
+        background-repeat: space;
+    }
+}
+</style>

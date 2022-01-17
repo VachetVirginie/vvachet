@@ -33,7 +33,7 @@
           href="https://vuejs.org/"
           target="_blank"
           class="font-semi-bold text-primary">Vuejs 3</a> &amp;
-        <a class="font-semi-bold text-primary">Passion</a></span>
+        <span class="font-semi-bold text-primary">Passion</span></span>
     </div>
   </div>
 </template>
@@ -46,6 +46,6 @@ export default {
 
 <style>
 .bg-hero {
-        background-image: url("./../assets/rc.svg");
+        background: center / cover no-repeat url("./../assets/backgrounds/patterntop.svg");
     }
 </style>
