@@ -20,8 +20,8 @@
             data-aos="fade-left">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 1</span> - Formation</div>
-                <div class="p-3 text-3xl light-text-gray-700 font">Simplon</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3"><span class="font-black">Step 1</span> - Formation</div>
+                <div class="p-3 text-3xl font">Simplon</div>
                 <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="underline-effect font-bold">developpeur web et mobile fullStack</span>.</div>
               </div>
               <div class="md:w-96 w-full p-5">
@@ -47,7 +47,7 @@
             <div
               class="w-32 py-5 border bg-primary border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl text-white light-text-gray-700">Step 2</div>
+              <div class="text-3xl text-white">Step 2</div>
               <div class="text-white text-sm text-center">Alternance <br> Php</div>
             </div>
             <div class="h-full border-r-4 border-transparent">
@@ -59,8 +59,8 @@
             data-aos="fade-right">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 2</span> - Alternance</div>
-                <div class="p-3 text-3xl light-text-gray-700 font">Developpeur Back End</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3"><span class="font-black">Step 2</span> - Alternance</div>
+                <div class="p-3 text-3xl font">Developpeur Back End</div>
                 <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="leading-relaxed mt-5 underline-effect font-bold">titre Pro de Developpeur fullStack</span>.  </div>
               </div>
               <div class="md:w-96 w-full p-5">
@@ -86,7 +86,7 @@
             <div
               class="w-32 py-5 bg-primary border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
               data-aos="zoom-in">
-              <div class="text-3xl text-white light-text-gray-700">Step 3</div>
+              <div class="text-3xl text-white">Step 3</div>
               <div class="text-white text-sm text-center"> CDI <br> Javascript</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
@@ -98,8 +98,8 @@
             data-aos="fade-left">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 3</span> - CDI</div>
-                <div class="p-3 text-3xl light-text-gray-700 font">Cegedim</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3"><span class="font-black">Step 3</span> - CDI</div>
+                <div class="p-3 text-3xl font">Cegedim</div>
                 <div class="px-3 pb-6">
                   J'ai intégré l'équipe de développeur dédiée au logiciel SRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production.
                 </div>
@@ -136,8 +136,8 @@
             data-aos="fade-right">
             <div class="flex md:flex-row flex-col items-center">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 light-text-gray-700"><span class="font-black">Step 4</span> - CDI</div>
-                <div class="p-3 text-3xl light-text-gray-700 font">Ngtv Experience</div>
+                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3"><span class="font-black">Step 4</span> - CDI</div>
+                <div class="p-3 text-3xl font">Ngtv Experience</div>
                 <div class="px-3 pb-6">
                   Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="underline-effect font-bold">developpeur web front et back </span>.
                 </div>
