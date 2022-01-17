@@ -160,114 +160,7 @@
           data-aos="fade-up">
           Skills <span class="text-primary">professionnels</span>
         </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8 m-2">
-          <div
-            class="flex-1 flex flex-col sal-animate rounded-lg"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/symfony.svg"
-                  alt="symfony"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="text-xl">Symfony</h5></div>
-            </div>
-          </div><div
-            class="flex-1 flex flex-col sal-animate"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/vuejs.svg"
-                  alt="vuejs"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="text-xl">Vue</h5></div>
-            </div>
-          </div><div
-            class="flex-1 flex flex-col sal-animate"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/technologies/apiPlatform.svg"
-                  alt="API Platform"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="text-xl">API Platform </h5></div>
-            </div>
-          </div><div
-            class="flex-1 flex flex-col sal-animate"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/php.svg"
-                  alt="php"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div>
-              <div><h5 class="text-xl">PHP</h5></div>
-            </div>
-          </div>
-          <div
-            class="flex-1 flex flex-col sal-animate"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/nuxt.svg"
-                  alt="nuxt"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div>
-              <div><h5 class="text-xl">Nuxt.js</h5></div>
-            </div>
-          </div><div
-            class="flex-1 flex flex-col sal-animate"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/docker.svg"
-                  alt="docker"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="text-xl">Docker</h5></div>
-            </div>
-          </div>
-          <div
-            class="flex-1 flex flex-col sal-animate"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/javascript.svg"
-                  alt="docker"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="text-xl">Javascript</h5></div>
-            </div>
-          </div>
-          <div
-            class="flex-1 flex flex-col sal-animate"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/graphql.svg"
-                  alt="docker"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="text-xl">GraphQl</h5></div>
-            </div>
-          </div>
-          <div
-            class="flex-1 flex flex-col sal-animate"
-            data-aos="fade-up">
-            <div class="flex-1 flex flex-col justify-between p-4">
-              <div>
-                <img
-                  src="./../assets/github.svg"
-                  alt="docker"
-                  class="h-20 color-bg-gray-700 inline-block">
-              </div><div><h5 class="text-xl">Github</h5></div>
-            </div>
-          </div>
-        </div>
+        <professional-skills />
       </div>
     </div>
   </div>
@@ -276,8 +169,10 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ProfessionalSkills from "./ProfessionalSkills.vue";
 export default {
     name: "About",
+    components: { ProfessionalSkills },
     created () {
         this.aos = AOS;
         this.aos.init({
