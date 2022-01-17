@@ -1,6 +1,9 @@
 <template>
   <div class="mt-16 about">
-    <div class="text-4xl text-center font-medium bold title">Mon <span class="text-primary">Parcours</span></div>
+    <Title
+      class="mb-12"
+      firstText="Mon"
+      secondText="Parcours" />
     <section class="max-w-5xl mx-2 md:mx-auto py-10">
       <div>
         <div class="flex flex-row">
@@ -155,12 +158,13 @@
     </section>
     <div class="container mx-auto mt-16 skills">
       <div class="text-center mt-16 left-20">
-        <h2
-          class="text-6xl mt-24 mb-20 text-center font-medium bold title"
-          data-aos="fade-up">
-          Skills <span class="text-primary">professionnels</span>
-        </h2>
-        <professional-skills />
+        <div class="mt-16 about">
+          <Title
+            class="mb-12"
+            firstText="Skills"
+            secondText="Professionnels" />
+          <professional-skills />
+        </div>
       </div>
     </div>
   </div>
@@ -170,9 +174,13 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProfessionalSkills from "./ProfessionalSkills.vue";
+import Title from "./Title.vue";
 export default {
     name: "About",
-    components: { ProfessionalSkills },
+    components: {
+        ProfessionalSkills,
+        Title
+    },
     created () {
         this.aos = AOS;
         this.aos.init({
