@@ -11,7 +11,7 @@
       <div class="divide-y divide-primary">
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/2">
+            <div class="w-full sm:w-1/3">
               <img
                 alt="Ngtv Project"
                 class="rounded-lg lazyloaded skew-y-6"
@@ -60,7 +60,7 @@
         </div>
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/2 mt-2">
+            <div class="w-full sm:w-1/3 mt-2">
               <img
                 alt="Cegedim srh"
                 class="rounded-lg lazyloaded skew-y-6"
@@ -106,7 +106,7 @@
         </div>
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/2 mt-2 mb-2">
+            <div class="w-full sm:w-1/3 mt-2 mb-2">
               <img
                 alt="Orange logo"
                 class="rounded-lg lazyloaded skew-y-6"

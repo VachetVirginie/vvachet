@@ -1,5 +1,5 @@
 <template>
-  <section class="grid grid-cols-3 p-12 bg-fond">
+  <section class="grid grid-cols-3 p-12">
     <div
       v-for="item in items"
       :key="item.message">

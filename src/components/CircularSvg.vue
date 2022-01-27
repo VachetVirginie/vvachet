@@ -55,7 +55,7 @@ export default {
 
 .absolute-center {
 	position: absolute;
-	left: 22%;
+	left: 33%;
 	transform: translate(-40%, -40%);
 	bottom: 0%;
 }
@@ -65,7 +65,7 @@ export default {
 	position: absolute;
 	left: 13%;
 	transform: translate(-40%, -40%);
-	padding-bottom: 18%;
+	padding-bottom: 8%;
 }
 .circle-svg {
 	width: 140px;

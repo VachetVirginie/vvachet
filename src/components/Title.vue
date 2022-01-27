@@ -1,5 +1,7 @@
 <template>
-  <div class="text-4xl text-center font-medium bold title"> {{ firstText }} <span class="text-primary">{{ secondText }}</span></div>
+  <section>
+    <div class="text-4xl mb-4 text-center font-medium bold title"> {{ firstText }} <span class="text-primary">{{ secondText }}</span></div>
+  </section>
 </template>
 
 <script>

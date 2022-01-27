@@ -9,8 +9,9 @@ module.exports = {
         extend: {
             colors: {
                 primary: "#A855F7",
-                secondary: "#C084FC",
-                yellow:"#ffec47"
+                secondary: "#E92D8B",
+                yellow_primary: "#FCD61D",
+                yellow_secondary: "#D3A400"
             },
             zIndex: {
                 "-10": "-10",
@@ -34,5 +35,6 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [],
+    content: ["./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js"],
+    plugins: [require("tw-elements/dist/plugin")],
 };

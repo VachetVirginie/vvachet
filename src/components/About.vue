@@ -179,7 +179,7 @@ export default {
     name: "About",
     components: {
         ProfessionalSkills,
-        Title
+        Title,
     },
     created () {
         this.aos = AOS;
