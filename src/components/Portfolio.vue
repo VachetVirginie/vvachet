@@ -28,14 +28,22 @@
                   La vidéo intelligente au service du sport
                 </h2>
                 <div class="flex flex-wrap items-center justify-around leading-none mt-5 mb-5 p-2 md:p-2">
-                  <MainChips msg="Symfony 4/5" />
-                  <MainChips msg="Docker" />
-                  <MainChips msg="ApiPlatform" />
-                  <MainChips msg="Mysql" />
-                  <MainChips msg="Vue" />
-                  <MainChips msg="Nuxt" />
-                  <MainChips msg="Vuetify" />
-                  <MainChips msg="Github" />
+                  <MainChips
+                    msg="Symfony 4/5" />
+                  <MainChips
+                    msg="Docker" />
+                  <MainChips
+                    msg="ApiPlatform" />
+                  <MainChips
+                    msg="Mysql" />
+                  <MainChips
+                    msg="Vue" />
+                  <MainChips
+                    msg="Nuxt" />
+                  <MainChips
+                    msg="Vuetify" />
+                  <MainChips
+                    msg="Github" />
                 </div>
                 <p class="text-base lg:text-base light-text-gray-700 py-4 mb-2">
                   Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="underline-effect font-bold">developpeur web front et back </span>.
@@ -77,9 +85,12 @@
                   Un spécialiste des solutions et services RH
                 </h2>
                 <div class="flex flex-wrap items-center justify-around leading-none mt-5 mb-5 p-2 md:p-4">
-                  <MainChips msg="Javascript" />
-                  <MainChips msg="TEAMSRH" />
-                  <MainChips msg="Jira" />
+                  <MainChips
+                    msg="Javascript" />
+                  <MainChips
+                    msg="TEAMSRH" />
+                  <MainChips
+                    msg="Jira" />
                 </div>
                 <p class="text-base lg:text-base light-text-gray-700 py-4 mb-2">
                   J'ai travaillé chez Cegedim de Decembre 2018 à Octobre 2019 en tant que <span class="underline-effect font-bold">developpeur javascript</span>.
@@ -124,10 +135,14 @@
                   La vie change avec Orange
                 </h2>
                 <div class="flex flex-wrap items-center justify-around leading-none mt-5 mb-5 p-2 md:p-4">
-                  <MainChips msg="Php" />
-                  <MainChips msg="Jquery" />
-                  <MainChips msg="Zend 1" />
-                  <MainChips msg="Tortoise SVN" />
+                  <MainChips
+                    msg="Php" />
+                  <MainChips
+                    msg="Jquery" />
+                  <MainChips
+                    msg="Zend 1" />
+                  <MainChips
+                    msg="Tortoise SVN" />
                 </div>
                 <p class="text-base mb-2 lg:text-base light-text-gray-700 py-4">
                   J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant que <span class="underline-effect font-bold">alternante en backend</span> au sein de la DSI.

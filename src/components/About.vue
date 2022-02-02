@@ -163,7 +163,7 @@
             class="mb-12"
             firstText="Skills"
             secondText="Professionnels" />
-          <professional-skills />
+          <ProfessionalSkills />
         </div>
       </div>
     </div>
@@ -181,10 +181,10 @@ export default {
         ProfessionalSkills,
         Title,
     },
-    created () {
+    Personnalted () {
         this.aos = AOS;
         this.aos.init({
-            duration: 2000,
+            duration: 1000,
         });
     },
 };
