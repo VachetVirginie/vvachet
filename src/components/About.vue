@@ -1,7 +1,7 @@
 <template>
   <div class="mt-16 about">
     <Title
-      class="mb-12"
+      class="mb-16"
       firstText="Mon"
       secondText="Parcours" />
     <section class="max-w-5xl mx-2 md:mx-auto py-10">
@@ -161,8 +161,8 @@
         <div class="mt-16 about">
           <Title
             class="mb-12"
-            firstText="Skills"
-            secondText="Professionnels" />
+            firstText="Hard"
+            secondText="Skills" />
           <ProfessionalSkills />
         </div>
       </div>

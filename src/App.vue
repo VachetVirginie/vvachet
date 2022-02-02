@@ -15,6 +15,7 @@
         </button>
       </div>
     </div>
+    <Pointer />
     <Home />
     <About />
     <Portfolio />
@@ -23,6 +24,7 @@
 </template>
 
 <script>
+import Pointer from "./components/Pointer.vue";
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
 import Portfolio from "./components/Portfolio.vue";
@@ -36,6 +38,7 @@ import MainFooter from "./components/MainFooter.vue";
 export default {
     name: "App",
     components: {
+        Pointer,
         Home,
         About,
         Portfolio,

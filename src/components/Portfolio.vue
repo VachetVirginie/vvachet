@@ -5,18 +5,22 @@
       firstText="Projets"
       secondText="Professionnels" />
     <div>
-      <circular-svg />
+      <!-- <circular-svg /> -->
     </div>
     <section id="features">
       <div class="divide-y divide-primary">
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/3">
+            <div class="p-4 xl:w-1/2 md:w-1/2 w-full">
               <img
                 alt="Ngtv Project"
                 class="rounded-lg lazyloaded skew-y-6"
                 data-aos="fade-right"
                 src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
+              <img
+                src="./../assets/backgrounds/dots.svg"
+                alt="White dots in a horizontal grid."
+                class="-ml-10 -mt-10">
             </div>
             <div
               class="w-full sm:w-1/2 mt-2 ml-2"
@@ -68,12 +72,16 @@
         </div>
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/3 mt-2">
+            <div class="p-4 xl:w-1/2 md:w-1/2 w-full">
               <img
                 alt="Cegedim srh"
                 class="rounded-lg lazyloaded skew-y-6"
                 data-aos="fade-right"
                 src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
+              <img
+                src="./../assets/backgrounds/dots.svg"
+                alt="White dots in a horizontal grid."
+                class="-ml-10 -mt-10">
             </div>
             <div
               class="w-full sm:w-1/2 ml-2"
@@ -117,12 +125,16 @@
         </div>
         <div class="container mx-auto">
           <div class="sm:flex justify-between items-center">
-            <div class="w-full sm:w-1/3 mt-2 mb-2">
+            <div class="p-4 xl:w-1/2 md:w-1/2 w-full">
               <img
                 alt="Orange logo"
                 class="rounded-lg lazyloaded skew-y-6"
                 data-aos="fade-right"
                 src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
+              <img
+                src="./../assets/backgrounds/dots.svg"
+                alt="dots in a horizontal grid."
+                class="-ml-10 -mt-10">
             </div>
             <div
               class="w-full sm:w-1/2 ml-2"
@@ -165,7 +177,7 @@
 </template>
 
 <script>
-import CircularSvg from "./CircularSvg.vue";
+// import CircularSvg from "./CircularSvg.vue";
 import MainChips from "./MainChips.vue";
 import Title from "./Title.vue";
 
@@ -173,7 +185,7 @@ export default {
     name: "Portfolio",
     components: {
         MainChips,
-        CircularSvg,
+        // CircularSvg,
         Title
     },
     props: {
