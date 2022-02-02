@@ -24,7 +24,7 @@
             dy="70"
             textLength="1220">
             <textPath xlink:href="#textcircle_top">
-              Code with love 💜 and music 📻
+              Code with love 💜 music 📻 and candies 🍭
             </textPath>
           </text>
         </svg>
@@ -49,7 +49,7 @@ export default {
 }
 
 .circle-svg {
-	height: 195px;
+	height: 184px;
 	width: 195px;
 }
 
@@ -68,6 +68,7 @@ export default {
 	padding-bottom: 8%;
 }
 .circle-svg {
+  height: 140px;
 	width: 140px;
 }
 }
