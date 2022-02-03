@@ -1,7 +1,12 @@
 <template>
   <div class="relative overflow-x-hidden dark:bg-gray-800 dark:text-white">
     <div class="ligth:bg-primary dark:bg-gray-800 dark:text-white shadow p-4 rounded-lg mb-6 flex justify-between items-center">
-      <div class="text-lg dark:text-white">Dark Mode Switcher</div>
+      <div class="dark:text-white">
+        <img
+          src="https://raw.githubusercontent.com/VachetVirginie/portfolio/master/img/vvlogo.png"
+          alt="logo"
+          class="object-scale-down size">
+      </div>
       <div>
         <button
           class="focus:outline-none w-6 h-6 bg-yellow-200 rounded-full mr-2"
@@ -61,4 +66,7 @@ export default {
 </script>
 
 <style>
+.size {
+  height: 50px;
+}
 </style>
