@@ -14,8 +14,7 @@
           allowtransparency="true"
           allow="encrypted-media" />
       </div>
-      <div class="flex flex-col md:w-1/2 md:pl-12">
-      </div>
+      <div class="flex flex-col md:w-1/2 md:pl-12" />
     </div>
   </section>
 </template>

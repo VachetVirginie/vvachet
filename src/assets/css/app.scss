@@ -8,7 +8,7 @@
 // @apply directive */
 @layer components {
   .underline-effect {
-    @apply z-10 rounded-md relative px-1  after:bg-primary dark:after:bg-secondary 
+    @apply z-10 rounded-md relative px-1  after:bg-primary dark:after:bg-primary 
     after:bg-opacity-60 after:transition-all after:top-3 
     after:absolute after:-left-px after:-right-px after:bottom-0 
     after:-z-10

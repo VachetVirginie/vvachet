@@ -17,6 +17,7 @@
     </div>
     <Pointer />
     <Home />
+    <SocialMediaBar />
     <About />
     <Portfolio />
     <MainFooter />
@@ -29,16 +30,13 @@ import Home from "./components/Home.vue";
 import About from "./components/About.vue";
 import Portfolio from "./components/Portfolio.vue";
 import MainFooter from "./components/MainFooter.vue";
-
-
-
-
-
+import SocialMediaBar from "./components/SocialMediaBar.vue";
 
 export default {
     name: "App",
     components: {
         Pointer,
+        SocialMediaBar,
         Home,
         About,
         Portfolio,
