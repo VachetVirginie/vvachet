@@ -60,7 +60,6 @@
                   - participer au développement d'interfaces tactiles développés en nuxt/vueJs,<br>
                   - participer au développement Api en symfony 4/5 utilisant Api platform,<br>
                   - participer à l'élaboration des tests unitaires (PHPUnit),<br>
-                  - participer à l'élaboration des tests fonctionnels de bout en bout (Panther),<br>
                   - participer au suivi post mise en production.
                 </p>
                 <a
