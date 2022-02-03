@@ -65,7 +65,23 @@
                 </p>
                 <a
                   href="https://www.ngtvexperience.com/"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 text-xl text-primary flex">Site
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    fill="none"
+                    role="presentation"
+                    class="ml-0.5 w-6 h-6 stroke-2"><line
+                      x1="7"
+                      y1="17"
+                      x2="17"
+                      y2="7" /> <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
@@ -118,7 +134,22 @@
                 </p>
                 <a
                   href="https://www.cegedim-srh.com/Pages/Accueil.aspx"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 text-xl text-primary flex">Site
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    fill="none"
+                    role="presentation"
+                    class="ml-0.5 w-6 h-6 stroke-2"><line
+                      x1="7"
+                      y1="17"
+                      x2="17"
+                      y2="7" /> <polyline points="7 7 17 7 17 17" />
+                  </svg></a>
               </div>
             </div>
           </div>
@@ -166,7 +197,23 @@
                 </p>
                 <a
                   href="https://www.orange.com/fr"
-                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 bg-primary rounded-lg text-white">Site</a>
+                  class="sm:w-2/3 lg:w-1/2 px-10 py-3 text-xl text-primary flex">Site
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    fill="none"
+                    role="presentation"
+                    class="ml-0.5 w-6 h-6 stroke-2"><line
+                      x1="7"
+                      y1="17"
+                      x2="17"
+                      y2="7" /> <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
