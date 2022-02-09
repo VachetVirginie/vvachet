@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-wrap">
+  <section class="flex flex-wrap sm:mt-12 mt-0">
     <div
       v-for="item in items"
       :key="item.message"

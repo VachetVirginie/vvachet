@@ -1,5 +1,6 @@
 <template>
   <div class="mt-16 about">
+    <Personnal class="mb-16" />
     <Title
       class="mb-16"
       firstText="Mon"
@@ -175,11 +176,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ProfessionalSkills from "./ProfessionalSkills.vue";
 import Title from "./Title.vue";
+import Personnal from "./Personnal.vue";
 export default {
     name: "About",
     components: {
         ProfessionalSkills,
         Title,
+        Personnal
     },
     Personnalted () {
         this.aos = AOS;

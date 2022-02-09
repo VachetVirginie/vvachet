@@ -21,7 +21,8 @@
     "tw-elements": "^1.0.0-alpha9",
     "vue": "^3.0.0",
     "vue-good-links": "^0.0.3",
-    "vue-zondicons": "^0.1.10"
+    "vue-zondicons": "^0.1.10",
+    "vuejs-twitter-feed": "^1.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

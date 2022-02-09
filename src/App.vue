@@ -1,6 +1,6 @@
 <template>
   <div class="relative overflow-x-hidden dark:bg-gray-800 dark:text-white">
-    <div class="ligth:bg-primary dark:bg-gray-800 dark:text-white shadow p-4 rounded-lg mb-6 flex justify-between items-center">
+    <div class="ligth:bg-primary dark:bg-gray-800 dark:text-white shadow p-4 rounded-lg flex justify-between items-center">
       <div class="dark:text-white">
         <img
           src="https://raw.githubusercontent.com/VachetVirginie/portfolio/master/img/vvlogo.png"

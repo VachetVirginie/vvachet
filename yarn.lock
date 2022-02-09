@@ -9186,6 +9186,11 @@
   "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
   "version" "2.6.14"
 
+"vuejs-twitter-feed@^1.0.1":
+  "integrity" "sha512-YfTx4DR/kfIQdo5SU3IQX8rr0GnIHerK7/F+C1GiTVDSeB8425PAGeIu5FDT607Q7/Kw5JOZmaVTJ3RF3PK7nw=="
+  "resolved" "https://registry.npmjs.org/vuejs-twitter-feed/-/vuejs-twitter-feed-1.0.1.tgz"
+  "version" "1.0.1"
+
 "watchpack-chokidar2@^2.0.1":
   "integrity" "sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww=="
   "resolved" "https://registry.npmjs.org/watchpack-chokidar2/-/watchpack-chokidar2-2.0.1.tgz"
