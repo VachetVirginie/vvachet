@@ -4,9 +4,9 @@
       class="mt-24 mb-20"
       firstText="Projets"
       secondText="Professionnels" />
-    <div>
-      <!-- <circular-svg /> -->
-    </div>
+    <!-- <div>
+      <circular-svg />
+    </div> -->
     <section id="features">
       <div class="divide-y divide-primary">
         <div class="container mx-auto">
@@ -57,7 +57,7 @@
                 </p>
                 <p class="text-base mb-4 lg:text-base light-text-gray-700 py-4">
                   Mes missions principales sont: <br>
-                  - participer au développement d'interfaces tactiles développés en nuxt/vueJs,<br>
+                  - participer au développement d'interfaces tactiles développés en nuxt/vueJs/Vuetify,<br>
                   - participer au développement Api en symfony 4/5 utilisant Api platform,<br>
                   - participer à l'élaboration des tests unitaires (PHPUnit),<br>
                   - participer au suivi post mise en production.
@@ -232,14 +232,14 @@ export default {
     components: {
         MainChips,
         // CircularSvg,
-        Title
+        Title,
     },
     props: {
         msg:{
             type: String,
             required: true
         }
-    },
+    }
 };
 </script>
 <style scoped>

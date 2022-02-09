@@ -12,6 +12,7 @@
     "aos": "^2.3.4",
     "autoprefixer": "^9",
     "core-js": "^3.6.5",
+    "github-calendar-graph": "^0.2.8",
     "gsap": "^3.9.1",
     "hooper": "^0.3.4",
     "postcss": "^7",
