@@ -37,6 +37,7 @@
               class="twitter-timeline"
               data-theme="dark"
               data-height="550"
+              width="350"
               href="https://twitter.com/VirginieVachet?ref_src=twsrc%5Etfw">Tweets by VirginieVachet</a>
           </div>
 
