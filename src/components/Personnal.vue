@@ -10,9 +10,9 @@
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <div
             data-aos="zoom-in"
-            class="p-8 text-center text-white bg-indigo-600 sm:col-span-2 sm:p-16 lg:py-24">
+            class="p-8 text-center text-white bg-indigo-600 sm:col-span-2 sm:p-16 lg:py-24 rounded-md">
             <div class="max-w-lg mx-auto space-y-8">
-              <div class="relative shadow mx-auto h-24 w-24 -my-12 border-white rounded-full overflow-hidden border-4 mb-4">
+              <div class="relative shadow mx-auto h-24 w-24 -my-12 border-indigo-600 rounded-full overflow-hidden border-4 mb-4">
                 <img
                   class="object-cover w-full h-full"
                   src="https://avatars.githubusercontent.com/u/26382911?s=96&v=4">
@@ -37,7 +37,7 @@
               class="twitter-timeline"
               data-theme="dark"
               data-height="550"
-              width="350"
+              width="380"
               href="https://twitter.com/VirginieVachet?ref_src=twsrc%5Etfw">Tweets by VirginieVachet</a>
           </div>
 
@@ -48,7 +48,6 @@
               src="https://open.spotify.com/embed/playlist/3ZLC77Mn9If54Z1kanc95w"
               width="350"
               height="550"
-              frameborder="2"
               allowtransparency="true"
               allow="encrypted-media" />
           </div>
