@@ -36,6 +36,15 @@
             "colored_text_description":"developpeur web front et back "
         }
    },
+   "_home": {
+       "say_hello": "Hola",
+       "name": "Virginie Vachet",
+       "title_1": "Developpeuse web",
+       "title_2": "Front",
+       "title_3": "et",
+       "title_4": "Back",
+       "title_5": "end, vivant à Lyon."
+   },
     "_personnal": {
         "about": "Développeuse fullstack, passionnée par le monde du web depuis des années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle, complétée par un contrat de professionnalisation au sein de l'entreprise Orange et ainsi pouvoir exercer le métier qui me passionne. Par la suite, j'ai travaillé chez cegedim durant un an et suis actuellement en poste chez Ngtv Experience depuis octobre 2019.",
         "quote": "Codez toujours comme si la personne qui allait maintenir votre code était un violent psychopathe qui sait où vous habitez.",
