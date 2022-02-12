@@ -7,6 +7,10 @@
 // or use this file to create Tailwind components using the
 // @apply directive */
 @layer components {
+  .title {
+    font-family: 'PerfectMoment-Script';
+    font-size: 5em !important;
+}
   .underline-effect {
     @apply z-10 rounded-md relative px-1  after:bg-primary dark:after:bg-primary 
     after:bg-opacity-60 after:transition-all after:top-3 

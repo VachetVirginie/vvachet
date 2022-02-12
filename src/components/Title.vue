@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="text-4xl mb-4 text-center font-medium bold title"> {{ firstText }} <span class="text-primary">{{ secondText }}</span></div>
+    <div class="mb-4 text-4xl font-medium text-center bold title"> {{ firstText }} <span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-400 to-red-300">{{ secondText }}</span></div>
   </section>
 </template>
 
@@ -19,3 +19,9 @@ export default {
     },
 };
 </script>
+
+<style>
+.hero-gradient-heading {
+	background-image: linear-gradient(108deg,#b16cea 8%,#ff5e69 40%,#ff8a56 77%,#ffa84b 91%);
+}
+</style>
