@@ -1,6 +1,6 @@
 <template>
   <div class="relative overflow-x-hidden dark:bg-gray-800 dark:text-white">
-    <div class="ligth:bg-primary dark:bg-gray-800 dark:text-white shadow p-4 rounded-lg flex justify-between items-center">
+    <div class="flex items-center justify-between p-4 rounded-lg shadow ligth:bg-primary dark:bg-gray-800 dark:text-white">
       <div class="dark:text-white">
         <img
           src="https://raw.githubusercontent.com/VachetVirginie/portfolio/master/img/vvlogo.png"
@@ -9,12 +9,12 @@
       </div>
       <div>
         <button
-          class="focus:outline-none w-6 h-6 bg-yellow-200 rounded-full mr-2"
+          class="w-6 h-6 mr-2 bg-yellow-200 rounded-full focus:outline-none"
           @click.prevent="selectTheme('light')">
           ☀️
         </button>
         <button
-          class="focus:outline-none w-6 h-6 bg-tellow rounded-full"
+          class="w-6 h-6 rounded-full focus:outline-none bg-tellow"
           @click.prevent="selectTheme('dark')">
           🌑
         </button>

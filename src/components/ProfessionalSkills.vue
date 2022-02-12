@@ -1,20 +1,20 @@
 <template>
-  <section class="flex flex-wrap sm:mt-12 mt-0">
+  <section class="flex flex-wrap mt-0 sm:mt-12">
     <div
       v-for="item in items"
       :key="item.message"
-      class="p-4 xl:w-1/4 md:w-1/2 w-full">
+      class="w-full p-4 xl:w-1/4 md:w-1/2">
       <div
-        class="flex-1 flex flex-col sal-animate rounded-lg"
+        class="flex flex-col flex-1 rounded-lg sal-animate"
         data-aos="fade-up">
-        <div class="h-full p-6 rounded-lg border-2 border-primary flex flex-col relative overflow-hidden items-center text-center justify-center hover:scale-105">
+        <div class="relative flex flex-col items-center justify-center h-full p-6 overflow-hidden text-center border-2 rounded-lg border-primary hover:scale-105">
           <div>
             <img
               :src="`img/technos/${item.img}`"
               alt="symfony"
-              class="h-20 color-bg-gray-700 inline-block hover:skew-y-6">
+              class="inline-block h-20 color-bg-gray-700 hover:skew-y-6">
           </div>
-          <div class="w-12 h-1 bg-primary rounded mt-2 mb-4" />
+          <div class="w-12 h-1 mt-2 mb-4 rounded bg-primary" />
           <div>
             <h5 class="text-xl">{{ item.message }}</h5>
           </div>

@@ -5,30 +5,30 @@
       class="mb-16"
       firstText="Mon"
       secondText="Parcours" />
-    <section class="max-w-5xl mx-2 md:mx-auto py-10">
+    <section class="max-w-5xl py-10 mx-2 md:mx-auto">
       <div>
         <div class="flex flex-row">
-          <div class="hidden md:flex flex-col items-center">
+          <div class="flex-col items-center hidden md:flex">
             <div
-              class="w-32 py-5 bg-primary border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
+              class="flex flex-col items-center justify-center w-32 py-5 mr-4 uppercase border rounded bg-primary border-primary"
               data-aos="zoom-in">
               <div class="text-3xl font-black text-white">Step 1</div>
-              <div class="text-white text-sm">Les Bases</div>
+              <div class="text-sm text-white">Les Bases</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
-              <div class="border-l-4 mr-4 h-full border-primary border-dashed" />
+              <div class="h-full mr-4 border-l-4 border-dashed border-primary" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-primary"
+            class="flex-auto border rounded border-primary"
             data-aos="fade-left">
-            <div class="flex md:flex-row flex-col items-center">
+            <div class="flex flex-col items-center md:flex-row">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3"><span class="font-black">Step 1</span> - Formation</div>
+                <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">Step 1</span> - Formation</div>
                 <div class="p-3 text-3xl font">Simplon</div>
-                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="underline-effect font-bold">developpeur web et mobile fullStack</span>.</div>
+                <div class="px-3 pb-6">Passionnée par le monde du web depuis de nombreuses années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle de <span class="font-bold underline-effect">developpeur web et mobile fullStack</span>.</div>
               </div>
-              <div class="md:w-96 w-full p-5">
+              <div class="w-full p-5 md:w-96">
                 <img
                   src="https://fr.investiretplus.com/wp-content/uploads/2017/09/logo-simplon_2.jpg"
                   alt="step 1"
@@ -37,37 +37,37 @@
             </div>
           </div>
         </div>
-        <div class="flex items-start flex-row">
+        <div class="flex flex-row items-start">
           <div class="border-t-4 border-r-4 border-transparent">
-            <div class="w-16 ml-16 h-16 border-l-4 border-primary border-dashed border-b-4 rounded-bl-full" />
+            <div class="w-16 h-16 ml-16 border-b-4 border-l-4 border-dashed rounded-bl-full border-primary" />
           </div>
-          <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-primary border-dashed" />
+          <div class="flex-auto border-t-4 border-transparent">
+            <div class="h-16 border-b-4 border-dashed border-primary" />
           </div>
-          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-primary border-dashed border-t-4 rounded-tr-full" />
+          <div class="w-16 h-16 mt-16 mr-16 border-t-4 border-r-4 border-dashed rounded-tr-full border-primary" />
         </div>
         <div class="flex flex-row-reverse">
-          <div class="hidden md:flex flex-col items-center">
+          <div class="flex-col items-center hidden md:flex">
             <div
-              class="w-32 py-5 border bg-primary border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
+              class="flex flex-col items-center justify-center w-32 py-5 ml-4 uppercase border rounded bg-primary border-primary"
               data-aos="zoom-in">
               <div class="text-3xl text-white">Step 2</div>
-              <div class="text-white text-sm text-center">Alternance <br> Php</div>
+              <div class="text-sm text-center text-white">Alternance <br> Php</div>
             </div>
             <div class="h-full border-r-4 border-transparent">
-              <div class="border-l-4 ml-4 h-full border-primary border-dashed" />
+              <div class="h-full ml-4 border-l-4 border-dashed border-primary" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-primary"
+            class="flex-auto border rounded border-primary"
             data-aos="fade-right">
-            <div class="flex md:flex-row flex-col items-center">
+            <div class="flex flex-col items-center md:flex-row">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3"><span class="font-black">Step 2</span> - Alternance</div>
+                <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">Step 2</span> - Alternance</div>
                 <div class="p-3 text-3xl font">Developpeur Back End</div>
-                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="leading-relaxed mt-5 underline-effect font-bold">titre Pro de Developpeur fullStack</span>.  </div>
+                <div class="px-3 pb-6">Apres neuf mois de formations chez Simplon, j'ai eu la chance de devenir developpeur Back-End en alternance, ce qui m'a permis de passer et obtenir un <span class="mt-5 font-bold leading-relaxed underline-effect">titre Pro de Developpeur fullStack</span>.  </div>
               </div>
-              <div class="md:w-96 w-full p-5">
+              <div class="w-full p-5 md:w-96">
                 <img
                   src="https://lescognees.com/wp-content/uploads/Orange-logo.png"
                   alt="Orange logo"
@@ -76,39 +76,39 @@
             </div>
           </div>
         </div>
-        <div class="flex items-start flex-row-reverse">
+        <div class="flex flex-row-reverse items-start">
           <div class="border-t-4 border-l-4 border-transparent">
-            <div class="w-16 mr-16 h-16 border-r-4 border-primary border-dashed border-b-4 rounded-br-full" />
+            <div class="w-16 h-16 mr-16 border-b-4 border-r-4 border-dashed rounded-br-full border-primary" />
           </div>
-          <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-primary border-dashed" />
+          <div class="flex-auto border-t-4 border-transparent">
+            <div class="h-16 border-b-4 border-dashed border-primary" />
           </div>
-          <div class="w-16 mt-16 ml-16 h-16 border-l-4 border-primary border-dashed border-t-4 rounded-tl-full" />
+          <div class="w-16 h-16 mt-16 ml-16 border-t-4 border-l-4 border-dashed rounded-tl-full border-primary" />
         </div>
         <div class="flex flex-row">
-          <div class="hidden md:flex flex-col items-center">
+          <div class="flex-col items-center hidden md:flex">
             <div
-              class="w-32 py-5 bg-primary border border-primary rounded mr-4 uppercase flex flex-col items-center justify-center"
+              class="flex flex-col items-center justify-center w-32 py-5 mr-4 uppercase border rounded bg-primary border-primary"
               data-aos="zoom-in">
               <div class="text-3xl text-white">Step 3</div>
-              <div class="text-white text-sm text-center"> CDI <br> Javascript</div>
+              <div class="text-sm text-center text-white"> CDI <br> Javascript</div>
             </div>
             <div class="h-full border-l-4 border-transparent">
-              <div class="border-l-4 mr-4 h-full border-primary border-dashed" />
+              <div class="h-full mr-4 border-l-4 border-dashed border-primary" />
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-primary"
+            class="flex-auto border rounded border-primary"
             data-aos="fade-left">
-            <div class="flex md:flex-row flex-col items-center">
+            <div class="flex flex-col items-center md:flex-row">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3"><span class="font-black">Step 3</span> - CDI</div>
+                <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">Step 3</span> - CDI</div>
                 <div class="p-3 text-3xl font">Cegedim</div>
                 <div class="px-3 pb-6">
                   J'ai intégré l'équipe de développeur dédiée au logiciel SRH, l'essentiel de mes tâches consistées à réaliser les travaux de conception et de développement en garantissant la bonne intégration de la fonctionnalité dans le reste de la solution logicielle, implémenter les tests unitaires et fonctionnels ainsi qu'assurer la qualité de code et le respect des processus de mise en production.
                 </div>
               </div>
-              <div class="md:w-96 w-full p-5">
+              <div class="w-full p-5 md:w-96">
                 <img
                   src="https://www.myrhline.com/wp-content/uploads/2017/01/6176_default_big.jpg"
                   alt="logo cegedim srh"
@@ -117,36 +117,36 @@
             </div>
           </div>
         </div>
-        <div class="flex items-start flex-row">
+        <div class="flex flex-row items-start">
           <div class="border-t-4 border-r-4 border-transparent">
-            <div class="w-16 ml-16 h-16 border-l-4 border-primary border-dashed border-b-4 rounded-bl-full" />
+            <div class="w-16 h-16 ml-16 border-b-4 border-l-4 border-dashed rounded-bl-full border-primary" />
           </div>
-          <div class="border-t-4 border-transparent flex-auto">
-            <div class="h-16 border-b-4 border-primary border-dashed" />
+          <div class="flex-auto border-t-4 border-transparent">
+            <div class="h-16 border-b-4 border-dashed border-primary" />
           </div>
-          <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-primary border-dashed border-t-4 rounded-tr-full" />
+          <div class="w-16 h-16 mt-16 mr-16 border-t-4 border-r-4 border-dashed rounded-tr-full border-primary" />
         </div>
         <div class="flex flex-row-reverse">
-          <div class="hidden md:flex flex-col items-center">
+          <div class="flex-col items-center hidden md:flex">
             <div
-              class="w-32 py-5 bg-primary border border-primary rounded ml-4 uppercase flex flex-col items-center justify-center"
+              class="flex flex-col items-center justify-center w-32 py-5 ml-4 uppercase border rounded bg-primary border-primary"
               data-aos="zoom-in">
               <div class="text-3xl text-white">Step 4</div>
-              <div class="text-white text-sm text-center"> CDI <br> Php <br>Javascript</div>
+              <div class="text-sm text-center text-white"> CDI <br> Php <br>Javascript</div>
             </div>
           </div>
           <div
-            class="flex-auto border rounded  border-primary"
+            class="flex-auto border rounded border-primary"
             data-aos="fade-right">
-            <div class="flex md:flex-row flex-col items-center">
+            <div class="flex flex-col items-center md:flex-row">
               <div class="flex-auto">
-                <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3"><span class="font-black">Step 4</span> - CDI</div>
+                <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">Step 4</span> - CDI</div>
                 <div class="p-3 text-3xl font">Ngtv Experience</div>
                 <div class="px-3 pb-6">
-                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="underline-effect font-bold">developpeur web front et back </span>.
+                  Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class="font-bold underline-effect">developpeur web front et back </span>.
                 </div>
               </div>
-              <div class="md:w-96 w-full p-5">
+              <div class="w-full p-5 md:w-96">
                 <img
                   src="https://ngtvexperience.com/_nuxt/img/logo-black.c2acef7.svg"
                   alt="ngtv logo"
@@ -158,7 +158,7 @@
       </div>
     </section>
     <div class="container mx-auto mt-16 skills">
-      <div class="text-center mt-16 left-20">
+      <div class="mt-16 text-center left-20">
         <div class="mt-16 about">
           <Title
             class="mb-12"

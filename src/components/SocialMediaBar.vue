@@ -1,12 +1,12 @@
 <template>
-  <div class="w-12 fixed bottom-28 left-5 hidden lg:block sm:left-8 xl:left-20 z-40">
+  <div class="fixed z-40 hidden w-12 bottom-28 left-5 lg:block sm:left-8 xl:left-20">
     <ul class="-my-4 text-center">
       <li class="inline-block my-4">
         <a
           href="https://www.linkedin.com/in/vachetvirginie/"
           target="linkedin"
           rel="noopener noreferrer"
-          class="text-true-gray-900 transition duration-300 ease-in-out inline-block">
+          class="inline-block transition duration-300 ease-in-out text-true-gray-900">
           <svg
             viewBox="0 0 24 24"
             style="width: 48px; height: 48px;">
@@ -21,7 +21,7 @@
           href="https://github.com/VachetVirginie"
           target="github"
           rel="noopener noreferrer"
-          class="text-true-gray-900 transition duration-300 ease-in-out inline-block">
+          class="inline-block transition duration-300 ease-in-out text-true-gray-900">
           <svg
             viewBox="0 0 24 24"
             style="width: 48px; height: 48px;"><path

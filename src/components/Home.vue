@@ -1,13 +1,13 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 <template>
-  <main class="container mx-auto px-10">
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 lg:gap-20 items-center pt-24 xl:pt-24 2xl:pt-56 pb-24">
+  <main class="container px-10 mx-auto">
+    <section class="grid items-center grid-cols-1 gap-10 pt-24 pb-24 md:grid-cols-2 md:gap-12 lg:gap-20 xl:pt-24 2xl:pt-56">
       <div class="order-1 md:order-1 md:mt-0">
         <div class="relative">
           <h1
             data-aos="fade-right"
-            class="text-primary text-2xl lg:text-3xl xl:text-4xl font-bold title-min">
-            Hola <span class="animate-wiggle inline-block pr-4">👋</span>
+            class="text-2xl font-bold text-primary lg:text-3xl xl:text-4xl title-min">
+            Hola <span class="inline-block pr-4 animate-wiggle">👋</span>
           </h1>
           <h1
             data-aos="fade-right"
@@ -16,15 +16,15 @@
           </h1>
           <p
             data-aos="fade-right"
-            class="xl:w-3/4 2xl:text-xl leading-relaxed mt-5">
+            class="mt-5 leading-relaxed xl:w-3/4 2xl:text-xl">
             Developpeuse web <span class="underline-effect">Front</span> et <span class="underline-effect">Back</span> end, vivant à Lyon
           </p>
         </div>
       </div>
       <div
         data-aos="fade-left"
-        class="relative rounded-full border-purple-300 order-2 dark:border-purple-700 dark:border-opacity-50 border p-4 lg:p-7 xl:p-9">
-        <div class="relative rounded-full border-purple-300 dark:border-purple-800 dark:border-opacity-50 border p-4 lg:p-7 xl:p-9">
+        class="relative order-2 p-4 border border-purple-300 rounded-full dark:border-purple-700 dark:border-opacity-50 lg:p-7 xl:p-9">
+        <div class="relative p-4 border border-purple-300 rounded-full dark:border-purple-800 dark:border-opacity-50 lg:p-7 xl:p-9">
           <img
             class="w-full rounded-full"
             alt="Me"
@@ -36,7 +36,7 @@
           class="absolute top-0 left-0 w-full h-full rounded-full"
           data-v-5e096964="">
           <li
-            class="skill flex items-center justify-center absolute bg-white bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur rounded-full shadow-2xl"
+            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
             title="ApiPlatform"
             data-v-5e096964="">
             <img
@@ -46,7 +46,7 @@
               data-v-5e096964="">
           </li>
           <li
-            class="skill flex items-center justify-center absolute bg-white bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur rounded-full shadow-2xl"
+            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
             title="NuxtJs"
             data-v-5e096964="">
             <img
@@ -56,7 +56,7 @@
               data-v-5e096964="">
           </li>
           <li
-            class="skill flex items-center justify-center absolute bg-white bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur rounded-full shadow-2xl"
+            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
             title="Symfony"
             data-v-5e096964="">
             <img
@@ -66,7 +66,7 @@
               data-v-5e096964="">
           </li>
           <li
-            class="skill flex items-center justify-center absolute bg-white bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur rounded-full shadow-2xl"
+            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
             title="Vuejs"
             data-v-5e096964="">
             <img
@@ -76,7 +76,7 @@
               data-v-5e096964="">
           </li>
           <li
-            class="skill flex items-center justify-center absolute bg-white bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur rounded-full shadow-2xl"
+            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
             title="Docker"
             data-v-5e096964="">
             <img
@@ -86,7 +86,7 @@
               data-v-5e096964="">
           </li>
           <li
-            class="skill flex items-center justify-center absolute bg-white bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur rounded-full shadow-2xl"
+            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
             title="Tailwind"
             data-v-5e096964="">
             <img
