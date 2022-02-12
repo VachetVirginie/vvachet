@@ -18,13 +18,11 @@
                   src="https://avatars.githubusercontent.com/u/26382911?s=96&v=4">
               </div>
               <p class="font-bold">
-                Développeuse fullstack, passionnée par le monde du web depuis des années j'ai eu la chance à travers une formation chez Simplon d'entamer une reconversion professionnelle, complétée par un contrat de professionnalisation au sein de l'entreprise Orange
-                et ainsi pouvoir exercer le métier qui me passionne.
-                Par la suite, j'ai travaillé chez cegedim durant un an et suis actuellement en poste chez Ngtv Experience depuis octobre 2019.
+                {{ datas._personnal.about }}
               </p>
               <blockquote>
-                <p> Codez toujours comme si la personne qui allait maintenir votre code était un violent psychopathe qui sait où vous habitez.</p>
-                <small> ― John Woods.</small>
+                {{ datas._personnal.quote }}
+                <small> {{ datas._personnal.author }}</small>
               </blockquote>
             </div>
           </div>
@@ -36,10 +34,16 @@
 
 <script>
 import Title from "./Title.vue";
+import text from "../text/data.json";
 export default {
     name: "Personnal",
     components: {
         Title
+    },
+    data() {
+        return {
+            datas: text,
+        };
     },
     beforeCreate() {
         let twitterFeed = document.createElement("script");
