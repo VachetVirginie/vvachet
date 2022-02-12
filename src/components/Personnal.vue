@@ -10,9 +10,9 @@
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div
             data-aos="zoom-in"
-            class="p-8 text-center text-white bg-indigo-600 rounded-md sm:col-span-2 sm:p-16 lg:py-24">
+            class="p-8 text-center text-white rounded-md bg-primary sm:col-span-2 sm:p-16 lg:py-24">
             <div class="max-w-lg mx-auto space-y-8">
-              <div class="relative w-24 h-24 mx-auto mb-4 -my-12 overflow-hidden border-4 border-indigo-600 rounded-full shadow">
+              <div class="relative w-24 h-24 mx-auto mb-4 -my-12 overflow-hidden border-4 rounded-full shadow border-primary">
                 <img
                   class="object-cover w-full h-full"
                   src="https://avatars.githubusercontent.com/u/26382911?s=96&v=4">

@@ -150,7 +150,7 @@
                 <img
                   src="https://ngtvexperience.com/_nuxt/img/logo-black.c2acef7.svg"
                   alt="ngtv logo"
-                  class="object-scale-down">
+                  class="object-scale-down bg-white">
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default {
         this.aos.init({
             duration: 1000,
         });
-    },
+    }
 };
 </script>
 

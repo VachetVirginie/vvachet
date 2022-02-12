@@ -8,10 +8,11 @@ module.exports = {
         },
         extend: {
             colors: {
-                primary: "#A855F7",
+                primary: "#5311DF",
                 secondary: "#E92D8B",
                 yellow_primary: "#FCD61D",
-                yellow_secondary: "#D3A400"
+                yellow_secondary: "#D3A400",
+                dark: "#151515"
             },
             zIndex: {
                 "-10": "-10",

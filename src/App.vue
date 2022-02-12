@@ -1,6 +1,6 @@
 <template>
-  <div class="relative overflow-x-hidden dark:bg-gray-800 dark:text-white">
-    <div class="flex items-center justify-between p-4 rounded-lg shadow ligth:bg-primary dark:bg-gray-800 dark:text-white">
+  <div class="relative overflow-x-hidden dark:bg-dark dark:text-white">
+    <div class="flex items-center justify-between p-4 rounded-lg shadow ligth:bg-primary dark:bg-dark dark:text-white">
       <div class="dark:text-white">
         <img
           src="https://raw.githubusercontent.com/VachetVirginie/portfolio/master/img/vvlogo.png"
