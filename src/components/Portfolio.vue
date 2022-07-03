@@ -16,6 +16,7 @@
                 alt="Ngtv Project"
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
+                data-aos-duration="2000"
                 src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
               <img
                 src="./../assets/backgrounds/dots.svg"
@@ -24,7 +25,9 @@
             </div>
             <div
               class="w-full mt-2 ml-2 sm:w-1/2"
-              data-aos="fade-left">
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   Ngtv Experience
@@ -92,6 +95,7 @@
                 alt="Cegedim srh"
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
+                data-aos-duration="2000"
                 src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
               <img
                 src="./../assets/backgrounds/dots.svg"
@@ -100,7 +104,8 @@
             </div>
             <div
               class="w-full ml-2 sm:w-1/2"
-              data-aos="fade-left">
+              data-aos="fade-left"
+              data-aos-duration="2000">
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   Cegedim SRH
@@ -160,6 +165,7 @@
                 alt="Orange logo"
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
+                data-aos-duration="2000"
                 src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
               <img
                 src="./../assets/backgrounds/dots.svg"
@@ -168,7 +174,8 @@
             </div>
             <div
               class="w-full ml-2 sm:w-1/2"
-              data-aos="fade-left">
+              data-aos="fade-left"
+              data-aos-duration="2000">
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   Orange

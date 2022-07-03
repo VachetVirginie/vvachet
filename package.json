@@ -20,6 +20,7 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "tw-elements": "^1.0.0-alpha9",
     "vue": "^3.0.0",
+    "vue-calendar-heatmap": "^0.8.4",
     "vue-good-links": "^0.0.3",
     "vue-zondicons": "^0.1.10",
     "vuejs-twitter-feed": "^1.0.1"

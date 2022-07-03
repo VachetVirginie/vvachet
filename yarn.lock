@@ -883,7 +883,7 @@
     "@babel/types" "^7.4.4"
     "esutils" "^2.0.2"
 
-"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.11.0", "@babel/runtime@^7.13.10", "@babel/runtime@^7.8.4":
   "integrity" "sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ=="
   "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.16.7.tgz"
   "version" "7.16.7"
@@ -9062,6 +9062,16 @@
   "resolved" "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
   "version" "8.3.2"
 
+"v-tooltip@^2.0.0-rc.32":
+  "integrity" "sha512-xXngyxLQTOx/yUEy50thb8te7Qo4XU6h4LZB6cvEfVd9mnysUxLEoYwGWDdqR+l69liKsy3IPkdYff3J1gAJ5w=="
+  "resolved" "https://registry.npmjs.org/v-tooltip/-/v-tooltip-2.1.3.tgz"
+  "version" "2.1.3"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "lodash" "^4.17.21"
+    "popper.js" "^1.16.1"
+    "vue-resize" "^1.0.1"
+
 "v8-compile-cache@^2.0.3":
   "integrity" "sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA=="
   "resolved" "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
@@ -9098,6 +9108,13 @@
   "integrity" "sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ=="
   "resolved" "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   "version" "1.1.2"
+
+"vue-calendar-heatmap@^0.8.4":
+  "integrity" "sha512-Hx7OYBY1ghUIxKmFIIzpLT4XlcrwnI3WpadJEj/sKj5quoxwEuSDKmf94v0zWOHeQ/2CrB1G66geaKR/O56+OQ=="
+  "resolved" "https://registry.npmjs.org/vue-calendar-heatmap/-/vue-calendar-heatmap-0.8.4.tgz"
+  "version" "0.8.4"
+  dependencies:
+    "v-tooltip" "^2.0.0-rc.32"
 
 "vue-cli-plugin-tailwind@~2.2.18":
   "integrity" "sha512-aPGUDbBYDcZ2VzeKz/Orqk2qy3Gr90fkIVx796NWz+j8mpldtK3pqj2XbanbWVtrRLBg5cxRA6wHwPj3WuscQQ=="
@@ -9149,6 +9166,13 @@
     "vue-hot-reload-api" "^2.3.0"
     "vue-style-loader" "^4.1.0"
 
+"vue-resize@^1.0.1":
+  "integrity" "sha512-z5M7lJs0QluJnaoMFTIeGx6dIkYxOwHThlZDeQnWZBizKblb99GSejPnK37ZbNE/rVwDcYcHY+Io+AxdpY952w=="
+  "resolved" "https://registry.npmjs.org/vue-resize/-/vue-resize-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
 "vue-style-loader@^4.1.0", "vue-style-loader@^4.1.2":
   "integrity" "sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg=="
   "resolved" "https://registry.npmjs.org/vue-style-loader/-/vue-style-loader-4.1.3.tgz"
@@ -9182,6 +9206,11 @@
     "@vue/shared" "3.2.26"
 
 "vue@^2.5.17":
+  "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
+  "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
+  "version" "2.6.14"
+
+"vue@^2.6.0":
   "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
   "version" "2.6.14"

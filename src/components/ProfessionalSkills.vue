@@ -6,7 +6,8 @@
       class="w-full p-4 xl:w-1/4 md:w-1/2">
       <div
         class="flex flex-col flex-1 rounded-lg sal-animate"
-        data-aos="fade-up">
+        data-aos="fade-up"
+        data-aos-duration="2000">
         <div class="relative flex flex-col items-center justify-center h-full p-6 overflow-hidden text-center border-2 rounded-lg border-primary hover:scale-105">
           <div>
             <img

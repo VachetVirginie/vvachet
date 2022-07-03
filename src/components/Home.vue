@@ -6,16 +6,19 @@
         <div class="relative">
           <h1
             data-aos="fade-right"
+            data-aos-duration="2000"
             class="text-2xl font-bold text-primary lg:text-3xl xl:text-4xl title-min">
             {{ datas._home.say_hello }} <span class="inline-block pr-4 animate-wiggle">👋</span>
           </h1>
           <h1
             data-aos="fade-right"
+            data-aos-duration="2000"
             class="text-3xl lg:text-4xl xl:text-5xl">
             {{ datas._home.name }}
           </h1>
           <p
             data-aos="fade-right"
+            data-aos-duration="2000"
             class="mt-5 leading-relaxed xl:w-3/4 2xl:text-xl">
             {{ datas._home.title_1 }}
             <span class="underline-effect">{{ datas._home.title_2 }}</span>
@@ -27,6 +30,7 @@
       </div>
       <div
         data-aos="fade-left"
+        data-aos-duration="2000"
         class="relative order-2 p-4 border border-purple-300 rounded-full dark:border-purple-700 dark:border-opacity-50 lg:p-7 xl:p-9">
         <div class="relative p-4 border border-purple-300 rounded-full dark:border-purple-800 dark:border-opacity-50 lg:p-7 xl:p-9">
           <img
