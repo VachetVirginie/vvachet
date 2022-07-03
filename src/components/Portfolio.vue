@@ -26,8 +26,7 @@
             <div
               class="w-full mt-2 ml-2 sm:w-1/2"
               data-aos="fade-left"
-              data-aos-duration="2000"
-            >
+              data-aos-duration="2000">
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   Ngtv Experience
