@@ -60,7 +60,7 @@ export default {
         background: center / cover no-repeat url("./../assets/backgrounds/patterntop.svg");
     }
 
-.carbonbadge {
-  color: #00FFBC !important;
+.carbonbadge #wcb.wcb-d #wcb_2 {
+  color: #5311DF;
     }
 </style>
