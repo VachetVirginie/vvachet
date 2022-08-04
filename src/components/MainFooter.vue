@@ -47,6 +47,7 @@
 <script>
 export default {
     name: "MainFooter",
+    // trick pour <scipt></scipt> dans le template
     created() {
         let carbonbadge = document.createElement("script");    carbonbadge.setAttribute("src","//unpkg.com/website-carbon-badges@1.1.3/b.min.js");
         document.head.appendChild(carbonbadge);
