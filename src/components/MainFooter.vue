@@ -59,4 +59,8 @@ export default {
 .bg-hero {
         background: center / cover no-repeat url("./../assets/backgrounds/patterntop.svg");
     }
+
+.carbonbadge {
+  color: #00FFBC !important;
+    }
 </style>
