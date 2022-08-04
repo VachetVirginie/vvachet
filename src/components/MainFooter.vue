@@ -61,6 +61,6 @@ export default {
     }
 
 .carbonbadge #wcb.wcb-d #wcb_2 {
-  color: #5311DF;
+  color: #5311DF !important;
     }
 </style>
