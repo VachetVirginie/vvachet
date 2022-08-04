@@ -45,11 +45,6 @@ export default {
         return {
             datas: text,
         };
-    },
-    beforeCreate() {
-        let twitterFeed = document.createElement("script");
-        twitterFeed.setAttribute("src", "https://platform.twitter.com/widgets.js");
-        document.head.appendChild(twitterFeed);
     }
 };
 </script>
