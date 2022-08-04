@@ -1,6 +1,7 @@
 <template>
   <div
     class="w-full bg-hero">
+    <div id="wcb" class="carbonbadge wcb-d"></div>
     <div class="flex justify-center py-2 align-center">
       <a
         href="https://www.linkedin.com/in/vachetvirginie/"
@@ -43,6 +44,10 @@
 <script>
 export default {
     name: "MainFooter",
+    created() {
+        let carbonbadge = document.createElement("script");    carbonbadge.setAttribute("src","//unpkg.com/website-carbon-badges@1.1.3/b.min.js");
+        document.head.appendChild(carbonbadge);
+    }
 };
 </script>
 
