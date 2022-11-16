@@ -34,6 +34,16 @@
                   La vidéo intelligente au service du sport
                 </h2>
                 <div class="flex flex-wrap items-center justify-around p-2 mt-5 mb-5 leading-none md:p-2">
+                  <MainChips msg="JavaScript" />
+                  <MainChips msg="TypeScript" />
+                  <MainChips
+                    msg="Vue.js 2 Options API" />
+                  <MainChips msg="Vue.js 3 Composition API" />
+                  <MainChips
+                    msg="Nuxt" />
+                  <MainChips
+                    msg="Vuetify" />
+                  <MainChips msg="PrimeVUE" />
                   <MainChips
                     msg="Symfony 4/5" />
                   <MainChips
@@ -42,12 +52,6 @@
                     msg="ApiPlatform" />
                   <MainChips
                     msg="Mysql" />
-                  <MainChips
-                    msg="Vue" />
-                  <MainChips
-                    msg="Nuxt" />
-                  <MainChips
-                    msg="Vuetify" />
                   <MainChips
                     msg="Github" />
                 </div>
@@ -113,7 +117,7 @@
                 </h2>
                 <div class="flex flex-wrap items-center justify-around p-2 mt-5 mb-5 leading-none md:p-4">
                   <MainChips
-                    msg="Javascript" />
+                    msg="JavaScript" />
                   <MainChips
                     msg="TEAMSRH" />
                   <MainChips

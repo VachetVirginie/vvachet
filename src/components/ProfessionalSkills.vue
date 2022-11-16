@@ -31,16 +31,16 @@ export default {
     data: function() {
         return {
             items: [{
-                message: "Javascript", img: "javascript.svg"
+                message: "JavaScript", img: "javascript.svg"
             },
                     {
                         message: "TypeScript", img: "typescript.svg"
                     },
                     {
-                        message: "Vue Options API", img: "vuejs.svg"
+                        message: "Vue.js Options API", img: "vuejs.svg"
                     },
                     {
-                        message: "Vue Composition API", img: "vuejs.svg"
+                        message: "Vue.js Composition API", img: "vuejs.svg"
                     },
                     {
                         message: "Nuxt", img: "nuxt.svg"
