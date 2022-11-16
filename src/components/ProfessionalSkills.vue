@@ -31,19 +31,28 @@ export default {
     data: function() {
         return {
             items: [{
-                message: "Vue", img: "vuejs.svg"
+                message: "Javascript", img: "javascript.svg"
             },
                     {
-                        message: "Nuxt", img: "nuxt.svg"
+                        message: "TypeScript", img: "typescript.svg"
                     },
                     {
-                        message: "Javascript", img: "javascript.svg"
+                        message: "Vue Options API", img: "vuejs.svg"
+                    },
+                    {
+                        message: "Vue Composition API", img: "vuejs.svg"
+                    },
+                    {
+                        message: "Nuxt", img: "nuxt.svg"
                     },
                     {
                         message: "TailwindCss", img: "tailwindcss.svg"
                     },
                     {
                         message: "Vuetify", img: "vuetify.svg"
+                    },
+                    {
+                        message: "PrimeVUE", img: "primevue.svg"
                     },
                     {
                         message: "GrapgQl", img: "graphql.svg"
@@ -65,7 +74,7 @@ export default {
                     },
                     {
                         message: "Github", img: "github.svg"
-                    },]
+                    }]
         };
     }
 };
@@ -73,12 +82,12 @@ export default {
 
 <style>
 .bg-fond {
-        background: center  no-repeat url("./../assets/backgrounds/background-dots.svg");
-    }
+  background: center  no-repeat url("./../assets/backgrounds/background-dots.svg");
+}
 @media (max-width: 390px) {
-.bg-fond {
-        background: center url("./../assets/backgrounds/background-dots.svg");
-        background-repeat: space;
-    }
+  .bg-fond {
+    background: center url("./../assets/backgrounds/background-dots.svg");
+    background-repeat: space;
+  }
 }
 </style>
