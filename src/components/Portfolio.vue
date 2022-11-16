@@ -64,7 +64,8 @@
                 <p class="py-4 mb-4 text-base lg:text-base light-text-gray-700">
                   Mes missions principales sont: <br>
                   - participer au développement d'interfaces tactiles développées en Nuxt/Vue.js 2/Vuetify,<br>
-                  - participer au développement d'un espace d'administration à destination des clients de NGTV, ainsi que de l'équipe support en Vue.js 3/PrimeVUE <br>
+                  - participer au développement d'un espace d'administration à destination des clients de NGTV, ainsi que de l'équipe support en Vue.js 3/PrimeVUE/Tailwind CSS <br>
+                  - participer au développement de sites externes de consultation de sessions en Vue.js 2/Tailwind CSS <br>
                   - participer au développement Api en symfony 4/5 utilisant Api platform,<br>
                   - participer à l'élaboration des tests unitaires (PHPUnit),<br>
                   - participer au suivi post mise en production.
