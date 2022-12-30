@@ -48,6 +48,9 @@ export default {
         MainFooter,
     },
     mounted() {
+        this.$gtag.pageview({
+            page_path: "/home",
+        });
         localStorage.setItem("theme", "dark");
         const html = document.querySelector("html");
         document.querySelector("html").classList.add(localStorage.getItem("theme"));
