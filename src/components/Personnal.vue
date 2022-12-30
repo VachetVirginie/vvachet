@@ -11,17 +11,17 @@
           <div
             data-aos="zoom-in"
             data-aos-duration="2000"
-            class="p-8 text-center text-white rounded-md bg-primary sm:col-span-2 sm:p-16 lg:py-24">
-            <div class="max-w-lg mx-auto space-y-8">
+            class="text-center text-white rounded-md sm:col-span-2 sm:p-16 lg:py-24">
+            <div class="max-w-xl sm:max-w-lg mx-auto space-y-8">
               <div class="relative w-24 h-24 mx-auto mb-4 -my-12 overflow-hidden border-4 rounded-full shadow border-primary">
                 <img
-                  class="object-cover w-full h-full"
+                  class="object-cover w-full h-full w-24 h-24"
                   src="https://avatars.githubusercontent.com/u/26382911?s=96&v=4">
               </div>
-              <p class="font-bold">
+              <p class="font-bold sm:text-2xl text-lg">
                 {{ datas._personnal.about }}
               </p>
-              <blockquote>
+              <blockquote class="sm:text-xl text-lg">
                 {{ datas._personnal.quote }}
                 <small> {{ datas._personnal.author }}</small>
               </blockquote>

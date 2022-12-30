@@ -28,7 +28,7 @@
               <div class="flex-auto">
                 <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">{{ datas._about.step_1.subtitle_1 }}</span> {{ datas._about.step_1.subtitle_2 }}</div>
                 <div class="p-3 text-3xl font">{{ datas._about.step_1.work_place }}</div>
-                <div class="px-3 pb-6">{{ datas._about.step_1.work_description }} <span class="font-bold underline-effect">{{ datas._about.step_1.colored_text_description }}</span>.</div>
+                <div class="px-3 pb-6 sm:text-2xl text-lg">{{ datas._about.step_1.work_description }} <span class="font-bold underline-effect">{{ datas._about.step_1.colored_text_description }}</span>.</div>
               </div>
               <div class="w-full p-5 md:w-96">
                 <img
@@ -69,7 +69,7 @@
               <div class="flex-auto">
                 <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">{{ datas._about.step_2.subtitle_1 }}</span> {{ datas._about.step_2.subtitle_2 }}</div>
                 <div class="p-3 text-3xl font">{{ datas._about.step_2.work_place }}</div>
-                <div class="px-3 pb-6">{{ datas._about.step_2.work_description }}<span class="mt-5 font-bold leading-relaxed underline-effect">{{ datas._about.step_2.colored_text_description }}</span>.</div>
+                <div class="px-3 pb-6 sm:text-2xl text-lg">{{ datas._about.step_2.work_description }}<span class="mt-5 font-bold leading-relaxed underline-effect">{{ datas._about.step_2.colored_text_description }}</span>.</div>
               </div>
               <div class="w-full p-5 md:w-96">
                 <img
@@ -110,7 +110,7 @@
               <div class="flex-auto">
                 <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">{{ datas._about.step_3.subtitle_1 }}</span>{{ datas._about.step_3.subtitle_2 }}</div>
                 <div class="p-3 text-3xl font">{{ datas._about.step_3.work_place }}</div>
-                <div class="px-3 pb-6">
+                <div class="px-3 pb-6 sm:text-2xl text-lg">
                   {{ datas._about.step_3.work_description }}
                 </div>
               </div>
@@ -150,7 +150,7 @@
               <div class="flex-auto">
                 <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">{{ datas._about.step_4.subtitle_1 }}</span>{{ datas._about.step_4.subtitle_2 }}</div>
                 <div class="p-3 text-3xl font">{{ datas._about.step_4.work_place }}</div>
-                <div class="px-3 pb-6">
+                <div class="px-3 pb-6 sm:text-2xl text-lg">
                   {{ datas._about.step_4.work_description }} <span class="font-bold underline-effect">{{ datas._about.step_4.colored_text_description }}</span>.
                 </div>
               </div>
@@ -171,8 +171,8 @@
           <Title
             class="mb-12"
             firstText="Hard"
-            secondText="Skills" />
-          <ProfessionalSkills />
+            secondText="Skillz" />
+          <ProfessionalSkills class="mb-12" />
         </div>
       </div>
     </div>

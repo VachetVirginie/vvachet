@@ -72,4 +72,13 @@ export default {
 .size {
   height: 50px;
 }
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #5311DF;
+}
+
+::selection {
+  color: white;
+  background: #5311DF;
+}
 </style>
