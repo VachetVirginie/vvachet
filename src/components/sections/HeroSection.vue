@@ -35,7 +35,7 @@
           <img
             class="w-full rounded-full"
             alt="Me"
-            src="../../assets/heroCharacter.svg"
+            src="../../assets/imgs/heroCharacter.svg"
             home-skill>
         </div>
         <ul
@@ -82,7 +82,7 @@
             title="Docker"
             home-skill>
             <img
-              src="../../assets/docker.svg"
+              src="../../assets/imgs/docker.svg"
               alt="docker logo"
               home-skill>
           </li>

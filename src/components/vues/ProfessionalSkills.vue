@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-16 about">
+  <div class="mt-16">
     <Title
       class="mb-12"
       firstText="Hard"
