@@ -1,19 +1,19 @@
 <template>
-  <div class="relative overflow-x-hidden dark:bg-dark dark:text-white">
+  <main class="relative overflow-x-hidden dark:bg-dark dark:text-white">
     <Pointer />
     <Hero />
     <SocialMediaBar />
-    <Career />
+    <ProfessionalCareer />
     <ProfessionalSkills />
     <Portfolio />
     <MainFooter />
-  </div>
+  </main>
 </template>
 
 <script>
 import Pointer from "./components/commons/Pointer.vue";
 import Hero from "./components/sections/HeroSection.vue";
-import Career from "./components/sections/CareerSection.vue";
+import ProfessionalCareer from "./components/Vues/ProfessionalCareer.vue";
 import Portfolio from "./components/sections/PortfolioSection.vue";
 import ProfessionalSkills from "./components/Vues/ProfessionalSkills";
 import MainFooter from "./components/sections/MainFooter.vue";
@@ -26,7 +26,7 @@ export default {
         Pointer,
         SocialMediaBar,
         Hero,
-        Career,
+        ProfessionalCareer,
         Portfolio,
         MainFooter,
     },

@@ -1,9 +1,5 @@
 <template>
-  <div class="mt-16 about">
-    <Title
-      class="mb-16"
-      firstText="Mon"
-      secondText="Parcours" />
+  <div>
     <section class="max-w-5xl py-10 mx-2 md:mx-auto">
       <div>
         <div class="flex flex-row">
@@ -170,13 +166,9 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Title from "../commons/Title.vue";
 import text from "../../text/data.json";
 export default {
     name: "About",
-    components: {
-        Title,
-    },
     data() {
         return {
             datas: text
