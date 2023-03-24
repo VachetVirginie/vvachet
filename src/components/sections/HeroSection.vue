@@ -1,4 +1,3 @@
-/* eslint-disable no-mixed-spaces-and-tabs */
 <template>
   <main class="container px-10 mx-auto">
     <section class="grid items-center grid-cols-1 gap-10 pt-24 pb-24 md:grid-cols-2 md:gap-12 lg:gap-20 xl:pt-24 2xl:pt-56">

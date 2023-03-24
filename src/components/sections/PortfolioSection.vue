@@ -1,12 +1,5 @@
 <template>
-  <div class="work dark:text-white light:text-black">
-    <Title
-      class="mt-24 mb-20"
-      firstText="Projets"
-      secondText="Professionnels" />
-    <!-- <div>
-      <circular-svg />
-    </div> -->
+  <div>
     <section id="features">
       <div class="divide-y divide-primary">
         <div class="container mx-auto">
@@ -236,16 +229,12 @@
 </template>
 
 <script>
-// import CircularSvg from "./CircularSvg.vue";
 import MainChips from "../commons/MainChips.vue";
-import Title from "../commons/Title.vue";
 
 export default {
     name: "Portfolio",
     components: {
         MainChips,
-        // CircularSvg,
-        Title,
     },
     props: {
         msg:{

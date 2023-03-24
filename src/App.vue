@@ -5,7 +5,7 @@
     <SocialMediaBar />
     <ProfessionalCareer />
     <ProfessionalSkills />
-    <Portfolio />
+    <PortfolioVue />
     <MainFooter />
   </main>
 </template>
@@ -14,7 +14,7 @@
 import Pointer from "./components/commons/Pointer.vue";
 import Hero from "./components/sections/HeroSection.vue";
 import ProfessionalCareer from "./components/Vues/ProfessionalCareer.vue";
-import Portfolio from "./components/sections/PortfolioSection.vue";
+import PortfolioVue from "./components/Vues/PortfolioVue.vue";
 import ProfessionalSkills from "./components/Vues/ProfessionalSkills";
 import MainFooter from "./components/sections/MainFooter.vue";
 import SocialMediaBar from "./components/commons/SocialMediaBar.vue";
@@ -27,7 +27,7 @@ export default {
         SocialMediaBar,
         Hero,
         ProfessionalCareer,
-        Portfolio,
+        PortfolioVue,
         MainFooter,
     },
     mounted() {
