@@ -288,7 +288,7 @@
 </template>
 
 <script>
-import MainChips from "./MainChips.vue";
+import MainChips from "../commons/MainChips.vue";
 
 export default {
     name: "Test",

@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import Title from "./Title.vue";
-import text from "../text/data.json";
+import Title from "../commons/Title.vue";
+import text from "../../text/data.json";
 export default {
     name: "Personnal",
     components: {

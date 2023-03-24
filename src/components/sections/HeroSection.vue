@@ -36,7 +36,7 @@
           <img
             class="w-full rounded-full"
             alt="Me"
-            src="./../assets/toto.svg"
+            src="../../assets/heroCharacter.svg"
             home-skill>
         </div>
         <ul
@@ -47,7 +47,7 @@
             title="ApiPlatform"
             home-skill>
             <img
-              src="./../assets/technologies/webby.svg"
+              src="../../assets/technologies/webby.svg"
               alt="api platform logo"
               home-skill>
           </li>
@@ -56,7 +56,7 @@
             title="NuxtJs"
             home-skill>
             <img
-              src="./../assets/technologies/nuxt.svg"
+              src="../../assets/technologies/nuxt.svg"
               alt="nuxt logo"
               home-skill>
           </li>
@@ -65,7 +65,7 @@
             title="Symfony"
             home-skill="">
             <img
-              src="./../assets/technologies/symfony.svg"
+              src="../../assets/technologies/symfony.svg"
               alt="symfony logo"
               home-skill>
           </li>
@@ -74,7 +74,7 @@
             title="Vuejs"
             home-skill>
             <img
-              src="./../assets/technologies/vue.svg"
+              src="../../assets/technologies/vue.svg"
               alt="vue logo"
               home-skill>
           </li>
@@ -83,7 +83,7 @@
             title="Docker"
             home-skill>
             <img
-              src="./../assets/docker.svg"
+              src="../../assets/docker.svg"
               alt="docker logo"
               home-skill>
           </li>
@@ -92,7 +92,7 @@
             title="Tailwind"
             home-skill>
             <img
-              src="./../assets/technologies/tailwind.svg"
+              src="../../assets/technologies/tailwind.svg"
               alt="tailwind logo"
               home-skill>
           </li>
@@ -105,7 +105,7 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import text from "../text/data.json";
+import text from "../../text/data.json";
 export default {
     name: "Home",
     data () {

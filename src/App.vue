@@ -1,49 +1,32 @@
 <template>
   <div class="relative overflow-x-hidden dark:bg-dark dark:text-white">
-    <!--    <div class="flex items-center justify-between p-4 rounded-lg shadow ligth:bg-primary dark:bg-dark dark:text-white">-->
-    <!--      <div class="dark:text-white">-->
-    <!--        <img-->
-    <!--          src="https://raw.githubusercontent.com/VachetVirginie/portfolio/master/img/vvlogo.png"-->
-    <!--          alt="logo"-->
-    <!--          class="object-scale-down size">-->
-    <!--      </div>-->
-    <!--      <div>-->
-    <!--        <button-->
-    <!--          class="w-6 h-6 mr-2 bg-yellow-200 rounded-full focus:outline-none"-->
-    <!--          @click.prevent="selectTheme('light')">-->
-    <!--          ☀️-->
-    <!--        </button>-->
-    <!--        <button-->
-    <!--          class="w-6 h-6 rounded-full focus:outline-none bg-tellow"-->
-    <!--          @click.prevent="selectTheme('dark')">-->
-    <!--          🌑-->
-    <!--        </button>-->
-    <!--      </div>-->
-    <!--    </div>-->
     <Pointer />
-    <Home />
+    <Hero />
     <SocialMediaBar />
-    <About />
+    <Career />
+    <ProfessionalSkills />
     <Portfolio />
     <MainFooter />
   </div>
 </template>
 
 <script>
-import Pointer from "./components/Pointer.vue";
-import Home from "./components/Home.vue";
-import About from "./components/About.vue";
-import Portfolio from "./components/Portfolio.vue";
-import MainFooter from "./components/MainFooter.vue";
-import SocialMediaBar from "./components/SocialMediaBar.vue";
+import Pointer from "./components/commons/Pointer.vue";
+import Hero from "./components/sections/HeroSection.vue";
+import Career from "./components/sections/CareerSection.vue";
+import Portfolio from "./components/sections/PortfolioSection.vue";
+import ProfessionalSkills from "./components/Vues/ProfessionalSkills";
+import MainFooter from "./components/sections/MainFooter.vue";
+import SocialMediaBar from "./components/commons/SocialMediaBar.vue";
 
 export default {
     name: "App",
     components: {
+        ProfessionalSkills,
         Pointer,
         SocialMediaBar,
-        Home,
-        About,
+        Hero,
+        Career,
         Portfolio,
         MainFooter,
     },
@@ -52,19 +35,7 @@ export default {
         const html = document.querySelector("html");
         document.querySelector("html").classList.add(localStorage.getItem("theme"));
         html.classList.remove("light");
-    },
-    // methods: {
-    //     selectTheme(indexing){
-    //         localStorage.setItem("theme", indexing);
-    //         const html = document.querySelector("html");
-    //         html.classList.add(localStorage.getItem("theme"));
-    //         if(indexing == "dark"){
-    //             html.classList.remove("light");
-    //         }else{
-    //             html.classList.remove("dark");
-    //         }
-    //     },
-    // }
+    }
 };
 </script>
 

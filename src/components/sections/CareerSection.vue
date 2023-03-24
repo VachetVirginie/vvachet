@@ -1,6 +1,5 @@
 <template>
   <div class="mt-16 about">
-    <Personnal class="mb-16" />
     <Title
       class="mb-16"
       firstText="Mon"
@@ -165,33 +164,18 @@
         </div>
       </div>
     </section>
-    <div class="container mx-auto mt-16 skills">
-      <div class="mt-16 text-center left-20">
-        <div class="mt-16 about">
-          <Title
-            class="mb-12"
-            firstText="Hard"
-            secondText="Skillz" />
-          <ProfessionalSkills class="mb-12" />
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ProfessionalSkills from "./ProfessionalSkills.vue";
-import Title from "./Title.vue";
-import Personnal from "./Personnal.vue";
-import text from "../text/data.json";
+import Title from "../commons/Title.vue";
+import text from "../../text/data.json";
 export default {
     name: "About",
     components: {
-        ProfessionalSkills,
         Title,
-        Personnal
     },
     data() {
         return {
