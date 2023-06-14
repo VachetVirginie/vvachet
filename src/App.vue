@@ -13,9 +13,9 @@
 <script>
 import Pointer from "./components/commons/Pointer.vue";
 import Hero from "./components/sections/HeroSection.vue";
-import ProfessionalCareer from "./components/vues/ProfessionalCareer.vue";
-import PortfolioVue from "./components/vues/PortfolioVue.vue";
-import ProfessionalSkills from "./components/vues/ProfessionalSkills";
+import ProfessionalCareer from "./components/views/ProfessionalCareer.vue";
+import PortfolioVue from "./components/views/PortfolioVue.vue";
+import ProfessionalSkills from "./components/views/ProfessionalSkills";
 import MainFooter from "./components/sections/FooterSection.vue";
 import SocialMediaBar from "./components/commons/SocialMediaBar.vue";
 
