@@ -57,7 +57,7 @@ export default {
 
 <style>
 .bg-hero {
-        background: center / cover no-repeat url("../../assets/backgrounds/patterntop.svg");
+        background: center / cover no-repeat url("../../../public/img/backgrounds/patterntop.svg");
     }
 
 .carbonbadge {

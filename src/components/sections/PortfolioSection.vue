@@ -12,7 +12,7 @@
                 data-aos-duration="2000"
                 src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
               <img
-                src="../../assets/backgrounds/dots.svg"
+                src="../../../public/img/backgrounds/dots.svg"
                 alt="White dots in a horizontal grid."
                 class="-mt-10 -ml-10">
             </div>
@@ -97,7 +97,7 @@
                 data-aos-duration="2000"
                 src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
               <img
-                src="../../assets/backgrounds/dots.svg"
+                src="../../../public/img/backgrounds/dots.svg"
                 alt="White dots in a horizontal grid."
                 class="-mt-10 -ml-10">
             </div>
@@ -167,7 +167,7 @@
                 data-aos-duration="2000"
                 src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
               <img
-                src="../../assets/backgrounds/dots.svg"
+                src="../../../public/img/backgrounds/dots.svg"
                 alt="dots in a horizontal grid."
                 class="-mt-10 -ml-10">
             </div>

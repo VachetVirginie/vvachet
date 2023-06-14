@@ -16,7 +16,7 @@ import Hero from "./components/sections/HeroSection.vue";
 import ProfessionalCareer from "./components/vues/ProfessionalCareer.vue";
 import PortfolioVue from "./components/vues/PortfolioVue.vue";
 import ProfessionalSkills from "./components/vues/ProfessionalSkills";
-import MainFooter from "./components/sections/MainFooter.vue";
+import MainFooter from "./components/sections/FooterSection.vue";
 import SocialMediaBar from "./components/commons/SocialMediaBar.vue";
 
 export default {
