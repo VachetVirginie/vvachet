@@ -109,7 +109,7 @@ import "aos/dist/aos.css";
 import text from "./data.json";
 
 export default {
-    name: "Home",
+    name: "HeroView",
     data() {
         return {
             datas: text
