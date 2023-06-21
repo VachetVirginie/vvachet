@@ -5,7 +5,7 @@
       :key="skill.message"
       class="w-full p-4 xl:w-1/4 md:w-1/2">
       <div
-        class="flex flex-col flex-1 rounded-lg sal-animate"
+        class="flex flex-col flex-1 rounded-lg sal-animate skillz"
         data-aos="fade-up"
         data-aos-duration="2000">
         <div class="relative flex flex-col items-center justify-center h-full p-6 overflow-hidden text-center border-2 rounded-lg border-primary hover:scale-105">
@@ -17,7 +17,7 @@
           </div>
           <div class="w-12 h-1 mt-2 mb-4 rounded bg-primary" />
           <div>
-            <h5 class="text-xl">{{ skill.message }}</h5>
+            <h5 class="text-xl skill-name">{{ skill.message }}</h5>
           </div>
         </div>
       </div>

@@ -1,5 +1,8 @@
 lint:
-	npm run lint --fix
+	yarn lint --fix
 
 serve:
-	npm run serve
+	yarn serve
+
+test:
+	yarn test:unit
