@@ -31,7 +31,7 @@
       id="wcb"
       class="carbonbadge wcb-d" />
     <div class="w-full px-10 pb-5 text-xs text-center md:text-sm text-true-gray-600 ">
-      Virginie Vachet 2021 © <span class="text-true-gray-600 dark:text-true-gray-500"> | built with <a
+      Virginie Vachet {{ thisYear }}© <span class="text-true-gray-600 dark:text-true-gray-500"> | built with <a
         href="https://tailwindcss.com/"
         target="_blank"
         class="font-semi-bold text-primary">Tailwindcss 2</a>,
@@ -47,7 +47,11 @@
 <script>
 export default {
     name: "MainFooter",
-    // trick pour <script> dans le template
+    data() {
+        return {
+            thisYear: new Date().getFullYear(),
+        };
+    },
     created() {
         let carbonbadge = document.createElement("script");    carbonbadge.setAttribute("src","//unpkg.com/website-carbon-badges@1.1.3/b.min.js");
         document.head.appendChild(carbonbadge);
@@ -57,7 +61,7 @@ export default {
 
 <style>
 .bg-hero {
-        background: center / cover no-repeat url("../../../public/img/backgrounds/patterntop.svg");
+        background: center / cover no-repeat url("../../../public/img/backgrounds/patternfooter.svg");
     }
 
 .carbonbadge {

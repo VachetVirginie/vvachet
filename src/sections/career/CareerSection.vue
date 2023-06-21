@@ -167,6 +167,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import text from "./data.json";
+
 export default {
     name: "About",
     data() {
@@ -194,8 +195,6 @@ a, a:link {
   background-position-y: -0%;
   background-image: linear-gradient( white 50%, 6EE7B7 50%);
   transition: background 500ms ease;
-  background-size: 2px;
-  background-size: auto 175%;
 }
 
 a:hover {

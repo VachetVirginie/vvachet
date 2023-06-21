@@ -18,7 +18,7 @@
           <p
             data-aos="fade-right"
             data-aos-duration="2000"
-            class="mt-5 leading-relaxed xl:w-3/4 2xl:text-xl">
+            class="mt-5 leading-relaxed xl:w-3/4 2xl:text-xl text-xl">
             {{ datas._home.title_1 }}
             <span class="underline-effect">{{ datas._home.title_2 }}</span>
             {{ datas._home.title_3 }}
@@ -30,68 +30,70 @@
       <div
         data-aos="fade-left"
         data-aos-duration="2000"
-        class="relative order-2 p-4 border border-purple-300 rounded-full dark:border-purple-700 dark:border-opacity-50 lg:p-7 xl:p-9">
-        <div class="relative p-4 border border-purple-300 rounded-full dark:border-purple-800 dark:border-opacity-50 lg:p-7 xl:p-9">
+        class="relative order-2 p-4 border border-primary rounded-full border-opacity-50 lg:p-7 xl:p-9">
+        <div class="relative p-4 border border-primary rounded-full border-primary border-opacity-50 lg:p-7 xl:p-9">
           <img
             class="w-full rounded-full"
             alt="Me"
-            src="../../../public/img/hero/heroCharacter.svg"
+            :src="require('../../../public/img/hero/heroCharacter.svg')"
             home-skill>
         </div>
         <ul
           class="absolute top-0 left-0 w-full h-full rounded-full"
           home-skill>
           <li
-            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
+            class="hero-img"
             title="ApiPlatform"
             home-skill>
             <img
-              src="../../../public/img/hero/technologies/webby.svg"
+              :src="require('../../../public/img/hero/technologies/webby.svg')"
               alt="api platform logo"
               home-skill>
           </li>
           <li
-            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
+            class="hero-img"
             title="NuxtJs"
             home-skill>
             <img
-              src="../../../public/img/hero/technologies/nuxt.svg"
+              :src="require('../../../public/img/hero/technologies/nuxt.svg')"
               alt="nuxt logo"
               home-skill>
           </li>
           <li
-            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
+            class="hero-img"
             title="Symfony"
-            home-skill="">
+            home-skill>
             <img
-              src="../../../public/img/hero/technologies/symfony.svg"
+              :src="require('../../../public/img/hero/technologies/symfony.svg')"
               alt="symfony logo"
               home-skill>
           </li>
           <li
-            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
+            class="hero-img"
             title="Vuejs"
             home-skill>
             <img
-              src="../../../public/img/hero/technologies/vue.svg"
+              :src="require('../../../public/img/hero/technologies/vue.svg')"
               alt="vue logo"
               home-skill>
           </li>
           <li
-            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
+            class="hero-img"
             title="Docker"
             home-skill>
             <img
-              src="../../../public/img/technos/docker.svg"
+              :src="require('../../../public/img/technos/docker.svg')"
               alt="docker logo"
               home-skill>
           </li>
           <li
-            class="absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur"
+            class="
+
+hero-img"
             title="Tailwind"
             home-skill>
             <img
-              src="../../../public/img/hero/technologies/tailwind.svg"
+              :src="require('../../../public/img/hero/technologies/tailwind.svg')"
               alt="tailwind logo"
               home-skill>
           </li>
@@ -105,17 +107,18 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import text from "./data.json";
+
 export default {
     name: "Home",
-    data () {
+    data() {
         return {
             datas: text
         };
     },
-    created () {
+    created() {
         this.aos = AOS;
         this.aos.init({
-            miror:true,
+            mirror: true
         });
     }
 };

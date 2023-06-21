@@ -9,12 +9,12 @@
     font-size: 5em !important;
 }
   .underline-effect {
-    @apply z-10 rounded-md relative px-1  after:bg-primary dark:after:bg-primary
-    after:bg-opacity-60 after:transition-all after:top-3
+    @apply z-10 rounded-md relative px-1  after:bg-secondary dark:after:bg-secondary
+    after:bg-opacity-60 after:transition-all after:top-4
     after:absolute after:-left-px after:-right-px after:bottom-0
     after:-z-10
     after:rounded-sm
-    hover:after:top-0 hover:after:bg-primary dark:hover:after:bg-primary
+    hover:after:top-0 hover:after:bg-secondary dark:hover:after:bg-secondary
     hover:after:bg-opacity-60
     hover:after:rounded-md hover:after:shadow-lg
     text-gray-900 dark:text-gray-100 whitespace-nowrap;
@@ -230,4 +230,8 @@
       padding: 0.75rem;
     }
   }
+}
+
+.hero-img {
+  @apply absolute flex items-center justify-center bg-white rounded-full shadow-2xl skill bg-opacity-70 dark:bg-gray-700 dark:bg-opacity-40 backdrop-filter backdrop-blur
 }
