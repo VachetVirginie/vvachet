@@ -35,7 +35,7 @@
 
 <script>
 import Title from "../commons/Title.vue";
-import text from "../../text/data.json";
+import text from "../hero/data.json";
 export default {
     name: "Personnal",
     components: {

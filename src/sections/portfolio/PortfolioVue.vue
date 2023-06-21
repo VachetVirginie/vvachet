@@ -8,8 +8,8 @@
   </main>
 </template>
 <script>
-import PortfolioSection from "../components/sections/PortfolioSection";
-import Title from "../components/commons/Title.vue";
+import PortfolioSection from "./PortfolioSection";
+import Title from "../commons/Title.vue";
 export default {
     components: {
         Title,

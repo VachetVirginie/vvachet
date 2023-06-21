@@ -104,12 +104,11 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import text from "../../text/data.json";
+import text from "./data.json";
 export default {
     name: "Home",
     data () {
         return {
-            classes: [],
             datas: text
         };
     },
@@ -121,31 +120,3 @@ export default {
     }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.top-rect {
-  background-color: #6EE7B7;
-  padding-top: 550px;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  overflow: hidden;
-}
-
-.top-rect::after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: white;
-  height: 600px;
-  width: 8000px;
-  z-index: 1;
-  bottom: -50%;
-  left: 50%;
-  margin-left: -4000px;
-  transform: rotate(-6deg);
-}
-</style>

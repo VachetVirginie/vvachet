@@ -166,7 +166,7 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import text from "../../text/data.json";
+import text from "./data.json";
 export default {
     name: "About",
     data() {

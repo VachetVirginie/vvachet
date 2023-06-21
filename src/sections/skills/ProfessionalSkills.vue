@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import Title from "../components/commons/Title.vue";
-import ProfessionalSkillsSection from "../components/sections/ProfessionalSkillsSection.vue";
+import Title from "../commons/Title.vue";
+import ProfessionalSkillsSection from "./ProfessionalSkillsSection.vue";
 
 export default {
     name: "Professional",
