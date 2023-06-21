@@ -9,7 +9,7 @@
 </template>
 <script>
 import PortfolioSection from "./PortfolioSection";
-import Title from "../commons/Title.vue";
+import Title from "../../components/commons/Title.vue";
 export default {
     components: {
         Title,

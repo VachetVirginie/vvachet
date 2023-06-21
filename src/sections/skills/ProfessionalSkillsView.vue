@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Title from "../commons/Title.vue";
+import Title from "../../components/commons/Title.vue";
 import ProfessionalSkillsSection from "./ProfessionalSkillsSection.vue";
 
 export default {

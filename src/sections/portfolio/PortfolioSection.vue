@@ -229,7 +229,7 @@
 </template>
 
 <script>
-import MainChips from "../commons/MainChips.vue";
+import MainChips from "../../components/commons/MainChips.vue";
 
 export default {
     name: "Portfolio",

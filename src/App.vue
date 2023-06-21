@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import Pointer from "./sections/commons/Pointer.vue";
-import Hero from "./sections/hero/HeroSection.vue";
-import ProfessionalCareer from "./sections/career/ProfessionalCareer.vue";
+import Pointer from "./components/commons/Pointer.vue";
+import Hero from "./sections/hero/HeroView.vue";
+import ProfessionalCareer from "./sections/career/ProfessionalCareerView.vue";
 import PortfolioVue from "./sections/portfolio/PortfolioVue.vue";
-import ProfessionalSkills from "./sections/skills/ProfessionalSkills";
-import MainFooter from "./sections/commons/MainFooter.vue";
-import SocialMediaBar from "./sections/commons/SocialMediaBar.vue";
+import ProfessionalSkills from "./sections/skills/ProfessionalSkillsView";
+import MainFooter from "./components/commons/MainFooter.vue";
+import SocialMediaBar from "./components/commons/SocialMediaBar.vue";
 
 export default {
     name: "App",
