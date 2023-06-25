@@ -1,8 +1,23 @@
 {
+  "_Commons": {
+    "goto": "Site"
+  },
   "_NGTV": {
     "titre": "Ngtv Experience",
     "slogan": "La vidéo intelligente au service du sport.",
-    "technos": ["Javascript", "TypeScript", "Vue.js 2 Opation API", "Vue.js 3 Composition API", "Nuxt", "Vuetify", "Symfony 4/5","Docker", "ApiPlatform", "Mysql", "Github"],
+    "technos": [
+      "Javascript",
+      "TypeScript",
+      "Vue.js 2 Opation API",
+      "Vue.js 3 Composition API",
+      "Nuxt",
+      "Vuetify",
+      "Symfony 4/5",
+      "Docker",
+      "ApiPlatform",
+      "Mysql",
+      "Github"
+    ],
     "description_0_part_1": "Je travaille chez Ngtv experience depuis Octobre 2019 en tant que ",
     "description_0_part_2": "developpeuse web front et back ",
     "description_1": "Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class=\"font-bold underline-effect\">developpeur web front et back </span>.\n",
@@ -16,7 +31,7 @@
       "- Participer au développement API en Symfony 4/5 utilisant API Platform",
       "- Participer à l'élaboration des tests unitaires (PHPUnit)",
       "- Participer au suivi post mise en production"
-    ]
+    ],
   },
   "_Cegedim": {
     "titre": "Cegedim",
@@ -34,7 +49,7 @@
       "- Réaliser les tests unitaires",
       "- Participer à l’intégration de la solution (scénarii de tests…)",
       "- Présenter un point d’avancement (demandes d’arbitrage, difficultés rencontrées, etc) lors des revues avec le Chef de Projet"
-    ]
+    ],
   },
   "_Orange": {
     "titre": "Orange",

@@ -43,7 +43,7 @@
                 </p>
                 <a
                   href="https://www.ngtvexperience.com/"
-                  class="flex px-10 py-3 text-xl sm:w-2/3 lg:w-1/2 text-primary">Site
+                  class="flex px-10 py-3 text-xl sm:w-2/3 lg:w-1/2 text-primary">{{ infos._Commons.goto }}
                   <siteArrow />
                 </a>
               </div>
@@ -88,7 +88,7 @@
                 </p>
                 <a
                   href="https://www.cegedim-srh.com/Pages/Accueil.aspx"
-                  class="flex px-10 py-3 text-xl sm:w-2/3 lg:w-1/2 text-primary">Site
+                  class="flex px-10 py-3 text-xl sm:w-2/3 lg:w-1/2 text-primary">{{ infos._Commons.goto }}
                   <siteArrow />
                 </a>
               </div>
@@ -131,7 +131,7 @@
                 </p>
                 <a
                   href="https://www.orange.com/fr"
-                  class="flex px-10 py-3 text-xl sm:w-2/3 lg:w-1/2 text-primary">Site
+                  class="flex px-10 py-3 text-xl sm:w-2/3 lg:w-1/2 text-primary">{{ infos._Commons.goto }}
                   <siteArrow />
                 </a>
               </div>
