@@ -1,0 +1,52 @@
+{
+  "_NGTV": {
+    "titre": "Ngtv Experience",
+    "slogan": "La vidéo intelligente au service du sport.",
+    "technos": ["Javascript", "TypeScript", "Vue.js 2 Opation API", "Vue.js 3 Composition API", "Nuxt", "Vuetify", "Symfony 4/5","Docker", "ApiPlatform", "Mysql", "Github"],
+    "description_0_part_1": "Je travaille chez Ngtv experience depuis Octobre 2019 en tant que ",
+    "description_0_part_2": "developpeuse web front et back ",
+    "description_1": "Je travaille chez Ngtv experience depuis Octobre 2019 en tant que <span class=\"font-bold underline-effect\">developpeur web front et back </span>.\n",
+    "description_2": "NGTV est une société de services numériques. L'objectif ? Permettre aux sportifs amateurs de profiter de technologies de pointe pour améliorer leur pratique ou simplement profiter de l'expérience communautaire la plus innovante en Europe!\n",
+    "missions": [
+      "Mes missions principales sont:",
+      "- Participer au développement d'interfaces tactiles développées en Nuxt/Vue.js 2/Vuetify",
+      "- Participer au développement d'un espace d'administration à destination des clients de NGTV, ainsi que de l'équipe support en Vue.js 3/PrimeVUE/Tailwind CSS",
+      "- Participer au développement de sites externes de consultation de sessions en Vue.js 2/Tailwind CSS",
+      "- Création d'un outil permettant de faire des lives sur les réseaux sociaux en Vue.js 2/OBS/OBS-websocket",
+      "- Participer au développement API en Symfony 4/5 utilisant API Platform",
+      "- Participer à l'élaboration des tests unitaires (PHPUnit)",
+      "- Participer au suivi post mise en production"
+    ]
+  },
+  "_Cegedim": {
+    "titre": "Cegedim",
+    "slogan": "Un spécialiste des solutions et services RH",
+    "technos": ["Javascript", "TEAMSRH", "Jira" ],
+    "description_0_part_1": "J'ai travaillé chez Cegedim de Decembre 2018 à Octobre 2019 en tant que  ",
+    "description_0_part_2": "developpeuse Javascript",
+    "description_1": " Cegedim SRH s'appuie sur sa propre solution TEAMSRH pour offrir à ses clients des prestations d'externalisation adaptées et évolutives de leurs systèmes d'information paie et RH.\n",
+    "missions": [
+      "Mes missions principales étaient:",
+      "- Participer à l’élaboration de l’analyse fonctionnelle et technique chez le client",
+      "- Valider une solution technique à partir de l’analyse fonctionnelle",
+      "- Rédiger le cahier des charges",
+      "- Assurer le paramétrage (ou le développement spécifique si nécessaire)",
+      "- Réaliser les tests unitaires",
+      "- Participer à l’intégration de la solution (scénarii de tests…)",
+      "- Présenter un point d’avancement (demandes d’arbitrage, difficultés rencontrées, etc) lors des revues avec le Chef de Projet"
+    ]
+  },
+  "_Orange": {
+    "titre": "Orange",
+    "slogan": "La vie change avec Orange",
+    "technos": ["Php", "Jquery", "Zend 1", "Tortoise SVN"],
+    "description_0_part_1": "J'ai travaillé chez Orange de Decembre 2017 à Decembre 2018 en tant qu'",
+    "description_0_part_2": "alternante en backend",
+    "description_0_part_3": "au sein de la DSI.",
+    "missions": [
+      "Mes missions principales étaient:",
+      "– Comprendre les besoins métiers et les reformuler par des solutions techniques,",
+      "– Concevoir et développer les fonctionnalités."
+    ]
+  }
+}
