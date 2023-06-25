@@ -1,4 +1,6 @@
-import {mount, shallowMount} from "@vue/test-utils";
+import {
+    mount
+} from "@vue/test-utils";
 import Hero from "../../HeroView.vue";
 
 describe("Hero", () => {

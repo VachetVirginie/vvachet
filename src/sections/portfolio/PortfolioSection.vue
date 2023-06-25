@@ -11,7 +11,9 @@
                 data-aos="fade-right"
                 data-aos-duration="2000"
                 src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
-              <DotSvg class="-mt-10 -ml-10" />
+              <DotSvg
+                class="-mt-10 -ml-10"
+                color="bg-primary" />
             </div>
             <div
               class="w-full mt-2 ml-2 sm:w-1/2"
@@ -38,7 +40,10 @@
                 <p class="py-4 mb-2 light-text-gray-700 text-lg">
                   {{ infos._NGTV.description_2 }}
                 </p>
-                <p v-for="mission in infos._NGTV.missions" :key="mission" class="mb-2 text-lg light-text-gray-700">
+                <p
+                  v-for="mission in infos._NGTV.missions"
+                  :key="mission"
+                  class="mb-2 text-lg light-text-gray-700">
                   {{ mission }}
                 </p>
                 <a
@@ -83,7 +88,10 @@
                 <p class="py-4 mb-2 text-lg light-text-gray-700">
                   {{ infos._Cegedim.description_1 }}
                 </p>
-                <p v-for="mission in infos._Cegedim.missions" :key="mission" class="mb-2 text-lg light-text-gray-700">
+                <p
+                  v-for="mission in infos._Cegedim.missions"
+                  :key="mission"
+                  class="mb-2 text-lg light-text-gray-700">
                   {{ mission }}
                 </p>
                 <a
@@ -126,7 +134,10 @@
                 <p class="py-4 mb-2 text-lg light-text-gray-700">
                   {{ infos._Orange.description_0_part_1 }} <span class="font-bold underline-effect"> {{ infos._Orange.description_0_part_2 }}</span>  {{ infos._Orange.description_0_part_3 }}
                 </p>
-                <p v-for="mission in infos._Cegedim.missions" :key="mission" class="mb-2 text-lg light-text-gray-700">
+                <p
+                  v-for="mission in infos._Cegedim.missions"
+                  :key="mission"
+                  class="mb-2 text-lg light-text-gray-700">
                   {{ mission }}
                 </p>
                 <a

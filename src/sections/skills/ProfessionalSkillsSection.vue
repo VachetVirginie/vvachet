@@ -37,15 +37,3 @@ export default {
 };
 
 </script>
-
-<style>
-.bg-fond {
-  background: center  no-repeat url("../../../public/img/backgrounds/background-dots.svg");
-}
-@media (max-width: 390px) {
-  .bg-fond {
-    background: center url("../../../public/img/backgrounds/background-dots.svg");
-    background-repeat: space;
-  }
-}
-</style>
