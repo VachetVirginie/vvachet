@@ -31,15 +31,11 @@
       id="wcb"
       class="carbonbadge wcb-d" />
     <div class="w-full px-10 pb-5 text-xs text-center md:text-sm text-true-gray-600 ">
-      Virginie Vachet {{ thisYear }}© <span class="text-true-gray-600 dark:text-true-gray-500"> | built with <a
-        href="https://tailwindcss.com/"
-        target="_blank"
-        class="font-semi-bold text-primary">Tailwindcss 2</a>,
-        <a
-          href="https://vuejs.org/"
-          target="_blank"
-          class="font-semi-bold text-primary">Vuejs 3</a> &amp;
-        <span class="font-semi-bold text-primary">Passion</span></span>
+      Virginie Vachet {{ thisYear }}© <span class="text-true-gray-600 dark:text-true-gray-500"> | built with <span
+        class="font-semi-bold text-primary">Tailwindcss 2</span>,
+        <span
+          class="font-semi-bold text-primary">Vuejs 3</span> &amp;
+        <span class="font-semi-bold text-primary"> Passion</span></span>
     </div>
   </div>
 </template>
