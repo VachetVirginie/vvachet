@@ -201,7 +201,7 @@ export default {
     props: {
         color: {
             type: String,
-            default: "bg-primary"
+            default: "#fff"
         }
     }
 };

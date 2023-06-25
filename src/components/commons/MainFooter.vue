@@ -57,7 +57,7 @@ export default {
 
 <style>
 .bg-hero {
-        background: center / cover no-repeat url("assets/patternfooter.vue");
+        background: center / cover no-repeat url("assets/patternFooter.vue");
     }
 
 .carbonbadge {
