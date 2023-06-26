@@ -1,4 +1,3 @@
-<template>
   <svg
     width="1440"
     height="941"
@@ -193,16 +192,3 @@
         d="M0 0h1440v941H0z" /></clipPath>
     </defs>
   </svg>
-</template>
-
-<script>
-export default {
-    name: "PatternFooter",
-    props: {
-        color: {
-            type: String,
-            default: "#fff"
-        }
-    }
-};
-</script>
