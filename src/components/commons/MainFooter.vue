@@ -57,14 +57,14 @@ export default {
 
 <style>
 .bg-hero {
-        background: center / cover no-repeat url("assets/patternFooter.vue");
-    }
+  background: center / cover no-repeat url("assets/patternFooter.svg");
+}
 
 .carbonbadge {
   @layer text-primary
 }
 
-  #wcb.wcb-d #wcb_2 {
+#wcb.wcb-d #wcb_2 {
     @layer text-primary
-    }
+}
 </style>

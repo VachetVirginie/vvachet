@@ -31,6 +31,7 @@
     "vue-calendar-heatmap": "^0.8.4",
     "vue-carbonbadge": "^1.2.1",
     "vue-good-links": "^0.0.3",
+    "vue-meta": "^2.4.0",
     "vue-zondicons": "^0.1.10",
     "vuejs-twitter-feed": "^1.0.1"
   },

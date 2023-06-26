@@ -1,8 +1,8 @@
 import {
     mount
 } from "@vue/test-utils";
-import Hero from "../../HeroView.vue"
-import texts from "../../data.json"
+import Hero from "../../HeroView.vue";
+import texts from "../../data.json";
 
 describe("Hero", () => {
     test("affiche le message de bienvenue", () => {

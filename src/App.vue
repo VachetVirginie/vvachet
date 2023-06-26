@@ -30,6 +30,24 @@ export default {
         PortfolioVue,
         MainFooter,
     },
+    metaInfo: {
+        title: "Portfolio - Virginie Vachet",
+        meta: [{
+            name: "description", content: "Virginie Vachet, developpeuse web Front et Back end, vivant à Lyon."
+        },
+               {
+                   property: "og:title", content: "Portfolio - Virginie Vachet"
+               },
+               {
+                   property: "og:site_name", content: "Virginie Vachet"
+               },
+               {
+                   property: "og:type", content: "website"
+               },
+               {
+                   name: "robots", content: "index,portfolio"
+               }]
+    },
     mounted() {
         localStorage.setItem("theme", "dark");
         const html = document.querySelector("html");
