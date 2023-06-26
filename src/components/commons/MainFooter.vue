@@ -31,7 +31,7 @@
       id="wcb"
       class="carbonbadge wcb-d" />
     <div class="w-full px-10 pb-5 text-xs text-center md:text-sm text-true-gray-600 ">
-      Virginie Vachet {{ thisYear }}© <span class="text-true-gray-600 dark:text-true-gray-500"> | built with <span
+      Virginie Vachet {{ thisYear }}© <span class="text-true-gray-500"> | built with <span
         class="font-semi-bold text-primary">Tailwindcss 2</span>,
         <span
           class="font-semi-bold text-primary">Vuejs 3</span> &amp;
@@ -61,10 +61,10 @@ export default {
     }
 
 .carbonbadge {
-  color: #5311DF !important;
-    }
+  @layer text-primary
+}
 
   #wcb.wcb-d #wcb_2 {
-  color: #5311DF !important;
+    @layer text-primary
     }
 </style>
