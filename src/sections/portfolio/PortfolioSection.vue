@@ -12,8 +12,7 @@
                 data-aos-duration="2000"
                 src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
               <DotSvg
-                class="-mt-10 -ml-10"
-                color="bg-primary" />
+                class="-mt-10 -ml-10"/>
             </div>
             <div
               class="w-full mt-2 ml-2 sm:w-1/2"
