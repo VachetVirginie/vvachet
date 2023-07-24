@@ -10,7 +10,7 @@
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                :src="require('../../../public/imgs/portfolio/ng.png')">
+                :src="require('../../../public/imgs/portfolio/ng.webp')">
               <DotSvg
                 class="-mt-10 -ml-10" />
             </div>
@@ -62,7 +62,7 @@
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                :src="require('../../../public/imgs/portfolio/srh.jpeg')">
+                :src="require('../../../public/imgs/portfolio/srh.webp')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>
             <div
