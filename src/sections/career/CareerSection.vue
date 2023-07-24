@@ -68,7 +68,7 @@
               </div>
               <div class="w-full p-5 md:w-96">
                 <img
-                  src="https://lescognees.com/wp-content/uploads/Orange-logo.png"
+                  :src="require('../../../public/imgs/portfolio/Orange-logo.jpg')"
                   alt="Orange logo"
                   class="object-scale-down">
               </div>
