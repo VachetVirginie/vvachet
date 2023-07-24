@@ -11,8 +11,8 @@
         <div class="relative flex flex-col items-center justify-center h-full p-6 overflow-hidden text-center border-2 rounded-lg border-primary hover:scale-105">
           <div>
             <img
-              :src="`img/technos/${skill.img}`"
-              alt="symfony"
+              :src="`imgs/technos/${skill.img}`"
+              :alt="skill.message"
               class="inline-block h-20 color-bg-gray-700 hover:skew-y-6">
           </div>
           <div class="w-12 h-1 mt-2 mb-4 rounded bg-primary" />
