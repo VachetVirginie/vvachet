@@ -10,7 +10,7 @@
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                src="https://padelmagazine.fr/wp-content/uploads/2021/03/NGTV-Empower-Sport-Experience.jpg.webp">
+                :src="require('../../../public/imgs/portfolio/ng.png')">
               <DotSvg
                 class="-mt-10 -ml-10" />
             </div>
@@ -62,7 +62,7 @@
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                src="https://pbs.twimg.com/profile_images/474222837419356161/FkijWTuB.jpeg">
+                :src="require('../../../public/imgs/portfolio/srh.jpeg')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>
             <div
@@ -110,7 +110,7 @@
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                src="https://cdn.1min30.com/wp-content/uploads/2017/07/Orange-logo-scaled.jpg">
+                :src="require('../../../public/imgs/portfolio/Orange-logo.jpg')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>
             <div
