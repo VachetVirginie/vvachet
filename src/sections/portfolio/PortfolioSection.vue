@@ -7,6 +7,7 @@
             <div class="w-full p-4 xl:w-1/2 md:w-1/2">
               <img
                 alt="Ngtv Project"
+                loading="lazy"
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
                 data-aos-duration="2000"
@@ -59,6 +60,7 @@
             <div class="w-full p-4 xl:w-1/2 md:w-1/2">
               <img
                 alt="Cegedim srh"
+                loading="lazy"
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
                 data-aos-duration="2000"
@@ -107,6 +109,7 @@
             <div class="w-full p-4 xl:w-1/2 md:w-1/2">
               <img
                 alt="Orange logo"
+                loading="lazy"
                 class="skew-y-6 rounded-lg lazyloaded"
                 data-aos="fade-right"
                 data-aos-duration="2000"
