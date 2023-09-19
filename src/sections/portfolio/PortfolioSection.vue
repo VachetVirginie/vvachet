@@ -6,6 +6,7 @@
           <div class="items-center justify-between sm:flex">
             <div class="w-full p-4 xl:w-1/2 md:w-1/2">
               <img
+                loading="lazy"
                 alt="Ngtv Project"
                 loading="lazy"
                 class="skew-y-6 rounded-lg lazyloaded"
@@ -59,6 +60,7 @@
           <div class="items-center justify-between sm:flex">
             <div class="w-full p-4 xl:w-1/2 md:w-1/2">
               <img
+                loading="lazy"
                 alt="Cegedim srh"
                 loading="lazy"
                 class="skew-y-6 rounded-lg lazyloaded"
@@ -108,6 +110,7 @@
           <div class="items-center justify-between sm:flex">
             <div class="w-full p-4 xl:w-1/2 md:w-1/2">
               <img
+                loading="lazy"
                 alt="Orange logo"
                 loading="lazy"
                 class="skew-y-6 rounded-lg lazyloaded"

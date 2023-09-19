@@ -27,6 +27,7 @@
               </div>
               <div class="w-full p-5 md:w-96">
                 <img
+                  loading="lazy"
                   src="https://fr.investiretplus.com/wp-content/uploads/2017/09/logo-simplon_2.jpg"
                   alt="step 1"
                   class="object-scale-down">
@@ -68,6 +69,7 @@
               </div>
               <div class="w-full p-5 md:w-96">
                 <img
+                  loading="lazy"
                   src="https://lescognees.com/wp-content/uploads/Orange-logo.png"
                   alt="Orange logo"
                   class="object-scale-down">
@@ -111,6 +113,7 @@
               </div>
               <div class="w-full p-5 md:w-96">
                 <img
+                  loading="lazy"
                   src="https://www.myrhline.com/wp-content/uploads/2017/01/6176_default_big.jpg"
                   alt="logo cegedim srh"
                   class="object-scale-down">
@@ -151,6 +154,7 @@
               </div>
               <div class="w-full p-5 md:w-96">
                 <img
+                  loading="lazy"
                   src="https://ngtvexperience.com/_nuxt/img/logo-black.c2acef7.svg"
                   alt="ngtv logo"
                   class="object-scale-down bg-white">

@@ -33,6 +33,7 @@
         class="relative order-2 p-4 border border-primary rounded-full border-opacity-50 lg:p-7 xl:p-9">
         <div class="relative p-4 border border-primary rounded-full border-primary border-opacity-50 lg:p-7 xl:p-9">
           <img
+            loading="lazy"
             class="w-full rounded-full"
             alt="Me"
             :src="require('../../../public/imgs/hero/heroCharacter.svg')"
@@ -46,6 +47,7 @@
             title="ApiPlatform"
             home-skill>
             <img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/webby.svg')"
               alt="api platform logo"
               home-skill>
@@ -55,6 +57,7 @@
             title="NuxtJs"
             home-skill>
             <img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/nuxt.svg')"
               alt="nuxt logo"
               home-skill>
@@ -64,6 +67,7 @@
             title="Symfony"
             home-skill>
             <img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/symfony.svg')"
               alt="symfony logo"
               home-skill>
@@ -73,6 +77,7 @@
             title="Vuejs"
             home-skill>
             <img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/vue.svg')"
               alt="vue logo"
               home-skill>
@@ -82,6 +87,7 @@
             title="Docker"
             home-skill>
             <img
+              loading="lazy"
               :src="require('../../../public/imgs/technos/docker.svg')"
               alt="docker logo"
               home-skill>
@@ -93,6 +99,7 @@ hero-img"
             title="Tailwind"
             home-skill>
             <img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/tailwind.svg')"
               alt="tailwind logo"
               home-skill>

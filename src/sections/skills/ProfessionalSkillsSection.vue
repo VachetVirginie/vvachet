@@ -11,6 +11,7 @@
         <div class="relative flex flex-col items-center justify-center h-full p-6 overflow-hidden text-center border-2 rounded-lg border-primary hover:scale-105">
           <div>
             <img
+              loading="lazy"
               :src="`imgs/technos/${skill.img}`"
               :alt="skill.message"
               class="inline-block h-20 color-bg-gray-700 hover:skew-y-6">

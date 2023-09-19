@@ -9,6 +9,7 @@
           <a href="#">
             <img
               alt="Placeholder"
+              loading="lazy"
               class="block h-auto w-full"
               src="https://picsum.photos/600/400/?random">
           </a>
@@ -51,6 +52,7 @@
           <a href="#">
             <img
               alt="Placeholder"
+              loading="lazy"
               class="block h-auto w-full"
               src="https://picsum.photos/600/400/?random">
           </a>
@@ -74,6 +76,7 @@
               href="#">
               <img
                 alt="Placeholder"
+                loading="lazy"
                 class="block rounded-full"
                 src="https://picsum.photos/32/32/?random">
               <p class="ml-2 text-sm">
