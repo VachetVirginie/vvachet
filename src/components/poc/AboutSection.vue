@@ -16,6 +16,7 @@
               <div class="relative w-24 h-24 mx-auto mb-4 -my-12 overflow-hidden border-4 rounded-full shadow border-primary">
                 <img
                   class="object-cover w-full h-full w-24 h-24"
+                  loading="lazy"
                   src="https://avatars.githubusercontent.com/u/26382911?s=96&v=4">
               </div>
               <p class="font-bold sm:text-2xl text-lg">
