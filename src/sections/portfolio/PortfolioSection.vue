@@ -8,8 +8,7 @@
               <img
                 loading="lazy"
                 alt="Ngtv Project"
-                loading="lazy"
-                class="skew-y-6 rounded-lg lazyloaded"
+                class="skew-y-6 rounded-lg"
                 data-aos="fade-right"
                 data-aos-duration="2000"
                 :src="require('../../../public/imgs/portfolio/ng.webp')">
@@ -62,8 +61,7 @@
               <img
                 loading="lazy"
                 alt="Cegedim srh"
-                loading="lazy"
-                class="skew-y-6 rounded-lg lazyloaded"
+                class="skew-y-6 rounded-lg"
                 data-aos="fade-right"
                 data-aos-duration="2000"
                 :src="require('../../../public/imgs/portfolio/srh.webp')">
@@ -112,8 +110,7 @@
               <img
                 loading="lazy"
                 alt="Orange logo"
-                loading="lazy"
-                class="skew-y-6 rounded-lg lazyloaded"
+                class="skew-y-6 rounded-lg"
                 data-aos="fade-right"
                 data-aos-duration="2000"
                 :src="require('../../../public/imgs/portfolio/Orange-logo.jpg')">
