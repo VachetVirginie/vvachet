@@ -23,7 +23,7 @@ export default {
 <style>
 .title-gradient {
   font-size: 72px;
-  background: -webkit-linear-gradient(#60BDAF, #F88AAF, #EDFCC2);
+  background: -webkit-linear-gradient(#60BDAF, #BC2649, #EDFCC2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

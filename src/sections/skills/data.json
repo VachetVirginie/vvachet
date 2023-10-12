@@ -3,7 +3,7 @@
     "message": "JavaScript",
     "img": "javascript.svg"
   },
-  "skill12":{
+  "skill2":{
     "message": "TypeScript",
     "img": "typescript.svg"
   },
@@ -58,5 +58,9 @@
     "skill15": {
         "message": "Github",
         "img": "github.svg"
-    }
+    },
+  "skill16": {
+    "message": "Cypress",
+    "img": "cypress.svg"
+  }
 }

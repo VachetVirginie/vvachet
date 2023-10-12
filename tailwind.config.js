@@ -9,8 +9,8 @@ module.exports = {
         extend: {
             colors: {
                 // primary: "#5311DF",
-                primary: "#F88AAF",
-                secondary: "#60BDAF",
+                primary: "#BC2649",
+                secondary: "#015950",
                 tertiary: "#F8E3AF",
                 yellow_primary: "#EDFCC2",
                 yellow_secondary: "#D3A400",
@@ -39,5 +39,16 @@ module.exports = {
         extend: {},
     },
     content: ["./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js"],
-    plugins: [require("tw-elements/dist/plugin")],
+    corePlugins: {
+        fill: true,
+    },
+    plugins: [require("tw-elements/dist/plugin"),
+              function ({ addUtilities }) {
+                  const newUtilities = {
+                      ".fill-secondary": {
+                          fill: "#015950",
+                      },
+                  };
+                  addUtilities(newUtilities, ["responsive", "hover"]);
+              }],
 };
