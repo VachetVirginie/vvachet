@@ -1,6 +1,7 @@
 {
   "_Commons": {
-    "goto": "Site"
+    "goto": "Site",
+    "see_more": "Voir plus"
   },
   "_NGTV": {
     "titre": "Ngtv Experience",

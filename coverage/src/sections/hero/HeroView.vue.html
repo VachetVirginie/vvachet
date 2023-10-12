@@ -188,7 +188,14 @@
 <a name='L123'></a><a href='#L123'>123</a>
 <a name='L124'></a><a href='#L124'>124</a>
 <a name='L125'></a><a href='#L125'>125</a>
-<a name='L126'></a><a href='#L126'>126</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L126'></a><a href='#L126'>126</a>
+<a name='L127'></a><a href='#L127'>127</a>
+<a name='L128'></a><a href='#L128'>128</a>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -313,26 +320,33 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
   &lt;main class="container px-10 mx-auto"&gt;
     &lt;section class="grid items-center grid-cols-1 gap-10 pt-24 pb-24 md:grid-cols-2 md:gap-12 lg:gap-20 xl:pt-24 2xl:pt-56"&gt;
       &lt;div class="order-1 md:order-1 md:mt-0"&gt;
         &lt;div class="relative"&gt;
           &lt;h1
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             class="text-2xl font-bold text-primary lg:text-3xl xl:text-4xl title-min"&gt;
             {{ datas._home.say_hello }} &lt;span class="inline-block pr-4 animate-wiggle"&gt;👋&lt;/span&gt;
           &lt;/h1&gt;
           &lt;h1
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             class="text-3xl lg:text-4xl xl:text-5xl"&gt;
             {{ datas._home.name }}
           &lt;/h1&gt;
           &lt;p
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             class="mt-5 leading-relaxed xl:w-3/4 2xl:text-xl text-xl"&gt;
             {{ datas._home.title_1 }}
             &lt;span class="underline-effect"&gt;{{ datas._home.title_2 }}&lt;/span&gt;
@@ -344,10 +358,11 @@
       &lt;/div&gt;
       &lt;div
         data-aos="fade-left"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
         class="relative order-2 p-4 border border-primary rounded-full border-opacity-50 lg:p-7 xl:p-9"&gt;
         &lt;div class="relative p-4 border border-primary rounded-full border-primary border-opacity-50 lg:p-7 xl:p-9"&gt;
           &lt;img
+            loading="lazy"
             class="w-full rounded-full"
             alt="Me"
             :src="require('../../../public/imgs/hero/heroCharacter.svg')"
@@ -361,6 +376,7 @@
             title="ApiPlatform"
             home-skill&gt;
             &lt;img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/webby.svg')"
               alt="api platform logo"
               home-skill&gt;
@@ -370,6 +386,7 @@
             title="NuxtJs"
             home-skill&gt;
             &lt;img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/nuxt.svg')"
               alt="nuxt logo"
               home-skill&gt;
@@ -379,6 +396,7 @@
             title="Symfony"
             home-skill&gt;
             &lt;img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/symfony.svg')"
               alt="symfony logo"
               home-skill&gt;
@@ -388,6 +406,7 @@
             title="Vuejs"
             home-skill&gt;
             &lt;img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/vue.svg')"
               alt="vue logo"
               home-skill&gt;
@@ -397,6 +416,7 @@
             title="Docker"
             home-skill&gt;
             &lt;img
+              loading="lazy"
               :src="require('../../../public/imgs/technos/docker.svg')"
               alt="docker logo"
               home-skill&gt;
@@ -408,6 +428,7 @@ hero-img"
             title="Tailwind"
             home-skill&gt;
             &lt;img
+              loading="lazy"
               :src="require('../../../public/imgs/hero/technologies/tailwind.svg')"
               alt="tailwind logo"
               home-skill&gt;
@@ -445,7 +466,7 @@ export default {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-06-26T13:06:59.802Z
+                at 2023-10-12T10:15:44.318Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>

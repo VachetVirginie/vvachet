@@ -46,11 +46,13 @@
                   class="mb-2 text-lg light-text-gray-700">
                   {{ mission }}
                 </p>
-                <a
-                  href="https://www.ngtvexperience.com/"
-                  class="flex px-10 py-3 text-xl sm:w-2/3 lg:w-1/2 text-primary">{{ infos._Commons.goto }}
-                  <siteArrow />
-                </a>
+                <div class="flex">
+                  <a
+                    href="https://www.ngtvexperience.com/"
+                    class="flex px-10 py-3 text-xl sm:w-2/3 lg:w-1/2 text-primary">{{ infos._Commons.goto }}
+                    <siteArrow />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
