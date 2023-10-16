@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="mb-4 text-4xl font-medium text-center bold title"> {{ firstText }} <span class="text-transparent title-gradient">{{ secondText }}</span></div>
+    <div class="mb-4 text-4xl font-medium text-center bold title"> {{ firstText }} <span class="text-primary">{{ secondText }}</span></div>
   </section>
 </template>
 

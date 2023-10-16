@@ -1,34 +1,42 @@
 <template>
   <main class="relative overflow-x-hidden dark:bg-dark dark:text-white">
-    <Pointer />
     <Hero />
+    <Pointer />
     <SocialMediaBar />
-    <ProfessionalCareer />
-    <ProfessionalSkills />
-    <PortfolioVue />
-    <MainFooter />
+    <ProfessionalCareer v-if="showProfessionalCareer" />
+    <ProfessionalSkills v-if="showProfessionalSkills" />
+    <PortfolioVue v-if="showPortfolioVue" />
+    <MainFooter v-if="showMainFooter" />
   </main>
 </template>
 
 <script>
-import Pointer from "./components/commons/Pointer.vue";
 import Hero from "./sections/hero/HeroView.vue";
+import Pointer from "./components/commons/Pointer.vue";
+import SocialMediaBar from "./components/commons/SocialMediaBar.vue";
 import ProfessionalCareer from "./sections/career/ProfessionalCareerView.vue";
 import PortfolioVue from "./sections/portfolio/PortfolioView.vue";
 import ProfessionalSkills from "./sections/skills/ProfessionalSkillsView";
 import MainFooter from "./components/commons/MainFooter.vue";
-import SocialMediaBar from "./components/commons/SocialMediaBar.vue";
 
 export default {
     name: "App",
     components: {
-        ProfessionalSkills,
+        Hero,
         Pointer,
         SocialMediaBar,
-        Hero,
         ProfessionalCareer,
+        ProfessionalSkills,
         PortfolioVue,
         MainFooter,
+    },
+    data() {
+        return {
+            showProfessionalCareer: false,
+            showProfessionalSkills: false,
+            showPortfolioVue: false,
+            showMainFooter: false,
+        };
     },
     metaInfo: {
         title: "Portfolio - Virginie Vachet",
@@ -48,26 +56,36 @@ export default {
                    name: "robots", content: "index,portfolio"
                }]
     },
-    mounted() {
+    beforeCreate() {
         localStorage.setItem("theme", "dark");
         const html = document.querySelector("html");
         document.querySelector("html").classList.add(localStorage.getItem("theme"));
         html.classList.remove("light");
+    },
+    mounted() {
+        setTimeout(() => {
+            this.showProfessionalCareer = true;
+            this.showProfessionalSkills = true;
+            this.showPortfolioVue = true;
+            this.showMainFooter = true;
+        }, 500);
     }
 };
 </script>
 
 <style>
-.size {
-  height: 50px;
-}
 ::-moz-selection { /* Code for Firefox */
   color: white;
-  background: #5311DF;
+  background: #BC2649;
 }
 
 ::selection {
   color: white;
-  background: #5311DF;
+  background: #BC2649;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #151515;
 }
 </style>

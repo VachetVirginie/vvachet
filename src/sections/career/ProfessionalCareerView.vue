@@ -1,10 +1,14 @@
 <template>
-  <main class="mt-16 about">
-    <Title
-      class="mb-16"
-      firstText="Mon"
-      secondText="Parcours" />
-    <CareerSection />
+  <main
+    v-cloak
+    class="mt-16 about">
+    <div>
+      <Title
+        class="mb-16"
+        firstText="Mon"
+        secondText="Parcours" />
+      <CareerSection />
+    </div>
   </main>
 </template>
 
