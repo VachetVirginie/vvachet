@@ -36,7 +36,7 @@
             loading="lazy"
             class="w-full rounded-full"
             alt="Me"
-            :src="require('../../../public/imgs/hero/heroCharacter.svg')"
+            :src="require('@/imgs/hero/heroCharacter.svg')"
             home-skill>
         </div>
         <ul
@@ -48,7 +48,7 @@
             home-skill>
             <img
               loading="lazy"
-              :src="require('../../../public/imgs/hero/technologies/webby.svg')"
+              :src="require('@/imgs/hero/technologies/webby.svg')"
               alt="api platform logo"
               home-skill>
           </li>
@@ -58,7 +58,7 @@
             home-skill>
             <img
               loading="lazy"
-              :src="require('../../../public/imgs/hero/technologies/nuxt.svg')"
+              :src="require('@/imgs/hero/technologies/nuxt.svg')"
               alt="nuxt logo"
               home-skill>
           </li>
@@ -68,7 +68,7 @@
             home-skill>
             <img
               loading="lazy"
-              :src="require('../../../public/imgs/hero/technologies/symfony.svg')"
+              :src="require('@/imgs/hero/technologies/symfony.svg')"
               alt="symfony logo"
               home-skill>
           </li>
@@ -78,7 +78,7 @@
             home-skill>
             <img
               loading="lazy"
-              :src="require('../../../public/imgs/hero/technologies/vue.svg')"
+              :src="require('@/imgs/hero/technologies/vue.svg')"
               alt="vue logo"
               home-skill>
           </li>
@@ -88,7 +88,7 @@
             home-skill>
             <img
               loading="lazy"
-              :src="require('../../../public/imgs/technos/docker.svg')"
+              :src="require('@/imgs/technos/docker.svg')"
               alt="docker logo"
               home-skill>
           </li>
@@ -100,7 +100,7 @@ hero-img"
             home-skill>
             <img
               loading="lazy"
-              :src="require('../../../public/imgs/hero/technologies/tailwind.svg')"
+              :src="require('@/imgs/hero/technologies/tailwind.svg')"
               alt="tailwind logo"
               home-skill>
           </li>
