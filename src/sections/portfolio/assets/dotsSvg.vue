@@ -334,7 +334,6 @@ export default {
             const colorMap = {
                 secondary: "fill-secondary",
             };
-            console.log(this.color);
             return colorMap[this.color] || colorMap.secondary;
         }
     }
