@@ -76,12 +76,12 @@ export default {
 <style>
 ::-moz-selection { /* Code for Firefox */
   color: white;
-  background: #BC2649;
+  background: #fe3769;
 }
 
 ::selection {
   color: white;
-  background: #BC2649;
+  background: #fe3769;
 }
 
 html {
