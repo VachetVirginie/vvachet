@@ -10,7 +10,7 @@
                 alt="Ngtv Project"
                 class="skew-y-6 rounded-lg"
                 data-aos="fade-right"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 :src="require('@/imgs/portfolio/ng.webp')">
               <DotSvg
                 class="-mt-10 -ml-10" />
@@ -65,7 +65,7 @@
                 alt="Cegedim srh"
                 class="skew-y-6 rounded-lg"
                 data-aos="fade-right"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 :src="require('@/imgs/portfolio/srh.webp')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>
@@ -114,7 +114,7 @@
                 alt="Orange logo"
                 class="skew-y-6 rounded-lg"
                 data-aos="fade-right"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 :src="require('@/imgs/portfolio/Orange-logo.jpg')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>

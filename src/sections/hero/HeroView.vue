@@ -30,8 +30,8 @@
       <div
         data-aos="fade-left"
         data-aos-duration="3000"
-        class="relative order-2 p-4 border border-primary rounded-full border-opacity-50 lg:p-7 xl:p-9">
-        <div class="relative p-4 border border-primary rounded-full border-primary border-opacity-50 lg:p-7 xl:p-9">
+        class="relative order-2 p-4 border border-2 border-primary  rounded-full border-opacity-50 lg:p-7 xl:p-9">
+        <div class="relative p-4 border border-2 rounded-full border-primary border-opacity-50 lg:p-7 xl:p-9">
           <img
             loading="lazy"
             class="w-full rounded-full"
@@ -98,6 +98,7 @@
 hero-img"
             title="Tailwind"
             home-skill>
+            <img class="w-full max-w-xs mx-auto lg:max-w-lg xl:max-w-xl" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/1/3d-illustration.png" alt="" />
             <img
               loading="lazy"
               :src="require('@/imgs/hero/technologies/tailwind.svg')"
