@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-wrap mt-0 sm:mt-12">
+  <section class="flex flex-wrap mt-0 sm:mt-12 bg-svg">
     <div
       v-for="skill in skills"
       :key="skill.message"
@@ -8,7 +8,7 @@
         class="flex flex-col flex-1 rounded-lg sal-animate skillz"
         data-aos="fade-up"
         data-aos-duration="2000">
-        <div class="relative flex flex-col items-center justify-center h-full p-6 overflow-hidden text-center border-2 rounded-lg border-primary hover:scale-105">
+        <div class="relative flex flex-col items-center justify-center h-full p-6 overflow-hidden text-center rounded-lg border-primary hover:scale-105">
           <div>
             <img
               loading="lazy"
@@ -38,3 +38,10 @@ export default {
 };
 
 </script>
+
+<style scoped>
+.bg-svg {
+  background-image: url(/imgs/background/background.svg);
+  z-index: 9999;
+}
+</style>

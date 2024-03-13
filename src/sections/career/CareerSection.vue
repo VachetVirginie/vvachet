@@ -30,9 +30,9 @@
               <div class="w-full p-5 md:w-96">
                 <img
                   loading="lazy"
-                  src="https://fr.investiretplus.com/wp-content/uploads/2017/09/logo-simplon_2.jpg"
+                  src="https://simplon.co/images/logo.svg"
                   alt="step 1"
-                  class="object-scale-down">
+                  class="object-scale-down bg-white p-3">
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@
               <div class="w-full p-5 md:w-96">
                 <img
                   loading="lazy"
-                  src="https://ngtvexperience.com/_nuxt/img/logo-black.c2acef7.svg"
+                  src="https://prosoccer5.fr/wp-content/uploads/2021/11/NGTV-logo.jpg"
                   alt="ngtv logo"
                   class="object-scale-down bg-white">
               </div>
