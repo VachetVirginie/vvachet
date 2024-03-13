@@ -11,7 +11,8 @@ module.exports = {
                 // primary: "#5311DF",
                 // primary: "#BC2649",
                 primary: "#fe3769",
-                secondary: "#015950",
+                // secondary: "#015950",
+                secondary: "#01c896",
                 tertiary: "#F8E3AF",
                 yellow_primary: "#EDFCC2",
                 yellow_secondary: "#D3A400",
@@ -47,7 +48,7 @@ module.exports = {
               function ({ addUtilities }) {
                   const newUtilities = {
                       ".fill-secondary": {
-                          fill: "#015950",
+                          fill: "#01c896",
                       },
                   };
                   addUtilities(newUtilities, ["responsive", "hover"]);
