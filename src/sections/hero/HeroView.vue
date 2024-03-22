@@ -98,7 +98,10 @@
 hero-img"
             title="Tailwind"
             home-skill>
-            <img class="w-full max-w-xs mx-auto lg:max-w-lg xl:max-w-xl" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/1/3d-illustration.png" alt="" />
+            <img
+              class="w-full max-w-xs mx-auto lg:max-w-lg xl:max-w-xl"
+              src="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/1/3d-illustration.png"
+              alt="">
             <img
               loading="lazy"
               :src="require('@/imgs/hero/technologies/tailwind.svg')"

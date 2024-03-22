@@ -164,6 +164,85 @@
             </div>
           </div>
         </div>
+        <div
+          class="flex flex-row-reverse items-start"
+          data-v-a860d564="">
+          <div
+            class="border-t-4 border-l-4 border-transparent"
+            data-v-a860d564="">
+            <div
+              class="w-16 h-16 mr-16 border-b-4 border-r-4 border-dashed rounded-br-full border-primary"
+              data-v-a860d564="" />
+          </div>
+          <div
+            class="flex-auto border-t-4 border-transparent"
+            data-v-a860d564="">
+            <div
+              class="h-16 border-b-4 border-dashed border-primary"
+              data-v-a860d564="" />
+          </div><div
+            class="w-16 h-16 mt-16 ml-16 border-t-4 border-l-4 border-dashed rounded-tl-full border-primary"
+            data-v-a860d564="" />
+        </div>
+        <div
+          class="flex flex-row"
+          data-v-a860d564="">
+          <div
+            class="flex-col items-center hidden md:flex"
+            data-v-a860d564="">
+            <div
+              class="flex flex-col items-center justify-center w-32 py-5 mr-4 uppercase border rounded bg-primary border-primary aos-init aos-animate"
+              data-aos="zoom-in"
+              data-aos-duration="6000"
+              data-v-a860d564="">
+              <div
+                class="text-3xl text-white"
+                data-v-a860d564="">
+                Step 5
+              </div><div
+                class="text-sm text-center text-white"
+                data-v-a860d564="">
+                CDI
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-auto border rounded border-primary aos-init aos-animate"
+            data-aos="fade-left"
+            data-aos-duration="6000"
+            data-v-a860d564="">
+            <div
+              class="flex flex-col items-center md:flex-row"
+              data-v-a860d564="">
+              <div
+                class="flex-auto"
+                data-v-a860d564="">
+                <div
+                  class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"
+                  data-v-a860d564="">- CDI
+                </div><div
+                  class="p-3 text-3xl font"
+                  data-v-a860d564="">
+                  Caisse Nationale de l'Assurance Maladie
+                </div><div
+                  class="px-3 pb-6 text-lg"
+                  data-v-a860d564="">
+                  J'ai intégré l'équipe de développeurs dédiée au design system de la Caisse Nationale de l'Assurance Maladie en Janvier 2024.
+                </div>
+              </div>
+              <div
+                class="w-full p-5 md:w-96"
+                data-v-a860d564="">
+                <img
+                  loading="lazy"
+                  src="https://raw.githubusercontent.com/deraw/deraw/0bb37de28d6a749bf10841fe65a4d420d854439b/synapse.png"
+                  alt="logo cnam"
+                  class="object-scale-down"
+                  data-v-a860d564="">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </div>
