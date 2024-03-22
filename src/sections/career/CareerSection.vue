@@ -219,7 +219,10 @@
                 data-v-a860d564="">
                 <div
                   class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"
-                  data-v-a860d564="">- CDI
+                  data-v-a860d564="">
+                  <span
+                    class="font-black"
+                    data-v-a860d564="">Step 5</span>- CDI
                 </div><div
                   class="p-3 text-3xl font"
                   data-v-a860d564="">
