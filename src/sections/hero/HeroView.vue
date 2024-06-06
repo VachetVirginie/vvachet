@@ -21,8 +21,8 @@
             class="mt-5 leading-relaxed xl:w-3/4 2xl:text-xl text-xl">
             {{ datas._home.title_1 }}
             <span class="underline-effect">{{ datas._home.title_2 }}</span>
-            {{ datas._home.title_3 }}
-            <span class="underline-effect">{{ datas._home.title_4 }}</span>
+            <!--            {{ datas._home.title_3 }}-->
+            <!--            <span class="underline-effect">{{ datas._home.title_4 }}</span>-->
             {{ datas._home.title_5 }}
           </p>
         </div>

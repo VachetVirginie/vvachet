@@ -40,8 +40,10 @@ export default {
 </script>
 
 <style scoped>
-.bg-svg {
-  background-image: url(/imgs/background/background.svg);
-  z-index: 9999;
+@media (min-width: 900px) {
+  .bg-svg {
+    background-image: url(/imgs/background/background.svg);
+    z-index: 9999;
+  }
 }
 </style>
