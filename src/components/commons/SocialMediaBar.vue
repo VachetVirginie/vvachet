@@ -46,7 +46,7 @@
       <!--      </li>-->
       <li class="inline-block my-4">
         <a
-          href="https://www.instagram.com/waspyi/"
+          href="https://www.instagram.com/solouvivvi/"
           target="github"
           rel="noopener noreferrer">
           <svg
