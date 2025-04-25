@@ -9,16 +9,13 @@
                 loading="lazy"
                 alt="Ngtv Project"
                 class="skew-y-6 rounded-lg"
-                data-aos="fade-right"
-                data-aos-duration="1000"
                 :src="require('@/imgs/portfolio/ng.webp')">
               <DotSvg
                 class="-mt-10 -ml-10" />
             </div>
             <div
               class="w-full mt-2 ml-2 sm:w-1/2"
-              data-aos="fade-left"
-              data-aos-duration="2000">
+              >
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._NGTV.titre }}
@@ -64,15 +61,12 @@
                 loading="lazy"
                 alt="Cegedim srh"
                 class="skew-y-6 rounded-lg"
-                data-aos="fade-right"
-                data-aos-duration="1000"
                 :src="require('@/imgs/portfolio/srh.webp')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>
             <div
               class="w-full ml-2 sm:w-1/2"
-              data-aos="fade-left"
-              data-aos-duration="2000">
+              >
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._Cegedim.titre }}
@@ -113,15 +107,12 @@
                 loading="lazy"
                 alt="Orange logo"
                 class="skew-y-6 rounded-lg"
-                data-aos="fade-right"
-                data-aos-duration="1000"
                 :src="require('@/imgs/portfolio/Orange-logo.jpg')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>
             <div
               class="w-full ml-2 sm:w-1/2"
-              data-aos="fade-left"
-              data-aos-duration="2000">
+              >
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._Orange.titre }}
