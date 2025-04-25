@@ -16,8 +16,7 @@
             </div>
           </div>
           <div
-            class="flex-auto border rounded border-primary"
-            >
+            class="flex-auto border rounded border-primary">
             <div class="flex flex-col items-center md:flex-row">
               <div class="flex-auto">
                 <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">{{ datas._about.step_1.subtitle_1 }}</span> {{ datas._about.step_1.subtitle_2 }}</div>
@@ -46,8 +45,7 @@
         <div class="flex flex-row-reverse">
           <div class="flex-col items-center hidden md:flex">
             <div
-              class="flex flex-col items-center justify-center w-32 py-5 ml-4 uppercase border rounded bg-primary border-primary"
-              >
+              class="flex flex-col items-center justify-center w-32 py-5 ml-4 uppercase border rounded bg-primary border-primary">
               <div class="text-3xl text-white">{{ datas._about.step_2.label }}</div>
               <div class="text-sm text-center text-white">{{ datas._about.step_2.title }}</div>
             </div>
@@ -56,8 +54,7 @@
             </div>
           </div>
           <div
-            class="flex-auto border rounded border-primary"
-            >
+            class="flex-auto border rounded border-primary">
             <div class="flex flex-col items-center md:flex-row">
               <div class="flex-auto">
                 <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">{{ datas._about.step_2.subtitle_1 }}</span> {{ datas._about.step_2.subtitle_2 }}</div>
@@ -86,8 +83,7 @@
         <div class="flex flex-row">
           <div class="flex-col items-center hidden md:flex">
             <div
-              class="flex flex-col items-center justify-center w-32 py-5 mr-4 uppercase border rounded bg-primary border-primary"
-              >
+              class="flex flex-col items-center justify-center w-32 py-5 mr-4 uppercase border rounded bg-primary border-primary">
               <div class="text-3xl text-white">{{ datas._about.step_3.label }}</div>
               <div class="text-sm text-center text-white">{{ datas._about.step_3.title }}</div>
             </div>
@@ -96,8 +92,7 @@
             </div>
           </div>
           <div
-            class="flex-auto border rounded border-primary"
-            >
+            class="flex-auto border rounded border-primary">
             <div class="flex flex-col items-center md:flex-row">
               <div class="flex-auto">
                 <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">{{ datas._about.step_3.subtitle_1 }}</span>{{ datas._about.step_3.subtitle_2 }}</div>
@@ -128,15 +123,13 @@
         <div class="flex flex-row-reverse">
           <div class="flex-col items-center hidden md:flex">
             <div
-              class="flex flex-col items-center justify-center w-32 py-5 ml-4 uppercase border rounded bg-primary border-primary"
-              >
+              class="flex flex-col items-center justify-center w-32 py-5 ml-4 uppercase border rounded bg-primary border-primary">
               <div class="text-3xl text-white">{{ datas._about.step_4.label }}</div>
               <div class="text-sm text-center text-white">{{ datas._about.step_4.title }}</div>
             </div>
           </div>
           <div
-            class="flex-auto border rounded border-primary"
-            >
+            class="flex-auto border rounded border-primary">
             <div class="flex flex-col items-center md:flex-row">
               <div class="flex-auto">
                 <div class="pt-3 pl-3 text-sm font-normal uppercase md:hidden"><span class="font-black">{{ datas._about.step_4.subtitle_1 }}</span>{{ datas._about.step_4.subtitle_2 }}</div>

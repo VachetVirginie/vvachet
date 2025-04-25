@@ -14,8 +14,7 @@
                 class="-mt-10 -ml-10" />
             </div>
             <div
-              class="w-full mt-2 ml-2 sm:w-1/2"
-              >
+              class="w-full mt-2 ml-2 sm:w-1/2">
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._NGTV.titre }}
@@ -65,8 +64,7 @@
               <DotSvg class="-mt-10 -ml-10" />
             </div>
             <div
-              class="w-full ml-2 sm:w-1/2"
-              >
+              class="w-full ml-2 sm:w-1/2">
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._Cegedim.titre }}
@@ -111,8 +109,7 @@
               <DotSvg class="-mt-10 -ml-10" />
             </div>
             <div
-              class="w-full ml-2 sm:w-1/2"
-              >
+              class="w-full ml-2 sm:w-1/2">
               <div class="justify-between px-4 py-24 sm:flex-col">
                 <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._Orange.titre }}
