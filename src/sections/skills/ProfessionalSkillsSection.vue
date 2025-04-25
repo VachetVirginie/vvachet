@@ -5,9 +5,7 @@
       :key="skill.message"
       class="w-full p-4 xl:w-1/4 md:w-1/2">
       <div
-        class="flex flex-col flex-1 rounded-lg sal-animate skillz"
-        data-aos="fade-up"
-        data-aos-duration="2000">
+        class="flex flex-col flex-1 rounded-lg sal-animate skillz">
         <div class="relative flex flex-col items-center justify-center h-full p-6 overflow-hidden text-center rounded-lg border-primary hover:scale-105">
           <div>
             <img
