@@ -16,7 +16,6 @@
     "@vue/cli-plugin-unit-jest": "^5.0.8",
     "@vue/test-utils": "^2.3.2",
     "@vue/vue3-jest": "^29.2.4",
-    "aos": "^2.3.4",
     "autoprefixer": "^9",
     "core-js": "^3.6.5",
     "github-calendar-graph": "^0.2.8",

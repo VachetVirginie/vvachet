@@ -8,7 +8,7 @@
               <img
                 loading="lazy"
                 alt="Ngtv Project"
-                class="skew-y-6 rounded-lg"
+                class="hover:skew-y-6 rounded-lg"
                 :src="require('@/imgs/portfolio/ng.webp')">
               <DotSvg
                 class="-mt-10 -ml-10" />
@@ -59,7 +59,7 @@
               <img
                 loading="lazy"
                 alt="Cegedim srh"
-                class="skew-y-6 rounded-lg"
+                class="hover:skew-y-6 rounded-lg"
                 :src="require('@/imgs/portfolio/srh.webp')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>
@@ -104,7 +104,7 @@
               <img
                 loading="lazy"
                 alt="Orange logo"
-                class="skew-y-6 rounded-lg"
+                class="hover:skew-y-6 rounded-lg"
                 :src="require('@/imgs/portfolio/Orange-logo.jpg')">
               <DotSvg class="-mt-10 -ml-10" />
             </div>
