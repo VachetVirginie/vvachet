@@ -31,8 +31,7 @@ module.exports = {
         sourceMap: false,
         loaderOptions: {
             css: {
-                // Minimiser le CSS en production
-                minimize: process.env.NODE_ENV === "production"
+                // Options CSS valides ici
             }
         }
     },
