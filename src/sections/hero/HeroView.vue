@@ -26,6 +26,8 @@
         <div class="relative p-4 border border-2 rounded-full border-primary border-opacity-50 lg:p-7 xl:p-9">
           <img
             loading="lazy"
+            width="300"
+            height="300"
             class="w-full rounded-full"
             alt="Me"
             :src="require('@/imgs/hero/heroCharacter.svg')"
@@ -34,70 +36,22 @@
         <ul
           class="absolute top-0 left-0 w-full h-full rounded-full"
           home-skill>
+          <!-- Utilisation de v-for pour optimiser le DOM et réduire la taille du code -->
           <li
+            v-for="(tech, index) in technologies"
+            :key="index"
             class="hero-img"
-            title="ApiPlatform"
+            :title="tech.title"
+            :style="tech.style"
             home-skill>
             <img
               loading="lazy"
-              :src="require('@/imgs/hero/technologies/webby.svg')"
-              alt="api platform logo"
-              home-skill>
-          </li>
-          <li
-            class="hero-img"
-            title="NuxtJs"
-            home-skill>
-            <img
-              loading="lazy"
-              :src="require('@/imgs/hero/technologies/nuxt.svg')"
-              alt="nuxt logo"
-              home-skill>
-          </li>
-          <li
-            class="hero-img"
-            title="Symfony"
-            home-skill>
-            <img
-              loading="lazy"
-              :src="require('@/imgs/hero/technologies/symfony.svg')"
-              alt="symfony logo"
-              home-skill>
-          </li>
-          <li
-            class="hero-img"
-            title="Vuejs"
-            home-skill>
-            <img
-              loading="lazy"
-              :src="require('@/imgs/hero/technologies/vue.svg')"
-              alt="vue logo"
-              home-skill>
-          </li>
-          <li
-            class="hero-img"
-            title="Docker"
-            home-skill>
-            <img
-              loading="lazy"
-              :src="require('@/imgs/technos/docker.svg')"
-              alt="docker logo"
-              home-skill>
-          </li>
-          <li
-            class="
-
-hero-img"
-            title="Tailwind"
-            home-skill>
-            <img
-              class="w-full max-w-xs mx-auto lg:max-w-lg xl:max-w-xl"
-              src="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/1/3d-illustration.png"
-              alt="">
-            <img
-              loading="lazy"
-              :src="require('@/imgs/hero/technologies/tailwind.svg')"
-              alt="tailwind logo"
+              width="40"
+              height="40"
+              :src="tech.src"
+              :alt="tech.alt"
+              decoding="async"
+              fetchpriority="low"
               home-skill>
           </li>
         </ul>
@@ -113,8 +67,54 @@ export default {
     name: "HeroView",
     data() {
         return {
-            datas: text
+            datas: text,
+            technologies: [{
+                title: "ApiPlatform",
+                src: require("@/imgs/hero/technologies/webby.svg"),
+                alt: "api platform logo",
+                style: "top: 0; left: 4rem;"
+            }, {
+                title: "NuxtJs",
+                src: require("@/imgs/hero/technologies/nuxt.svg"),
+                alt: "nuxt logo",
+                style: "top: 0.5rem; right: 2.5rem;"
+            }, {
+                title: "Symfony",
+                src: require("@/imgs/hero/technologies/symfony.svg"),
+                alt: "symfony logo",
+                style: "top: 9rem; right: -0.5rem;"
+            }, {
+                title: "Vuejs",
+                src: require("@/imgs/hero/technologies/vue.svg"),
+                alt: "vue logo",
+                style: "bottom: 0; left: 8rem;"
+            }, {
+                title: "Docker",
+                src: require("@/imgs/technos/docker.svg"),
+                alt: "docker logo",
+                style: "top: 6rem; left: -0.5rem;"
+            }, {
+                title: "Tailwind",
+                src: require("@/imgs/hero/technologies/tailwind.svg"),
+                alt: "tailwind logo",
+                style: "bottom: 3.5rem; left: 0.5rem;"
+            }]
         };
     },
+    // Ajout de méthodes pour optimiser le chargement des images
+    mounted() {
+        // Préchargement des images critiques
+        this.preloadCriticalImages();
+    },
+    methods: {
+        preloadCriticalImages() {
+            // Précharger uniquement les images visibles initialement
+            const visibleTechs = this.technologies.slice(0, 3);
+            visibleTechs.forEach(tech => {
+                const img = new Image();
+                img.src = tech.src;
+            });
+        }
+    }
 };
 </script>

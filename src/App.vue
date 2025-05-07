@@ -14,10 +14,12 @@
 import Hero from "./sections/hero/HeroView.vue";
 import Pointer from "./components/commons/Pointer.vue";
 import SocialMediaBar from "./components/commons/SocialMediaBar.vue";
-import ProfessionalCareer from "./sections/career/ProfessionalCareerView.vue";
-import PortfolioVue from "./sections/portfolio/PortfolioView.vue";
-import ProfessionalSkills from "./sections/skills/ProfessionalSkillsView";
-import MainFooter from "./components/commons/MainFooter.vue";
+
+// Utilisation de l'importation dynamique pour le lazy loading des composants non critiques
+const ProfessionalCareer = () => import(/* webpackChunkName: "career" */ "./sections/career/ProfessionalCareerView.vue");
+const PortfolioVue = () => import(/* webpackChunkName: "portfolio" */ "./sections/portfolio/PortfolioView.vue");
+const ProfessionalSkills = () => import(/* webpackChunkName: "skills" */ "./sections/skills/ProfessionalSkillsView");
+const MainFooter = () => import(/* webpackChunkName: "footer" */ "./components/commons/MainFooter.vue");
 
 export default {
     name: "App",
@@ -40,11 +42,20 @@ export default {
     },
     metaInfo: {
         title: "Portfolio - Virginie Vachet",
+        htmlAttrs: {
+            lang: "fr"
+        },
         meta: [{
-            name: "description", content: "Virginie Vachet, developpeuse web Front et Back end, vivant à Lyon."
+            name: "description", content: "Virginie Vachet, développeuse web Front et Back end, spécialisée en Vue.js, Symfony et API Platform, basée à Lyon."
         },
                {
+                   name: "viewport", content: "width=device-width, initial-scale=1"
+               },
+               {
                    property: "og:title", content: "Portfolio - Virginie Vachet"
+               },
+               {
+                   property: "og:description", content: "Développeuse web Front et Back end, spécialisée en Vue.js, Symfony et API Platform"
                },
                {
                    property: "og:site_name", content: "Virginie Vachet"
@@ -53,7 +64,10 @@ export default {
                    property: "og:type", content: "website"
                },
                {
-                   name: "robots", content: "index,portfolio"
+                   name: "robots", content: "index,follow"
+               },
+               {
+                   name: "theme-color", content: "#151515"
                }]
     },
     beforeCreate() {
@@ -63,12 +77,29 @@ export default {
         html.classList.remove("light");
     },
     mounted() {
-        setTimeout(() => {
-            this.showProfessionalCareer = true;
-            this.showProfessionalSkills = true;
-            this.showPortfolioVue = true;
-            this.showMainFooter = true;
-        }, 500);
+        // Utilisation de l'Intersection Observer API pour charger les composants quand ils sont visibles
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                // Chargement progressif des composants pour améliorer les performances
+                setTimeout(() => {
+                    this.showProfessionalCareer = true;
+                }, 100);
+                setTimeout(() => {
+                    this.showProfessionalSkills = true;
+                }, 300);
+                setTimeout(() => {
+                    this.showPortfolioVue = true;
+                }, 500);
+                setTimeout(() => {
+                    this.showMainFooter = true;
+                }, 700);
+                observer.disconnect();
+            }
+        }, { threshold: 0.1 });
+
+        // Observer le composant Hero pour déclencher le chargement des autres composants
+        const heroElement = document.querySelector("main");
+        if (heroElement) observer.observe(heroElement);
     }
 };
 </script>
