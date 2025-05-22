@@ -4,6 +4,7 @@
     height="84"
     viewBox="0 0 300 84"
     :fill="color"
+    role="presentation"
     xmlns="http://www.w3.org/2000/svg">
     <circle
       :class="colorClass"

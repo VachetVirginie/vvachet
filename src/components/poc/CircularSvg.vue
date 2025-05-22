@@ -4,6 +4,7 @@
       <div class="absolute-center">
         <svg
           class="circle-svg"
+          role="presentation"
           viewBox="0 0 500 500">
           <defs>
             <path
