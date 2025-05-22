@@ -5,6 +5,7 @@
         <a
           href="https://www.linkedin.com/in/vachetvirginie/"
           target="linkedin"
+          aria-label="Profil LinkedIn"
           rel="noopener noreferrer"
           class="inline-block transition duration-300 ease-in-out text-true-gray-900">
           <svg
@@ -21,6 +22,7 @@
         <a
           href="https://github.com/VachetVirginie"
           target="github"
+          aria-label="Profil github"
           rel="noopener noreferrer"
           class="inline-block transition duration-300 ease-in-out text-true-gray-900">
           <svg
@@ -49,7 +51,8 @@
       <li class="inline-block my-4">
         <a
           href="https://www.instagram.com/solouvivvi/"
-          target="github"
+          target="instagram"
+          aria-label="Profil instagram"
           rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
