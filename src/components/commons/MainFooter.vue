@@ -5,6 +5,7 @@
       <a
         href="https://www.linkedin.com/in/vachetvirginie/"
         target="linkedin"
+        aria-label="Profil linkedin"
         class="m-2 transition duration-300 ease-in-out text-true-gray-900"><svg
           viewBox="0 0 24 24"
           style="width: 24px; height: 24px;"><path
@@ -13,6 +14,7 @@
       <a
         href="https://github.com/VachetVirginie"
         target="github"
+        aria-label="Profil github"
         class="m-2 transition duration-300 ease-in-out text-true-gray-900"><svg
           viewBox="0 0 24 24"
           style="width: 24px; height: 24px;"><path
@@ -21,6 +23,7 @@
       <a
         href="https://www.instagram.com/solouvivvi/"
         target="instagram"
+        aria-label="Profil instagram"
         class="m-2 transition duration-300 ease-in-out text-true-gray-900"><svg
           viewBox="0 0 24 24"
           style="width: 23px; height: 23px;"><path
