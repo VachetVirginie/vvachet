@@ -2,7 +2,7 @@
   <div>
     <div class="flex items-center no-underline text-white">
       <div class="flex justify-center items-center m-1 px-3 py-2 border border-primary rounded-full bg-primary text-base text-gray font-medium">
-        <span class="flex-initial max-w-full leading-none text-lg font-bold">{{ msg }}</span>
+        <span class="flex-initial max-w-full leading-none text-sm font-bold">{{ msg }}</span>
       </div>
     </div>
   </div>
