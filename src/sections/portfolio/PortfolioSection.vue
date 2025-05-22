@@ -16,7 +16,7 @@
             <div
               class="w-full mt-2 ml-2 sm:w-1/2">
               <div class="justify-between px-4 py-24 sm:flex-col">
-                <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
+                <h4 class="py-4 text-base font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._NGTV.titre }}
                 </h4> <h2 class="py-4 text-2xl font-semibold sm:text-xl lg:text-3xl light-text-gray-700 slogan">
                   {{ infos._NGTV.slogan }}
@@ -66,7 +66,7 @@
             <div
               class="w-full ml-2 sm:w-1/2">
               <div class="justify-between px-4 py-24 sm:flex-col">
-                <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
+                <h4 class="py-4 text-base font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._Cegedim.titre }}
                 </h4> <h2 class="py-4 text-2xl font-semibold sm:text-xl lg:text-5xl light-text-gray-700 slogan">
                   {{ infos._Cegedim.slogan }}
@@ -111,7 +111,7 @@
             <div
               class="w-full ml-2 sm:w-1/2">
               <div class="justify-between px-4 py-24 sm:flex-col">
-                <h4 class="py-4 font-medium uppercase text-primary sm:font-semibold">
+                <h4 class="py-4 text-base font-medium uppercase text-primary sm:font-semibold">
                   {{ infos._Orange.titre }}
                 </h4>
                 <h2 class="py-4 text-2xl font-semibold sm:text-xl lg:text-5xl light-text-gray-700 slogan">
