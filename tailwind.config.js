@@ -1,6 +1,11 @@
 module.exports = {
     mode: "jit",
-    purge: ["./src/**/*.html", "./src/**/*.vue"],
+    purge: {
+        content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.js"],
+        options: {
+            safelist: [/^text-/, /^bg-/, /^border-/, "dark:bg-dark", "dark:text-white"],
+        },
+    },
     darkMode: "class", // or 'media' or 'class'
     theme: {
         fontFamily: {
@@ -41,7 +46,7 @@ module.exports = {
     variants: {
         extend: {},
     },
-    content: ["./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js"],
+    content: ["./src/**/*.{html,js}", "./node_modules/tw-elements/dist/js/**/*.js"],
     corePlugins: {
         fill: true,
     },

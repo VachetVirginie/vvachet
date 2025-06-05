@@ -3,11 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: #fe3769;
+  --secondary: #01c896;
+  --dark: #151515;
+}
+
 
 @layer components {
+  /* Styles de base optimisés */
   .title {
-    font-size: 5em !important;
-}
+    font-size: clamp(2.5rem, 5vw, 5rem);
+  }
   .underline-effect {
     @apply z-10 rounded-md relative px-1  after:bg-secondary dark:after:bg-secondary
     after:bg-opacity-60 after:transition-all after:top-4
@@ -26,37 +33,39 @@
   .btn-green {
     @apply p-2 border text-white bg-green-500;
   };
+  /* Styles optimisés pour les skills avec des classes réutilisables */
+  .skill[home-skill] {
+    position: absolute;
+    background-color: white;
+    border-radius: 9999px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
   .skill[home-skill]:nth-of-type(1) {
-    top: 0px;
+    top: 0;
     left: 4rem;
     width: 2.5rem;
     padding: 0.5rem;
   }
+  
   @media (min-width: 1024px) {
     .skill[home-skill]:nth-of-type(1) {
-      top: 0px;
-    }
-    .skill[home-skill]:nth-of-type(1) {
+      top: 0;
       left: 4rem;
-    }
-    .skill[home-skill]:nth-of-type(1) {
       width: 3.5rem;
-    }
-    .skill[home-skill]:nth-of-type(1) {
       padding: 0.75rem;
     }
   }
+  
   @media (min-width: 1280px) {
     .skill[home-skill]:nth-of-type(1) {
       top: 1.25rem;
-    }
-    .skill[home-skill]:nth-of-type(1) {
       left: 4rem;
-    }
-    .skill[home-skill]:nth-of-type(1) {
       width: 4rem;
-    }
-    .skill[home-skill]:nth-of-type(1) {
       padding: 1rem;
     }
   }
@@ -66,31 +75,21 @@
     width: 3.5rem;
     padding: 0.75rem;
   }
+  
   @media (min-width: 1024px) {
     .skill[home-skill]:nth-of-type(2) {
       top: 0.25rem;
-    }
-    .skill[home-skill]:nth-of-type(2) {
       right: 3rem;
-    }
-    .skill[home-skill]:nth-of-type(2) {
       width: 3.5rem;
-    }
-    .skill[home-skill]:nth-of-type(2) {
       padding: 0.75rem;
     }
   }
+  
   @media (min-width: 1280px) {
     .skill[home-skill]:nth-of-type(2) {
       top: 0.25rem;
-    }
-    .skill[home-skill]:nth-of-type(2) {
       right: 5rem;
-    }
-    .skill[home-skill]:nth-of-type(2) {
       width: 4rem;
-    }
-    .skill[home-skill]:nth-of-type(2) {
       padding: 0.75rem;
     }
   }
