@@ -152,7 +152,7 @@ const currentYear = new Date().getFullYear()
     >
       <SectionHeading
         eyebrow="02 · Parcours"
-        title="De la reconversion à la Tech Lead accessibilité"
+        title="De la reconversion à Tech Lead en accessibilité"
         heading-id="journey-title"
       >
         <p>
