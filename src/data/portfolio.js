@@ -61,7 +61,7 @@ export const journey = [
     period: 'Aujourd’hui',
     title: 'Tech Lead accessibilité · CNAM',
     description:
-      'J’accompagne les équipes sur les sujets d’accessibilité numérique : audits RGAA, revues de conception et de code, suivi des corrections et partage des bonnes pratiques.',
+      'J’accompagne les équipes sur les sujets d’accessibilité numérique : préparation aux audits RGAA, suivi des corrections et partage des bonnes pratiques. Je développe aussi au sein du design system du studio design, pour qu’accessibilité et composants soient conçus ensemble.',
   },
 ]
 
