@@ -169,7 +169,7 @@ a {
 .hero h1 span {
   display: block;
   color: transparent;
-  -webkit-text-stroke: 1.5px var(--ink);
+  -webkit-text-stroke: 3.5px var(--ink);
 }
 
 .hero-intro {
